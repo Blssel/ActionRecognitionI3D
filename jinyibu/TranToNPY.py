@@ -4,18 +4,25 @@ import numpy as np
 import os
 import pathlib
 
-SRC_DIR="E:"+os.sep+"UCF-101-croped"
+########
+# 此文件需要在Y-npy文件夹下执行，同时所有生成目录也都在里面生成
+# 源文件放在E:\\UCF-101-rand-croped下
+########
+
+SRC_DIR="E:"+os.sep+"UCF-101-rand-croped"
 #DST_ROOT_DIR="E:"+os.sep+"Y-npy"
 
 #遍历文件夹中的每一个视频，对其进行操作
+class_count=0 
 for cur_location,dir_names,file_names in os.walk(SRC_DIR):
 	if not file_names:
 		continue
 	else:
 		#获取视频
-		count=0 
-		for file_name in file_names: 
-			print file_name
+		class_count+=1
+		print("It's processing the %dth class...\n"%class_count)
+		video_count=0
+		for file_name in file_names:
 			#获取路径并打开视频
 			video_path=os.path.join(cur_location,file_name)
 			cap=cv2.VideoCapture(video_path)
@@ -48,10 +55,10 @@ for cur_location,dir_names,file_names in os.walk(SRC_DIR):
 			save_dir=os.path.basename(cur_location)
 			if not os.path.exists(save_dir):
 				os.mkdir(save_dir)
-			np.save(pathlib.Path(save_dir+os.sep+file_name+".npy"),video_npy)
+			np.save(pathlib.Path(save_dir+os.sep+file_name.split('.')[0]+".npy"),video_npy)
 			
-			print count
-			count+=1
+			video_count+=1
+			print("%dth video:%s completed!\n\n\n"%(video_count,file_name))
 			
 			
 			
