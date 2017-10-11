@@ -1,4 +1,3 @@
-#!python2
 #coding:UTF-8
 import cv2
 import numpy as np

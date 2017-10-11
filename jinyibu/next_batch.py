@@ -6,7 +6,7 @@
 #next_batch函数获得的batch的最终形式为张量形式
 #返回是一个batch的bottleneck和对应groundtruth
 
-def get_random_batch_bottleneck(sess, n_classes, video_lists, how_many, category, jpeg_data_tensor, bottleneck_tensor):
+def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_data_tensor, bottleneck_tensor):
 	#先定义好要返回的两个主角，bottleneck和groundtruth
 	bottlenecks = []
 	ground_truths = []
@@ -17,7 +17,7 @@ def get_random_batch_bottleneck(sess, n_classes, video_lists, how_many, category
 
 
 		#计算bottleneck的值(待看！！！！！！！！)
-		bottleneck = get_or_create_bottleneck(sess, video_lists, label_name, video_index, category, jpeg_data_tensor, bottleneck_tensor)
+		bottleneck = get_or_create_bottleneck(sess, video_lists, label_name, video_index, category, npy_data_tensor, bottleneck_tensor)
 		
 		#生成这个类对应的groundtruth编码（维度就是类别数）
 		ground_truth = np.zeros(n_classes, dtype=np.float32)#数据类型是float32型
@@ -34,7 +34,7 @@ def get_random_batch_bottleneck(sess, n_classes, video_lists, how_many, category
 
 		
 
-def get_or_create_bottleneck(sess, image_lists, label_name, index, category, jpeg_data_tensor, bottleneck_tensor):
+def get_or_create_bottleneck(sess, image_lists, label_name, index, category, npy_data_tensor, bottleneck_tensor):
 	#获取选中类别下的所有数据元信息
 	label_lists = video_lists[label_name]
 	
@@ -53,7 +53,7 @@ def get_or_create_bottleneck(sess, image_lists, label_name, index, category, jpe
 		npy_data = np.load(libpath.Path(video_path))#必须修改为读取npy的方式！！！！！！！！！！！！！！！
 
 		#计算bottleneck(待看和待改！！！！！！！！！)
-		bottleneck_values = run_bottleneck_on_video(sess, npy_data, jpeg_data_tensor, bottleneck_tensor)#参数！！！！！！
+		bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)#参数！！！！！！
 
 		#把bottleneck保存下来！！！！！！！！！！必须修改存成npy格式(注意后缀)
 		np.save(pathlib.Path(bottleneck_path),npy_data)
@@ -79,9 +79,9 @@ def get_video_path(video_lists, video_dir, label_name, index, category):
 	return full_path
 
 
-def run_bottleneck_on_image(sess, image_data, image_data_tensor, bottleneck_tensor):
+def run_bottleneck_on_image(sess, npy_data, image_data_tensor, npy_data_tensor,bottleneck_tensor):
 
-	bottleneck_values = sess.run(bottleneck_tensor, {image_data_tensor: image_data})
+	bottleneck_values = sess.run(bottleneck_tensor, {npy_data_tensor: npy_data})
 
 	bottleneck_values = np.squeeze(bottleneck_values)
 	
