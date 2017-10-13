@@ -11,29 +11,25 @@ import numpy as np
 CACHE_DIR='./cache'
 INPUT_DATA='/home/yzy_17/workspace/kinetics-i3d-master/jinyibu/npy-test'
 def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_data_tensor, bottleneck_tensor):
-    #先定义好要返回的两个主角，bottleneck和groundtruth
-    bottlenecks = []
-    ground_truths = []
-    for _ in range(how_many):#循环BATCH_SIZE次
+    for i in range(how_many):#循环BATCH_SIZE次
 	label_index = random.randrange(n_classes)#随机选一类
 	label_name = list(video_lists.keys())[label_index]#获得这个类名
 	video_index = random.randrange(65536)#为什么是65536
 
 
-	#计算bottleneck的值(待看！！！！！！！！)
+	#计算bottleneck的值!!!!!
 	bottleneck = get_or_create_bottleneck(sess, video_lists, label_name, video_index, category, npy_data_tensor, bottleneck_tensor)
-        print('##########')
-        print(type(bottleneck))
-        print(bottleneck.shape)
-        print('#########')
 	#生成这个类对应的groundtruth编码（维度就是类别数）
 	ground_truth = np.zeros(n_classes, dtype=np.float32)#数据类型是float32型
 	ground_truth[label_index] = 1.0#让这个类的索引对应位的值取1
-
+        
 	#bottleneck和groundtruth并入batch中
-	bottlenecks.append(bottleneck)
-	ground_truths.append(ground_truth)
-		
+        if i==0:
+            bottlenecks=bottleneck
+            ground_truths=ground_truth
+        else:
+            np.concatenate((bottlenecks,bottleneck))
+            np.concatenate((ground_truths,ground_truth))
     #愉快地返回
     return bottlenecks , ground_truths
 
@@ -57,16 +53,18 @@ def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy
     if not os.path.exists(bottleneck_path):
 	#获取视频路径
 	video_path = get_video_path(video_lists, INPUT_DATA, label_name, index, category)
-	npy_data = np.load(video_path)#必须修改为读取npy的方式！！！！！！！！！！！！！！！
-	#计算bottleneck！！！！！！！！!!!!!!!!!!！
+	npy_data = np.load(video_path)
+        #取前64帧
+        npy_data=npy_data[0:1,0:64,0:224,0:224,0:3]
+        print(npy_data.shape)
+
+	#计算bottleneck!!!!!!!!!!！
 	bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)
-	#把bottleneck保存下来！！！！！！！！！！必须修改存成npy格式(注意后缀)
+	#把bottleneck保存下来！npy格式(注意后缀)
 	np.save(pathlib.Path(bottleneck_path),bottleneck_values)
     #否则直接读取即可(也是需要从npy文件中读取!!!!!!)
     else:
-        print('******')
         print('this is cached')
-        print('******')
 	bottleneck_values=np.load(bottleneck_path)
 
     #返回bottleneck_value
