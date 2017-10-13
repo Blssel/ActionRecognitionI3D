@@ -7,13 +7,14 @@ from __future__ import print_function
 
 import numpy as np
 import tensorflow as tf
+import sonnet as snt
 	   
 import i3d
 import next_batch 
 
 import json
 
-BATCH_SIZ = 6
+BATCH_SIZE = 6
 IMAGE_SIZE=224
 
 LEARNING_RATE_BASE = 0.9
@@ -48,7 +49,7 @@ end_point = 'UCF_Logits'
 with tf.variable_scope(end_point):
     net = tf.nn.avg_pool3d(bottleneck_input, ksize=[1, 2, 7, 7, 1],strides=[1, 1, 1, 1, 1], padding=snt.VALID)
     net = tf.nn.dropout(net, 1.0)
-    logits = Unit3D(output_channels=n_classes,
+    logits = i3d.Unit3D(output_channels=n_classes,
 		    kernel_shape=[1, 1, 1],
 		    activation_fn=None,
 		    use_batch_norm=True,
@@ -65,7 +66,7 @@ global_step = tf.Variable(0,name='global_step',trainable=False)
 
 
 #定义损失函数(计算使用的是average_logits层)
-loss = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=averaged_logits, labels=tf.argmax(groundtruth_input, 1))
+loss = tf.nn.softmax_cross_entropy_with_logits(logits=averaged_logits, labels=groundtruth_input)
 
 #学习率需要参考原文！！！！！！！	
 learning_rate = tf.train.exponential_decay(
