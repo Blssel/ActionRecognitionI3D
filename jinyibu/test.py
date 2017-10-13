@@ -49,9 +49,9 @@ saver = tf.train.Saver(var_list=variable_map, reshape=True)
 
 with tf.Session() as sess:
     #初始化变量
-    tf.global_variables_initializer().run()
+    #tf.global_variables_initializer().run()
     #导入pre_trained模型变量
-    #saver.restore(sess,MODEL_NAME)
+    saver.restore(sess,MODEL_NAME)
     x,y_ = next_batch.next_batch_bottleneck(sess,n_classes,video_lists,BATCH_SIZE,'training',rgb_input,bottleneck)#!!!!在这里读取参数
     print(type(x))
     print(type(y_))
