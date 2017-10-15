@@ -9,27 +9,37 @@ import numpy as np
 #next_batch函数获得的batch的最终形式为张量形式
 #返回是一个batch的bottleneck和对应groundtruth
 CACHE_DIR='./cache'
-INPUT_DATA='/home/yzy_17/workspace/kinetics-i3d-master/jinyibu/npy-test'
+INPUT_DATA='/extra_store/Y-npy/'
 def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_data_tensor, bottleneck_tensor):
-    for i in range(how_many):#循环BATCH_SIZE次
+    i=0
+    while(True):#循环BATCH_SIZE次
 	label_index = random.randrange(n_classes)#随机选一类
 	label_name = list(video_lists.keys())[label_index]#获得这个类名
 	video_index = random.randrange(65536)#为什么是65536
 
 
 	#计算bottleneck的值!!!!!
-	bottleneck = get_or_create_bottleneck(sess, video_lists, label_name, video_index, category, npy_data_tensor, bottleneck_tensor)
+	bottleneck,flag = get_or_create_bottleneck(sess, video_lists, label_name, video_index, category, npy_data_tensor, bottleneck_tensor)
+        if flag==False:
+            print('format is not suitable,pass!----%s'%label_name)
+            continue
 	#生成这个类对应的groundtruth编码（维度就是类别数）
-	ground_truth = np.zeros(n_classes, dtype=np.float32)#数据类型是float32型
-	ground_truth[label_index] = 1.0#让这个类的索引对应位的值取1
-        
+	ground_truth = np.zeros([1,n_classes], dtype=np.float32)#数据类型是float32型
+	ground_truth[0][label_index] = 1.0#让这个类的索引对应位的值取1
 	#bottleneck和groundtruth并入batch中
         if i==0:
             bottlenecks=bottleneck
             ground_truths=ground_truth
+        else: 
+            bottlenecks=np.concatenate((bottlenecks,bottleneck))
+            ground_truths=np.concatenate((ground_truths,ground_truth))
+
+        i+=1
+        if i<how_many:
+            continue
         else:
-            np.concatenate((bottlenecks,bottleneck))
-            np.concatenate((ground_truths,ground_truth))
+            break
+
     #愉快地返回
     return bottlenecks , ground_truths
 
@@ -38,6 +48,7 @@ def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_
 		
 
 def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy_data_tensor, bottleneck_tensor):
+    flag=True
     #获取选中类别下的所有数据元信息
     label_lists = video_lists[label_name]
 	
@@ -53,22 +64,34 @@ def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy
     if not os.path.exists(bottleneck_path):
 	#获取视频路径
 	video_path = get_video_path(video_lists, INPUT_DATA, label_name, index, category)
-	npy_data = np.load(video_path)
+        try:
+	    npy_data = np.load(video_path)
+        except:
+            print('video wrong')
+            flag=False
+            bottleneck_values=np.array([])
+            return bottleneck_values,flag
         #取前64帧
         npy_data=npy_data[0:1,0:64,0:224,0:224,0:3]
-        print(npy_data.shape)
+        if npy_data.shape!=(1,64,224,224,3):
+            flag=False
+            bottleneck_values=np.array([])
+            return bottleneck_values,flag
 
 	#计算bottleneck!!!!!!!!!!！
 	bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)
 	#把bottleneck保存下来！npy格式(注意后缀)
 	np.save(pathlib.Path(bottleneck_path),bottleneck_values)
+        bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
+        #print(bottleneck_values.shape)
     #否则直接读取即可(也是需要从npy文件中读取!!!!!!)
     else:
-        print('this is cached')
+        #print('it is caching')
 	bottleneck_values=np.load(bottleneck_path)
-
+        bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
+        #print(bottleneck_values.shape)
     #返回bottleneck_value
-    return bottleneck_values
+    return bottleneck_values,flag
 
 
 def get_bottleneck_path(video_lists, label_name, index, category):
@@ -85,7 +108,6 @@ def get_video_path(video_lists, video_dir, label_name, index, category):
     return full_path
 
 def run_bottleneck_on_video(sess, npy_data, npy_data_tensor,bottleneck_tensor):
-
     bottleneck_values = sess.run(bottleneck_tensor, {npy_data_tensor: npy_data})
 
     bottleneck_values = np.squeeze(bottleneck_values)
