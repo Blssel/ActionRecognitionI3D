@@ -17,34 +17,46 @@ import json
 BATCH_SIZE = 6
 IMAGE_SIZE=224
 
-LEARNING_RATE_BASE = 0.9
+LEARNING_RATE_BASE = 1e-1
 LEARNING_RATE_DECAY = 0.99
 
-NUM_TRAINSET=40#临时写的
+NUM_TRAINSET=8000#大约估计就行
 
 REGULARIZATION_RATE = 0.0001
-TRAINING_STEPS = 30000
-MOVING_AVERAGE_DECAY = 0.99
-MODEL_SAVE_PATH="~/workspace/kinetics-i3d-master/data/checkpoints/rgb_imagenet"
-MODEL_NAME="model.ckpt"
+TRAINING_STEPS = 97000
+MODEL_SAVE_PATH="/home/yzy_17/workspace/kinetics-i3d-master/data/checkpoints/rgb_imagenet"
+MODEL_NAME="../data/checkpoints/rgb_imagenet/model.ckpt"
 
 ##!!myn
-with open('result1.json','r') as f:
+with open('ucf_rgb_list.json','r') as f:
     video_lists=json.load(f)
     n_classes=len(video_lists.keys())
 
 #导入原模型，完成前馈过程
 rgb_input = tf.placeholder(tf.float32,shape=(1,None,IMAGE_SIZE,IMAGE_SIZE,3))
-rgb_model = i3d.InceptionI3d(n_classes, spatial_squeeze=True, final_endpoint='Mixed_5c')
-bottleneck, _ = rgb_model(rgb_input, is_training=False, dropout_keep_prob=1.0)
+with tf.variable_scope('RGB'):
+    rgb_model = i3d.InceptionI3d(n_classes, spatial_squeeze=True, final_endpoint='Mixed_5c')
+    bottleneck, _ = rgb_model(rgb_input, is_training=False, dropout_keep_prob=1.0)
+
+variable_map = {}
+for variable in tf.global_variables():
+    if variable.name.split('/')[0] == 'RGB':
+        variable_map[variable.name.replace(':0', '')] = variable
+saver1 = tf.train.Saver(var_list=variable_map, reshape=True)
+
+with tf.variable_scope("RGB",reuse=True):
+    w_jieduan=tf.get_variable('inception_i3d/Mixed_4e/Branch_3/Conv3d_0b_1x1/batch_norm/beta')
+output_conv_sg = tf.stop_gradient(w_jieduan)
+
+#获取bottleneck(此处到时候可以加个命名空间，然后专门保存这几个变量)
+bottleneck_input=tf.placeholder(tf.float32,shape=(BATCH_SIZE,None,7,7,1024),name='bottleneck_input')
+groundtruth_input=tf.placeholder(tf.float32,[BATCH_SIZE,n_classes],name='groundtruth_input')
 
 
-#获取bottleneck
-bottleneck_input=tf.placeholder(tf.float32,shape=(BATCH_SIZE,None,IMAGE_SIZE,IMAGE_SIZE,3),name='BottleneckInputPlaceholder')
-groundtruth_input=tf.placeholder(tf.float32,[BATCH_SIZE,n_classes],name='GroundTruthInput')
+#global_step
+global_step= tf.Variable(0,name='global_step',trainable=False)
 
-
-#搭建全连接层
+#搭建全连接层(此处到时候可以在这个命名空间下，然后专门保存这几个变量)
 end_point = 'UCF_Logits'
 with tf.variable_scope(end_point):
     net = tf.nn.avg_pool3d(bottleneck_input, ksize=[1, 2, 7, 7, 1],strides=[1, 1, 1, 1, 1], padding=snt.VALID)
@@ -55,32 +67,40 @@ with tf.variable_scope(end_point):
 		    use_batch_norm=True,
 		    use_bias=True,
 		    name='Conv3d_0c_1x1')(net, is_training=True)
-    #logits = tf.squeeze(logits, [2, 3], name='SpatialSqueeze')##这个squeeze究竟是什么？？？？？？临时注释掉
-    averaged_logits = tf.reduce_mean(logits, axis=1)
+    logits = tf.squeeze(logits, [2, 3], name='SpatialSqueeze')#这个返回值维度是(6,7,10)
+    print(logits)
+    averaged_logits = tf.reduce_mean(logits, axis=1)#那么理论上此时返回的维度是(6,10)
 
+finetune_variable_map={}
+finetune_variable_list=[]
+for variable in tf.global_variables():
+    #收集参数，方便正则化
+    if variable.name.split('/')[0] == 'UCF_Logits':
+        finetune_variable_list.append(variable)
+        tf.add_to_collection(tf.GraphKeys.WEIGHTS,variable)
+        finetune_variable_map[variable.name.replace(':0', '')] = variable
+saver2 = tf.train.Saver(var_list=finetune_variable_map, reshape=True)
+#saver3 = tf.train.Saver(var_list=finetune_variable_map, reshape=True)
+print("##############################################")
+print(finetune_variable_map)
+print("##############################################")
 #softmax层
 predictions = tf.nn.softmax(averaged_logits)
 
-#global_step
-global_step = tf.Variable(0,name='global_step',trainable=False)
+
 
 
 #定义损失函数(计算使用的是average_logits层)
-loss = tf.nn.softmax_cross_entropy_with_logits(logits=averaged_logits, labels=groundtruth_input)
-
+cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=averaged_logits, labels=groundtruth_input)
+regularizer=tf.contrib.layers.l2_regularizer(scale=1e-7)
+regulation=tf.contrib.layers.apply_regularization(regularizer, weights_list=None)
+loss=tf.reduce_mean(cross_entropy)+regulation
 #学习率需要参考原文！！！！！！！	
-learning_rate = tf.train.exponential_decay(
-	LEARNING_RATE_BASE,
-	global_step,
-	NUM_TRAINSET / BATCH_SIZE, 
-        LEARNING_RATE_DECAY,
-	staircase=True)
+#learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE, global_step, NUM_TRAINSET / BATCH_SIZE, LEARNING_RATE_DECAY, staircase=True)
 
 #优化
-train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
+train_step = tf.train.MomentumOptimizer(LEARNING_RATE_BASE,0.9).minimize(loss, global_step=global_step,var_list=finetune_variable_list)
 
-#Saver类	
-saver=tf.train.Saver(reshape=True)
 
 
 
@@ -88,11 +108,14 @@ with tf.Session() as sess:
     #初始化变量
     tf.global_variables_initializer().run()
     #导入pre_trained模型变量
-    saver.restore(sess,MODEL_NAME)
+    saver1.restore(sess,MODEL_NAME)
+    saver2.restore(sess,'./finetune_model/finetue.ckpt-0')
 
+    sess.graph.finalize()
     for i in range(TRAINING_STEPS):
 	x,y_ = next_batch.next_batch_bottleneck(sess,n_classes,video_lists,BATCH_SIZE,'training',rgb_input,bottleneck)#!!!!在这里读取参数
-	loss_value, step = sess.run([loss, global_step], feed_dict={bottleneck_input: x, groundtruth_input:y_})
-	if i % 1000 == 0:
+        _,loss_value, step = sess.run([train_step,loss, global_step], feed_dict={bottleneck_input: x, groundtruth_input:y_})
+	if i % 1 == 0:
 	    print("After %d training step(s), loss on training batch is %g." % (step, loss_value))
-#saver.save(sess, os.path.join(MODEL_SAVE_PATH, MODEL_NAME), global_step=global_step)
+        if i % 100 == 0:
+            saver2.save(sess, './finetune_model/finetue.ckpt', global_step=global_step)
