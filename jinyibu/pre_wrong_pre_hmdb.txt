@@ -1,0 +1,240 @@
+chew                  0.875
+golf                  1.0
+sword_exercise        0.727272727273
+walk                  0.452830188679
+jump                  0.692307692308
+pour                  0.833333333333
+laugh                 1.0
+shoot_gun             0.888888888889
+hit                   0.777777777778
+turn                  0.25
+ride_bike             1.0
+swing_baseball        0.857142857143
+draw_sword            0.555555555556
+sit                   0.285714285714
+fencing               0.785714285714
+dribble               0.9375
+stand                 0.4
+somersault            0.857142857143
+sword                 0.736842105263
+pullup                1.0
+smile                 0.545454545455
+clap                  0.666666666667
+kick                  0.5
+pushup                1.0
+drink                 0.642857142857
+flic_flac             0.888888888889
+hug                   0.736842105263
+run                   0.388888888889
+smoke                 0.571428571429
+dive                  0.916666666667
+kick_ball             0.705882352941
+punch                 0.8
+wave                  0.454545454545
+kiss                  1.0
+catch                 1.0
+throw                 0.583333333333
+climb_stairs          0.666666666667
+eat                   0.692307692308
+ride_horse            0.909090909091
+fall_floor            0.466666666667
+brush_hair            1.0
+situp                 1.0
+cartwheel             0.9
+pick                  0.3
+push                  0.636363636364
+climb                 0.916666666667
+handstand             0.875
+talk                  0.454545454545
+###########################
+The class chew has 8 videos , 7 right, and the accuracy is :
+chew                  0.875
+##########################
+###########################
+The class golf has 9 videos , 9 right, and the accuracy is :
+golf                  1.0
+##########################
+###########################
+The class sword_exercise has 11 videos , 8 right, and the accuracy is :
+sword_exercise        0.727272727273
+##########################
+###########################
+The class walk has 53 videos , 24 right, and the accuracy is :
+walk                  0.452830188679
+##########################
+###########################
+The class jump has 13 videos , 9 right, and the accuracy is :
+jump                  0.692307692308
+##########################
+###########################
+The class pour has 12 videos , 10 right, and the accuracy is :
+pour                  0.833333333333
+##########################
+###########################
+The class laugh has 8 videos , 8 right, and the accuracy is :
+laugh                 1.0
+##########################
+###########################
+The class shoot_gun has 9 videos , 8 right, and the accuracy is :
+shoot_gun             0.888888888889
+##########################
+###########################
+The class hit has 9 videos , 7 right, and the accuracy is :
+hit                   0.777777777778
+##########################
+###########################
+The class turn has 20 videos , 5 right, and the accuracy is :
+turn                  0.25
+##########################
+###########################
+The class ride_bike has 7 videos , 7 right, and the accuracy is :
+ride_bike             1.0
+##########################
+###########################
+The class swing_baseball has 14 videos , 12 right, and the accuracy is :
+swing_baseball        0.857142857143
+##########################
+###########################
+The class draw_sword has 9 videos , 5 right, and the accuracy is :
+draw_sword            0.555555555556
+##########################
+###########################
+The class sit has 14 videos , 4 right, and the accuracy is :
+sit                   0.285714285714
+##########################
+###########################
+The class fencing has 14 videos , 11 right, and the accuracy is :
+fencing               0.785714285714
+##########################
+###########################
+The class dribble has 16 videos , 15 right, and the accuracy is :
+dribble               0.9375
+##########################
+###########################
+The class stand has 15 videos , 6 right, and the accuracy is :
+stand                 0.4
+##########################
+###########################
+The class somersault has 14 videos , 12 right, and the accuracy is :
+somersault            0.857142857143
+##########################
+###########################
+The class sword has 19 videos , 14 right, and the accuracy is :
+sword                 0.736842105263
+##########################
+###########################
+The class pullup has 15 videos , 15 right, and the accuracy is :
+pullup                1.0
+##########################
+###########################
+The class smile has 11 videos , 6 right, and the accuracy is :
+smile                 0.545454545455
+##########################
+###########################
+The class clap has 9 videos , 6 right, and the accuracy is :
+clap                  0.666666666667
+##########################
+###########################
+The class kick has 12 videos , 6 right, and the accuracy is :
+kick                  0.5
+##########################
+###########################
+The class pushup has 9 videos , 9 right, and the accuracy is :
+pushup                1.0
+##########################
+###########################
+The class drink has 14 videos , 9 right, and the accuracy is :
+drink                 0.642857142857
+##########################
+###########################
+The class flic_flac has 9 videos , 8 right, and the accuracy is :
+flic_flac             0.888888888889
+##########################
+###########################
+The class hug has 19 videos , 14 right, and the accuracy is :
+hug                   0.736842105263
+##########################
+###########################
+The class run has 18 videos , 7 right, and the accuracy is :
+run                   0.388888888889
+##########################
+###########################
+The class smoke has 7 videos , 4 right, and the accuracy is :
+smoke                 0.571428571429
+##########################
+###########################
+The class dive has 12 videos , 11 right, and the accuracy is :
+dive                  0.916666666667
+##########################
+###########################
+The class kick_ball has 17 videos , 12 right, and the accuracy is :
+kick_ball             0.705882352941
+##########################
+###########################
+The class punch has 20 videos , 16 right, and the accuracy is :
+punch                 0.8
+##########################
+###########################
+The class wave has 11 videos , 5 right, and the accuracy is :
+wave                  0.454545454545
+##########################
+###########################
+The class kiss has 14 videos , 14 right, and the accuracy is :
+kiss                  1.0
+##########################
+###########################
+The class catch has 9 videos , 9 right, and the accuracy is :
+catch                 1.0
+##########################
+###########################
+The class throw has 12 videos , 7 right, and the accuracy is :
+throw                 0.583333333333
+##########################
+###########################
+The class climb_stairs has 15 videos , 10 right, and the accuracy is :
+climb_stairs          0.666666666667
+##########################
+###########################
+The class eat has 13 videos , 9 right, and the accuracy is :
+eat                   0.692307692308
+##########################
+###########################
+The class ride_horse has 11 videos , 10 right, and the accuracy is :
+ride_horse            0.909090909091
+##########################
+###########################
+The class fall_floor has 15 videos , 7 right, and the accuracy is :
+fall_floor            0.466666666667
+##########################
+###########################
+The class brush_hair has 7 videos , 7 right, and the accuracy is :
+brush_hair            1.0
+##########################
+###########################
+The class situp has 11 videos , 11 right, and the accuracy is :
+situp                 1.0
+##########################
+###########################
+The class cartwheel has 10 videos , 9 right, and the accuracy is :
+cartwheel             0.9
+##########################
+###########################
+The class pick has 10 videos , 3 right, and the accuracy is :
+pick                  0.3
+##########################
+###########################
+The class push has 11 videos , 7 right, and the accuracy is :
+push                  0.636363636364
+##########################
+###########################
+The class climb has 12 videos , 11 right, and the accuracy is :
+climb                 0.916666666667
+##########################
+###########################
+The class handstand has 8 videos , 7 right, and the accuracy is :
+handstand             0.875
+##########################
+###########################
+The class talk has 11 videos , 5 right, and the accuracy is :
+talk                  0.454545454545
+##########################

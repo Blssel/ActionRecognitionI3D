@@ -10,7 +10,8 @@ import numpy as np
 
 
 CACHE_DIR = './'
-INPUT_DATA = '/extra_store/Y-npy/'  #目录修改
+#INPUT_DATA = '/extra_store/Y-npy/'  #目录修改
+INPUT_DATA='/extra_disk/dataset/hmdb_rand_crop_npy/'
 
 #验证和测试的百分比
 VALIDATION_PERCENTAGE = 10
@@ -82,8 +83,8 @@ def main():
     # 读取所有图片，生成文件字典
     image_lists = create_image_lists(TEST_PERCENTAGE, VALIDATION_PERCENTAGE)
     #print (image_lists)
-    json.dump(image_lists, open('ucf_rgb_list.json', 'w'))
-    with open('ucf_rgb_list.json', 'r') as f:
+    json.dump(image_lists, open('hmdb_rgb_list.json', 'w'))
+    with open('hmdb_rgb_list.json', 'r') as f:
         data = json.load(f)
     print(data)
 

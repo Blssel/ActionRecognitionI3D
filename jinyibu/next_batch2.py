@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding:UTF-8
-#cache保存的是bottleneck
+#无需存储bottleneck
 import pathlib
 import random
 import os
@@ -9,7 +9,7 @@ import numpy as np
 #假如有BATCH的大小为BATCH_SIZE。则每次随机在训练集里选择一个类，然后随机选择一个数据
 #next_batch函数获得的batch的最终形式为张量形式
 #返回是一个batch的bottleneck和对应groundtruth
-CACHE_DIR='./cache'
+#CACHE_DIR='./cache'
 INPUT_DATA='/extra_store/Y-npy/'
 def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_data_tensor, bottleneck_tensor):
     i=0
@@ -50,47 +50,29 @@ def next_batch_bottleneck(sess, n_classes, video_lists, how_many, category, npy_
 
 def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy_data_tensor, bottleneck_tensor):
     flag=True
-    #获取选中类别下的所有数据元信息
-    label_lists = video_lists[label_name]
-	
-    #去缓存中寻找该类
-    sub_dir = label_lists['dir']#获取该标签类所在路径
-    sub_dir_path = os.path.join(CACHE_DIR, sub_dir)#推导bottleneck的保存文件夹路径
-    #如果不存在就创建该文件夹
-    if not os.path.exists(sub_dir_path): os.makedirs(sub_dir_path)
-    #计算bottleneck缓存的全路径
-    bottleneck_path = get_bottleneck_path(video_lists, label_name, index, category)
 
-    #如果未缓存则计算并缓存
-    if not os.path.exists(bottleneck_path):
-	#获取视频路径
-	video_path = get_video_path(video_lists, INPUT_DATA, label_name, index, category)
-        try:
-	    npy_data = np.load(video_path)
-        except:
-            print('video wrong')
-            flag=False
-            bottleneck_values=np.array([])
-            return bottleneck_values,flag
-        #取前64帧
-        npy_data=npy_data[0:1,0:64,0:224,0:224,0:3]
-        if npy_data.shape!=(1,64,224,224,3):
-            flag=False
-            bottleneck_values=np.array([])
-            return bottleneck_values,flag
+    #获取视频路径
+    video_path = get_video_path(video_lists, INPUT_DATA, label_name, index, category)
+    try:
+	npy_data = np.load(video_path)
+    except:
+        print('video wrong')
+        flag=False
+        bottleneck_values=np.array([])
+        return bottleneck_values,flag
+    #取前64帧
+    npy_data=npy_data[0:1,0:64,0:224,0:224,0:3]
+    if npy_data.shape!=(1,64,224,224,3):
+        flag=False
+        bottleneck_values=np.array([])
+        return bottleneck_values,flag
 
-	#计算bottleneck!!!!!!!!!!！
-	bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)
-	#把bottleneck保存下来！npy格式(注意后缀)
-	np.save(pathlib.Path(bottleneck_path),bottleneck_values)
-        bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
-        #print(bottleneck_values.shape)
-    #否则直接读取即可(也是需要从npy文件中读取!!!!!!)
-    else:
-        #print('it is caching')
-	bottleneck_values=np.load(bottleneck_path)
-        bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
-        #print(bottleneck_values.shape)
+    #计算bottleneck!!!!!!!!!!！
+    bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)
+    bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
+    #print(bottleneck_values.shape)
+    
+    
     #返回bottleneck_value
     return bottleneck_values,flag
 

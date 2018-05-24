@@ -17,17 +17,18 @@ import os
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-BATCH_SIZE = 6
+
+BATCH_SIZE =800 #尝试6,12,24...(论文是6)
 IMAGE_SIZE=224
-
-LEARNING_RATE_BASE =1e-2       #1e-1   1e-2 1e-3        0.36  0.135   0.0498
-LEARNING_RATE_DECAY = 0.99
-
+ 
 NUM_TRAINSET=8000#大约估计就行
+ 
+TRAINING_STEPS = 30000 
+LEARNING_RATE_BASE = 0.1#学习率 0.1*0.99^(500000/1000)(论文学习率是1e-1 1e-2 1e-3)
+LEARNING_DECAY_RATE=0.98
+DECAY_STEP=20
 
-REGULARIZATION_RATE = 0.0001
-TRAINING_STEPS = 108000-97000
-MODEL_SAVE_PATH="/home/yzy_17/workspace/kinetics-i3d-master/data/checkpoints/rgb_imagenet"
+#MODEL_SAVE_PATH="/home/yzy_17/workspace/kinetics-i3d-master/data/checkpoints/rgb_imagenet"
 MODEL_NAME="../data/checkpoints/rgb_imagenet/model.ckpt"
 
 ##!!myn
@@ -57,7 +58,7 @@ groundtruth_input=tf.placeholder(tf.float32,[BATCH_SIZE,n_classes],name='groundt
 
 
 #global_step
-global_step= tf.Variable(97000,name='global_step',trainable=False)
+global_step= tf.Variable(2250,name='global_step',trainable=False)
 
 #搭建全连接层(此处到时候可以在这个命名空间下，然后专门保存这几个变量)
 end_point = 'UCF_Logits'
@@ -85,9 +86,6 @@ for variable in tf.global_variables():
         finetune_variable_map[variable.name.replace(':0', '')] = variable
 saver2 = tf.train.Saver(var_list=finetune_variable_map, reshape=True)
 #saver3 = tf.train.Saver(reshape=True)
-#print("##############################################")
-#print(finetune_variable_map)
-#print("##############################################")
 
 #softmax层
 predictions = tf.nn.softmax(averaged_logits)
@@ -102,7 +100,7 @@ loss=tf.reduce_mean(cross_entropy)+regulation
 #learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE, global_step, NUM_TRAINSET / BATCH_SIZE, LEARNING_RATE_DECAY, staircase=True)
 
 #优化
-train_step = tf.train.MomentumOptimizer(LEARNING_RATE_BASE,0.9).minimize(loss, global_step=global_step,var_list=finetune_variable_list)
+train_step = tf.train.MomentumOptimizer(0.001,0.9).minimize(loss, global_step=global_step,var_list=finetune_variable_list)
 
 
 
@@ -113,7 +111,7 @@ with tf.Session() as sess:
     #导入pre_trained模型变量
     saver1.restore(sess,MODEL_NAME)
     #导入finetune部分的模型
-    saver2.restore(sess,'./finetune_model/finetue.ckpt-96901')
+    saver2.restore(sess,'./finetune_model/finetue.ckpt-2046')
 
     sess.graph.finalize()
     for i in range(TRAINING_STEPS):
@@ -121,5 +119,5 @@ with tf.Session() as sess:
         _,loss_value, step = sess.run([train_step,loss, global_step], feed_dict={bottleneck_input: x, groundtruth_input:y_})
 	if i % 1 == 0:
 	    print("After %d training step(s), loss on training batch is %g." % (step, loss_value))
-        if i % 100 == 0:
+        if i % 1000 == 0:
             saver2.save(sess, './finetune_model/finetue.ckpt', global_step=global_step)

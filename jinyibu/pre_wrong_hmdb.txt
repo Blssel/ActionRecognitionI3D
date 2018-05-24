@@ -1,0 +1,6432 @@
+Bubble_Blowing_Bubble_Gum_chew_h_nm_np1_fr_bad_0.npy
+Norm of logits:21.5114
+Top classes and probabilities
+0.874813 9.36853 chew
+0.0694632 6.83532 drink
+0.0213592 5.656 eat
+0.0112818 5.01771 talk
+0.00576943 4.34709 smoke
+
+
+Bubblegum_Wigger_chew_h_nm_np1_fr_med_2.npy
+Norm of logits:19.2648
+Top classes and probabilities
+0.9338 9.17816 chew
+0.0462938 6.17391 eat
+0.00566509 4.07323 pour
+0.00398211 3.72071 brush_hair
+0.00188659 2.97367 turn
+
+
+Vid_Request-_Me_Blowing_Bubbles_-P_chew_h_nm_np1_fr_med_2.npy
+Norm of logits:27.0426
+Top classes and probabilities
+0.999632 16.275 chew
+0.000171822 7.60634 talk
+9.83517e-05 7.04843 eat
+4.51032e-05 6.26883 pour
+4.04399e-05 6.15969 drink
+
+
+~~~~~~~~~~~~~~~~~TheLittleShopofHorrors_chew_u_nm_np1_fr_med_8.npy
+Norm of logits:33.5267
+Top classes and probabilities
+0.400325 8.48385 stand
+0.25267 8.02366 smile
+0.159968 7.56654 drink
+0.051027 6.42393 eat
+0.0365859 6.09124 talk
+
+
+Me_chewing_hubba_bubba_bubble_gum_chew_h_nm_np1_fr_bad_0.npy
+Norm of logits:29.0792
+Top classes and probabilities
+0.93476 11.2073 chew
+0.0238719 7.53972 laugh
+0.020522 7.38851 eat
+0.00649373 6.23785 drink
+0.00466688 5.90751 wave
+
+
+Bubble_gum!_XD_chew_h_cm_np1_fr_med_1.npy
+Norm of logits:30.5643
+Top classes and probabilities
+0.989665 13.6826 chew
+0.00307858 7.90973 talk
+0.00293195 7.86093 eat
+0.00263345 7.75355 smoke
+0.00090712 6.68778 drink
+
+
+Duble_Bubble_Gum_chew_h_cm_np1_fr_bad_2.npy
+Norm of logits:27.783
+Top classes and probabilities
+0.967221 12.6584 chew
+0.0234772 8.94 smoke
+0.00487984 7.36908 laugh
+0.00229894 6.61642 eat
+0.0006564 5.36299 pour
+
+
+Wanda_Su_and_niece__T__blowing_bubbles_chew_u_nm_np2_fr_med_2.npy
+Norm of logits:36.5218
+Top classes and probabilities
+0.998626 17.4664 chew
+0.000638962 10.1122 talk
+0.000629964 10.098 eat
+4.19095e-05 7.38782 pour
+1.48491e-05 6.35025 drink
+
+
+###########################
+The class chew has 8 videos , 0 right, and the accuracy is :
+chew                  0.0
+##########################
+Jordan_Malinoff_and__Anthony_Kim_Practice_golf_f_cm_np1_ri_med_5.npy
+Norm of logits:26.1107
+Top classes and probabilities
+0.852628 11.0393 golf
+0.138362 9.22082 pick
+0.00270113 5.28462 smile
+0.00198158 4.97484 shoot_gun
+0.000868304 4.14973 handstand
+
+
+Anna_Rawson_LPGA_golf_f_nm_np1_ri_goo_0.npy
+Norm of logits:34.175
+Top classes and probabilities
+0.999733 17.828 golf
+0.000114916 8.75699 swing_baseball
+5.45046e-05 8.01107 sword_exercise
+4.58364e-05 7.83787 catch
+1.61471e-05 6.79453 sword
+
+
+rory_hie_high_school__now_USC_golf_f_nm_np1_ri_goo_0.npy
+Norm of logits:31.3764
+Top classes and probabilities
+0.996588 15.5925 golf
+0.00265423 9.66428 swing_baseball
+0.000326498 7.56879 throw
+0.000302269 7.49169 sword_exercise
+3.72671e-05 5.39848 pick
+
+
+Michael_Campbell_rub_of_the_green_golf_f_cm_np1_fr_med_0.npy
+Norm of logits:39.2038
+Top classes and probabilities
+0.986915 16.6777 golf
+0.00894143 11.9738 throw
+0.00228944 10.6114 hit
+0.00120424 9.96896 swing_baseball
+0.000576527 9.23238 sword_exercise
+
+
+Ben_Hogan_Swing_golf_f_nm_np1_ri_med_0.npy
+Norm of logits:38.0518
+Top classes and probabilities
+0.999962 20.533 golf
+1.31117e-05 9.29101 swing_baseball
+1.00453e-05 9.02461 sword_exercise
+8.60203e-06 8.86951 sword
+2.68168e-06 7.70395 hit
+
+
+Camilo_Villegas_Tee_Shot_golf_f_cm_np1_fr_goo_0.npy
+Norm of logits:24.4494
+Top classes and probabilities
+0.950116 10.5688 golf
+0.028386 7.05807 pick
+0.00320717 4.87757 swing_baseball
+0.0030556 4.82915 draw_sword
+0.00270196 4.70615 catch
+
+
+Kevin_Na_s_Swing_golf_f_cm_np1_ri_goo_0.npy
+Norm of logits:38.6764
+Top classes and probabilities
+0.999995 22.3988 golf
+1.40997e-06 8.92688 throw
+7.92247e-07 8.35043 swing_baseball
+7.92134e-07 8.35028 catch
+7.6659e-07 8.31751 handstand
+
+
+Michelle_Wie_bombs_a_drive_golf_f_cm_np1_ba_med_0.npy
+Norm of logits:32.7296
+Top classes and probabilities
+0.998037 15.1688 golf
+0.00099808 8.26106 sword
+0.000480763 7.5306 sword_exercise
+0.000228574 6.78709 fencing
+8.72837e-05 5.82439 pick
+
+
+Sergio_Garcia_golf_f_cm_np1_ri_med_1.npy
+Norm of logits:32.862
+Top classes and probabilities
+0.99998 18.5719 golf
+5.13651e-06 6.39275 swing_baseball
+3.9189e-06 6.12219 throw
+2.38453e-06 5.62538 sword_exercise
+2.0745e-06 5.48609 sword
+
+
+###########################
+The class golf has 9 videos , 0 right, and the accuracy is :
+golf                  0.0
+##########################
+~~~~~~~~~~~~~~~~~Iaido_13_katas_sword_exercise_f_nm_np1_fr_bad_3.npy
+Norm of logits:27.4376
+Top classes and probabilities
+0.760356 11.4807 draw_sword
+0.233432 10.2998 sword_exercise
+0.00234368 5.69866 fencing
+0.00139771 5.18177 pick
+0.000627357 4.38069 brush_hair
+
+
+Iaido_13_katas_sword_exercise_f_nm_np1_fr_bad_6.npy
+Norm of logits:34.9647
+Top classes and probabilities
+0.811449 13.5421 sword_exercise
+0.109865 11.5426 draw_sword
+0.0622073 10.9738 sword
+0.00732527 8.83464 swing_baseball
+0.00605305 8.64387 hit
+
+
+VERGIL_(DEVIL_MAY_CRY)_swinging_his_sword_sword_exercise_f_cm_np1_fr_med_5.npy
+Norm of logits:27.9883
+Top classes and probabilities
+0.921322 11.5548 sword_exercise
+0.0607671 8.83605 draw_sword
+0.00816341 6.82867 sword
+0.0028475 5.77545 hit
+0.00184866 5.34347 brush_hair
+
+
+Iaido_video_instruction_series_Wehrhahn_Sensei_sword_exercise_f_nm_np1_le_bad_1.npy
+Norm of logits:32.9254
+Top classes and probabilities
+0.56776 13.8188 sword_exercise
+0.428893 13.5383 draw_sword
+0.00260133 8.43308 sword
+0.000287897 6.23191 fencing
+0.000169155 5.70012 swing_baseball
+
+
+~~~~~~~~~~~~~~~~~Conan_gets_an_upgrade!_sword_exercise_u_cm_np1_ri_med_0.npy
+Norm of logits:22.8078
+Top classes and probabilities
+0.53326 8.0 shoot_gun
+0.211824 7.07674 sword_exercise
+0.17657 6.8947 draw_sword
+0.0166138 4.53122 pour
+0.00941987 3.96381 swing_baseball
+
+
+Sword_and_Targe_Solo_Exercises_sword_exercise_f_cm_np1_fr_med_5.npy
+Norm of logits:26.3701
+Top classes and probabilities
+0.596422 11.1294 sword_exercise
+0.397079 10.7226 draw_sword
+0.00202999 5.44647 hug
+0.0011407 4.87008 hit
+0.000917347 4.65217 brush_hair
+
+
+Kendo_Basics_sword_exercise_f_nm_np1_ri_bad_7.npy
+Norm of logits:44.4203
+Top classes and probabilities
+0.762136 14.7764 sword_exercise
+0.0964901 12.7097 draw_sword
+0.0766174 12.4791 fencing
+0.0335948 11.6546 sword
+0.0193637 11.1037 hit
+
+
+samurai_training_sword_exercise_f_cm_np1_fr_med_2.npy
+Norm of logits:32.0788
+Top classes and probabilities
+0.981276 13.7112 sword_exercise
+0.0115071 9.26527 draw_sword
+0.00604464 8.62148 sword
+0.000356819 5.79178 wave
+0.000202983 5.22768 throw
+
+
+samurai_sword_action_lesson_preview_sword_exercise_f_cm_np1_fr_med_1.npy
+Norm of logits:34.6984
+Top classes and probabilities
+0.811571 12.5978 sword_exercise
+0.0633672 10.0478 draw_sword
+0.0581476 9.96181 sword
+0.0405802 9.6021 swing_baseball
+0.0202477 8.90687 fencing
+
+
+~~~~~~~~~~~~~~~~~Blade_Of_Fury_-_Scene_1_sword_exercise_f_nm_np1_ri_med_1.npy
+Norm of logits:29.4456
+Top classes and probabilities
+0.327636 7.46284 sword
+0.22965 7.10749 sword_exercise
+0.121146 6.46794 draw_sword
+0.0707758 5.93046 jump
+0.0697267 5.91552 swing_baseball
+
+
+Highlander_I_with_Christophe_Lambert_&_Sean_Connery_sword_exercise_f_cm_np2_ba_bad_0.npy
+Norm of logits:14.1456
+Top classes and probabilities
+0.219257 4.04924 sword_exercise
+0.152514 3.68626 shoot_gun
+0.0988688 3.25279 pick
+0.0833004 3.08145 walk
+0.0724212 2.9415 run
+
+
+###########################
+The class sword_exercise has 11 videos , 0 right, and the accuracy is :
+sword_exercise        0.0
+##########################
+TheLastManOnearth_walk_f_cm_np1_fr_med_36.npy
+Norm of logits:24.1561
+Top classes and probabilities
+0.799259 9.20183 walk
+0.154141 7.55601 sit
+0.0131538 5.09485 drink
+0.0111419 4.92885 stand
+0.0060423 4.31693 climb_stairs
+
+
+~~~~~~~~~~~~~~~~~ThePerfectScore_walk_u_nm_np1_fr_med_9.npy
+Norm of logits:23.5823
+Top classes and probabilities
+0.297185 6.61112 punch
+0.202303 6.22653 wave
+0.161746 6.00279 turn
+0.154977 5.96004 draw_sword
+0.0526845 4.88108 walk
+
+
+~~~~~~~~~~~~~~~~~MeettheFockers_walk_u_cm_np1_fr_goo_7.npy
+Norm of logits:14.9972
+Top classes and probabilities
+0.304287 4.72993 talk
+0.122997 3.82411 sword_exercise
+0.101427 3.6313 swing_baseball
+0.101248 3.62953 throw
+0.0690397 3.24664 draw_sword
+
+
+~~~~~~~~~~~~~~~~~Hitch_Part_2_walk_u_cm_np1_fr_med_10.npy
+Norm of logits:21.3313
+Top classes and probabilities
+0.455449 6.6744 sit
+0.112378 5.27498 stand
+0.0956487 5.1138 walk
+0.0932744 5.08866 eat
+0.0842291 4.98666 drink
+
+
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_walk_f_cm_np1_ri_med_20.npy
+Norm of logits:31.4664
+Top classes and probabilities
+0.741431 9.36577 run
+0.0893876 7.25017 stand
+0.050889 6.68683 kick
+0.0400571 6.44749 jump
+0.0197753 5.74162 fall_floor
+
+
+Prelinger_HabitPat1954_walk_u_cm_np1_le_med_24.npy
+Norm of logits:16.1504
+Top classes and probabilities
+0.305067 4.63153 walk
+0.116027 3.66483 sit
+0.0947842 3.4626 draw_sword
+0.0655999 3.09458 turn
+0.059063 2.98961 stand
+
+
+TheBoondockSaints_walk_f_nm_np1_fr_med_41.npy
+Norm of logits:21.0706
+Top classes and probabilities
+0.488229 6.74663 walk
+0.222766 5.96197 wave
+0.101499 5.17589 run
+0.0595364 4.64243 sit
+0.027645 3.87529 turn
+
+
+~~~~~~~~~~~~~~~~~Two_Towers_7_walk_f_cm_np1_fr_med_2.npy
+Norm of logits:28.2152
+Top classes and probabilities
+0.732275 9.1702 ride_horse
+0.139182 7.50983 walk
+0.0504856 6.49573 run
+0.0400272 6.2636 draw_sword
+0.00657883 4.4579 pick
+
+
+TheLastManOnearth_walk_f_cm_np1_ba_med_9.npy
+Norm of logits:20.4795
+Top classes and probabilities
+0.638263 6.90993 walk
+0.13753 5.37502 sit
+0.0554298 4.46629 run
+0.0336146 3.96614 fall_floor
+0.0253521 3.68404 stand
+
+
+Sixthsense_walk_u_nm_np1_fr_med_9.npy
+Norm of logits:19.9144
+Top classes and probabilities
+0.600306 6.94221 walk
+0.221401 5.94475 turn
+0.048659 4.42961 kiss
+0.0381118 4.1853 sit
+0.021975 3.63468 stand
+
+
+Crash_walk_f_nm_np1_fr_med_29.npy
+Norm of logits:21.2645
+Top classes and probabilities
+0.698549 7.67105 walk
+0.103888 5.76535 jump
+0.0597818 5.21274 stand
+0.0292488 4.49788 pour
+0.0223066 4.22693 run
+
+
+The_House_on_Haunted_Hill_walk_f_cm_np1_fr_med_9.npy
+Norm of logits:22.5684
+Top classes and probabilities
+0.859345 9.41195 walk
+0.0468986 6.50377 turn
+0.0417061 6.38643 sit
+0.0303955 6.07007 wave
+0.00639004 4.51052 stand
+
+
+Catch_Me_If_You_Can_walk_f_cm_np1_fr_med_4.npy
+Norm of logits:24.3657
+Top classes and probabilities
+0.923943 10.0691 walk
+0.0507833 7.16805 sit
+0.00721501 5.21665 turn
+0.00386363 4.59209 run
+0.00332915 4.4432 drink
+
+
+Veoh_Alpha_Dog_1_walk_f_nm_np1_fr_med_30.npy
+Norm of logits:18.4703
+Top classes and probabilities
+0.816621 8.06091 walk
+0.0849338 5.79761 run
+0.0573825 5.40547 sit
+0.00785408 3.41677 climb_stairs
+0.00572393 3.10039 fall_floor
+
+
+~~~~~~~~~~~~~~~~~AMADEUS_walk_f_nm_np1_ba_med_9.npy
+Norm of logits:28.1591
+Top classes and probabilities
+0.200751 6.45687 turn
+0.197563 6.44086 hug
+0.176572 6.32853 sword_exercise
+0.110417 5.85907 stand
+0.0807307 5.54592 walk
+
+
+TheBoondockSaints_walk_f_cm_np3_ba_med_124.npy
+Norm of logits:25.6346
+Top classes and probabilities
+0.349972 6.84487 walk
+0.14931 5.99304 kick_ball
+0.124908 5.81459 run
+0.123392 5.80238 sit
+0.105865 5.64918 climb_stairs
+
+
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_1_walk_f_nm_np1_ba_med_32.npy
+Norm of logits:18.2835
+Top classes and probabilities
+0.466024 5.65094 sit
+0.0951762 4.06243 wave
+0.0694403 3.74717 smile
+0.0595754 3.59395 shoot_gun
+0.0502626 3.42396 turn
+
+
+prelinger_LetsBeGo1953_walk_f_nm_np1_fr_med_0.npy
+Norm of logits:24.2021
+Top classes and probabilities
+0.759131 8.16864 walk
+0.0733922 5.83229 talk
+0.0634495 5.68671 run
+0.0312345 4.97799 sword_exercise
+0.018361 4.4467 pick
+
+
+~~~~~~~~~~~~~~~~~likebeckam_walk_f_nm_np1_fr_med_36.npy
+Norm of logits:23.5852
+Top classes and probabilities
+0.452329 7.29897 run
+0.236194 6.64921 throw
+0.0821027 5.59253 jump
+0.076798 5.52574 fall_floor
+0.0479359 5.05442 kick_ball
+
+
+~~~~~~~~~~~~~~~~~WeddingCrashers_walk_u_cm_np1_ri_med_7.npy
+Norm of logits:23.4241
+Top classes and probabilities
+0.444045 6.38902 turn
+0.173434 5.44889 hug
+0.104305 4.94042 sit
+0.049172 4.18842 walk
+0.0363089 3.88516 pick
+
+
+~~~~~~~~~~~~~~~~~The_Fugitive_4_walk_f_cm_np1_ba_med_6.npy
+Norm of logits:32.7455
+Top classes and probabilities
+0.874676 11.0083 run
+0.0525094 8.19541 hug
+0.0217804 7.31543 kick
+0.0204552 7.25266 walk
+0.0116057 6.68591 jump
+
+
+~~~~~~~~~~~~~~~~~21_walk_u_nm_np1_fr_med_1.npy
+Norm of logits:21.6108
+Top classes and probabilities
+0.386695 6.30001 wave
+0.18639 5.57022 stand
+0.117484 5.10868 laugh
+0.105797 5.0039 sit
+0.0385331 3.99389 turn
+
+
+MeettheFockers_walk_u_nm_np1_fr_med_1.npy
+Norm of logits:14.8962
+Top classes and probabilities
+0.430749 5.48651 walk
+0.158052 4.48391 wave
+0.151919 4.44433 sit
+0.113668 4.15427 turn
+0.0270739 2.71955 run
+
+
+20070723_sfjff_waitingforrescue_walk_f_nm_np1_ba_med_1.npy
+Norm of logits:20.8941
+Top classes and probabilities
+0.48361 6.79904 walk
+0.167904 5.74116 jump
+0.125807 5.45252 run
+0.0715996 4.88886 stand
+0.0527911 4.58411 climb_stairs
+
+
+~~~~~~~~~~~~~~~~~OldSchool_walk_f_nm_np1_ba_med_10.npy
+Norm of logits:25.59
+Top classes and probabilities
+0.921482 9.78118 stand
+0.0291578 6.32792 pick
+0.0262007 6.22098 throw
+0.00913815 5.16765 sit
+0.00324983 4.1338 talk
+
+
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_2_walk_f_cm_np1_ri_med_25.npy
+Norm of logits:17.1313
+Top classes and probabilities
+0.62485 6.35221 run
+0.100614 4.52599 handstand
+0.0695801 4.15718 climb_stairs
+0.0628054 4.05474 walk
+0.0187086 2.84368 kick_ball
+
+
+~~~~~~~~~~~~~~~~~Sixthsense_walk_u_nm_np1_fr_med_4.npy
+Norm of logits:17.3191
+Top classes and probabilities
+0.374989 5.30907 eat
+0.197989 4.67038 drink
+0.0704336 3.63684 sit
+0.0700458 3.63132 brush_hair
+0.0546296 3.38275 turn
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_walk_u_cm_np1_fr_med_98.npy
+Norm of logits:26.3268
+Top classes and probabilities
+0.365822 7.27323 laugh
+0.195504 6.64667 sit
+0.193503 6.63638 walk
+0.0925926 5.8993 wave
+0.0492804 5.26861 kick
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_walk_f_nm_np2_fr_med_54.npy
+Norm of logits:32.2398
+Top classes and probabilities
+0.98693 15.7357 climb_stairs
+0.011942 11.3212 run
+0.000844361 8.67193 walk
+0.000132126 6.8171 fall_floor
+0.000117703 6.70151 kick
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_walk_f_cm_np2_fr_med_7.npy
+Norm of logits:25.3129
+Top classes and probabilities
+0.485739 7.7825 sit
+0.174233 6.75722 climb_stairs
+0.164825 6.70171 walk
+0.081706 5.99995 drink
+0.0228065 4.72387 wave
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_walk_u_cm_np2_fr_bad_106.npy
+Norm of logits:24.1562
+Top classes and probabilities
+0.335205 6.42808 shoot_gun
+0.286388 6.27068 drink
+0.0958502 5.17612 eat
+0.0742101 4.92024 fall_floor
+0.046081 4.44374 smoke
+
+
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_walk_f_nm_np1_ri_med_60.npy
+Norm of logits:21.8987
+Top classes and probabilities
+0.333279 5.67505 fall_floor
+0.152825 4.89537 stand
+0.134293 4.7661 jump
+0.0556052 3.88435 wave
+0.0528136 3.83284 draw_sword
+
+
+TheLastManOnearth_walk_f_nm_np1_fr_med_21.npy
+Norm of logits:21.4283
+Top classes and probabilities
+0.656951 6.96579 walk
+0.0900888 4.97898 sit
+0.0647042 4.64801 throw
+0.0439263 4.2607 stand
+0.0282122 3.81794 run
+
+
+~~~~~~~~~~~~~~~~~SweeneyTodd_walk_f_nm_np1_ri_bad_9.npy
+Norm of logits:28.3786
+Top classes and probabilities
+0.293984 7.14601 draw_sword
+0.227579 6.88998 stand
+0.218372 6.84869 turn
+0.0649714 5.63644 walk
+0.0632822 5.61009 sword
+
+
+BIG_FISH_walk_f_cm_np1_fr_med_32.npy
+Norm of logits:19.4947
+Top classes and probabilities
+0.916206 8.36303 walk
+0.0301077 4.94757 sword_exercise
+0.00824635 3.65256 handstand
+0.00760055 3.571 run
+0.00596109 3.32804 sit
+
+
+THE_PROTECTOR_walk_u_cm_np1_fr_med_24.npy
+Norm of logits:22.0324
+Top classes and probabilities
+0.206494 5.40327 walk
+0.179414 5.26269 stand
+0.105309 4.7299 climb
+0.103942 4.71683 turn
+0.102751 4.70531 climb_stairs
+
+
+AmericanGangster_walk_u_nm_np1_fr_med_15.npy
+Norm of logits:20.4128
+Top classes and probabilities
+0.553592 6.47602 walk
+0.160457 5.23762 sit
+0.0590308 4.23765 laugh
+0.053006 4.13 fall_floor
+0.0350997 3.71778 stand
+
+
+~~~~~~~~~~~~~~~~~EVOLUTION_walk_f_cm_np1_ba_med_12.npy
+Norm of logits:21.8161
+Top classes and probabilities
+0.393632 7.22623 kick_ball
+0.382922 7.19865 run
+0.0740774 5.55592 dive
+0.0586756 5.32284 throw
+0.0298861 4.64821 jump
+
+
+~~~~~~~~~~~~~~~~~Gossip1953256kb_walk_f_cm_np1_fr_med_1.npy
+Norm of logits:18.0952
+Top classes and probabilities
+0.429006 6.04314 run
+0.261734 5.549 walk
+0.140868 4.9295 turn
+0.0385256 3.633 climb_stairs
+0.0257748 3.23107 sit
+
+
+RETURN_OF_THE_KING_walk_f_nm_np1_fr_med_41.npy
+Norm of logits:28.5522
+Top classes and probabilities
+0.333896 6.96531 walk
+0.208332 6.49362 fall_floor
+0.126497 5.9947 pick
+0.0830084 5.57342 draw_sword
+0.0756799 5.48099 smoke
+
+
+CastAway1_walk_f_cm_np1_ba_med_0.npy
+Norm of logits:17.3414
+Top classes and probabilities
+0.278983 5.36059 walk
+0.219983 5.12299 sit
+0.185695 4.95355 pick
+0.12763 4.57857 run
+0.0418569 3.4637 hug
+
+
+~~~~~~~~~~~~~~~~~AmericanGangster_walk_u_nm_np1_ba_med_56.npy
+Norm of logits:21.4002
+Top classes and probabilities
+0.320136 6.82638 wave
+0.289031 6.72416 sit
+0.225282 6.47498 walk
+0.0684009 5.28301 pick
+0.0211666 4.11006 stand
+
+
+~~~~~~~~~~~~~~~~~CastAway1_walk_f_cm_np1_ba_med_18.npy
+Norm of logits:18.0223
+Top classes and probabilities
+0.233068 4.56234 ride_horse
+0.158155 4.17459 run
+0.1423 4.06895 fall_floor
+0.0627386 3.24999 walk
+0.0553749 3.12514 stand
+
+
+The_House_on_Haunted_Hill_walk_u_cm_np1_fr_med_19.npy
+Norm of logits:26.3454
+Top classes and probabilities
+0.899652 10.2108 walk
+0.0412841 7.12931 wave
+0.0403693 7.1069 sit
+0.00573037 5.15461 turn
+0.00380657 4.74556 run
+
+
+~~~~~~~~~~~~~~~~~prideandprejudice1_walk_u_nm_np1_le_med_9.npy
+Norm of logits:35.4419
+Top classes and probabilities
+0.842132 11.7247 turn
+0.11478 9.73178 punch
+0.0132764 7.57475 sit
+0.0127002 7.53038 wave
+0.00881457 7.16517 laugh
+
+
+~~~~~~~~~~~~~~~~~Hitch_Part_1_walk_u_cm_np1_fr_goo_2.npy
+Norm of logits:16.2265
+Top classes and probabilities
+0.226638 4.3098 fall_floor
+0.214911 4.25667 brush_hair
+0.10366 3.52756 run
+0.0472229 2.74133 shoot_gun
+0.0466267 2.72862 fencing
+
+
+~~~~~~~~~~~~~~~~~NOVA_ELEGANTUNIVERSE1_walk_u_nm_np1_ba_med_0.npy
+Norm of logits:22.257
+Top classes and probabilities
+0.368421 7.2042 turn
+0.281163 6.93391 jump
+0.21691 6.67446 walk
+0.0638721 5.45186 run
+0.0167945 4.11603 pick
+
+
+TheBoondockSaints_walk_u_cm_np1_fr_med_20.npy
+Norm of logits:21.3415
+Top classes and probabilities
+0.579345 6.93066 walk
+0.128205 5.42239 sit
+0.113553 5.30103 turn
+0.0607397 4.67536 wave
+0.0218413 3.65256 hit
+
+
+~~~~~~~~~~~~~~~~~IamLegend_walk_f_cm_np1_le_med_0.npy
+Norm of logits:26.8182
+Top classes and probabilities
+0.569442 7.90092 run
+0.138042 6.48382 climb_stairs
+0.0937166 6.09653 walk
+0.0659627 5.74535 fall_floor
+0.0407491 5.26369 sit
+
+
+SafetyHarmHidesatHome_walk_f_cm_np1_ba_med_0.npy
+Norm of logits:25.4716
+Top classes and probabilities
+0.411651 7.31107 walk
+0.288524 6.95567 run
+0.135819 6.20222 ride_bike
+0.0485783 5.17407 turn
+0.0425912 5.04254 pick
+
+
+CastAway1_walk_f_cm_np1_ba_med_1.npy
+Norm of logits:23.6493
+Top classes and probabilities
+0.497163 7.39118 walk
+0.135627 6.09217 pick
+0.111955 5.90037 hug
+0.0883552 5.66363 run
+0.0703265 5.43541 sit
+
+
+TrumanShow_walk_f_cm_np1_le_med_2.npy
+Norm of logits:22.4216
+Top classes and probabilities
+0.538287 7.23648 walk
+0.159516 6.02024 sit
+0.104054 5.593 pick
+0.0948748 5.50065 run
+0.0225764 4.065 stand
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_walk_u_cm_np1_ri_med_26.npy
+Norm of logits:20.4331
+Top classes and probabilities
+0.388288 6.7539 sit
+0.214863 6.16215 walk
+0.128308 5.64659 wave
+0.122422 5.59963 turn
+0.0800168 5.17439 stand
+
+
+###########################
+The class walk has 53 videos , 0 right, and the accuracy is :
+walk                  0.0
+##########################
+RATRACE_jump_f_cm_np1_fr_bad_39.npy
+Norm of logits:22.1068
+Top classes and probabilities
+0.303595 5.78722 jump
+0.188959 5.31305 kick_ball
+0.105498 4.73021 kick
+0.061845 4.19615 fall_floor
+0.059787 4.16231 throw
+
+
+~~~~~~~~~~~~~~~~~DONNIE_DARKO_jump_f_nm_np1_ri_bad_6.npy
+Norm of logits:27.6105
+Top classes and probabilities
+0.356221 6.83392 turn
+0.181729 6.16088 stand
+0.109319 5.65263 kick
+0.0604359 5.05995 shoot_gun
+0.0501593 4.87357 fencing
+
+
+NOVA_ELEGANTUNIVERSE1_jump_f_nm_np1_le_bad_4.npy
+Norm of logits:28.0938
+Top classes and probabilities
+0.395855 8.69072 jump
+0.26794 8.30043 kick_ball
+0.103416 7.34843 dive
+0.0796034 7.08673 kick
+0.0783308 7.07061 somersault
+
+
+Fellowship_5_jump_f_nm_np1_ri_bad_11.npy
+Norm of logits:23.5981
+Top classes and probabilities
+0.61709 7.09569 jump
+0.11048 5.37551 fall_floor
+0.0655706 4.85381 hit
+0.0518762 4.61954 run
+0.0303735 4.08425 dive
+
+
+~~~~~~~~~~~~~~~~~RATRACE_jump_f_nm_np1_ba_bad_29.npy
+Norm of logits:26.1351
+Top classes and probabilities
+0.432597 7.86993 run
+0.275292 7.41796 jump
+0.0845819 6.23785 climb_stairs
+0.0585468 5.86995 walk
+0.0365071 5.39763 wave
+
+
+Sam_Cooksey_Goalkeeper_Training_jump_f_cm_np1_ri_bad_6.npy
+Norm of logits:28.3479
+Top classes and probabilities
+0.609198 10.3911 jump
+0.198274 9.26858 catch
+0.117727 8.74729 kick_ball
+0.0569711 8.02147 run
+0.00922058 6.20037 dive
+
+
+~~~~~~~~~~~~~~~~~Learn_Freerunning_and_Parkour__-_Diving_Kong_jump_f_cm_np1_le_bad_2.npy
+Norm of logits:32.7153
+Top classes and probabilities
+0.901913 10.7769 somersault
+0.0339958 7.49863 handstand
+0.0205374 6.99464 jump
+0.0124731 6.49597 cartwheel
+0.0107787 6.34996 wave
+
+
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_jump_f_nm_np1_fr_bad_96.npy
+Norm of logits:24.9058
+Top classes and probabilities
+0.334586 6.77828 kick
+0.204121 6.2841 punch
+0.129108 5.82603 eat
+0.0897923 5.46288 throw
+0.0482399 4.84157 clap
+
+
+Gregoire_Airman_showreel_2008_jump_f_cm_np1_ri_bad_3.npy
+Norm of logits:31.3015
+Top classes and probabilities
+0.743546 11.9044 jump
+0.166978 10.4109 somersault
+0.0824262 9.70491 dive
+0.00362006 6.5795 throw
+0.00138477 5.61854 run
+
+
+KUNG_FU_HUSTLE_jump_f_cm_np1_fr_bad_16.npy
+Norm of logits:19.2489
+Top classes and probabilities
+0.252332 5.17004 jump
+0.20133 4.94424 run
+0.135826 4.55067 kick
+0.0997503 4.24197 stand
+0.0882097 4.11901 fencing
+
+
+Sam_Cooksey_Goalkeeper_Training_jump_f_cm_np1_le_bad_11.npy
+Norm of logits:22.0314
+Top classes and probabilities
+0.861123 9.4863 jump
+0.102898 7.3618 kick_ball
+0.0160855 5.50598 catch
+0.00638532 4.58206 pick
+0.0048721 4.31158 throw
+
+
+St__Louis_Goalkeeping__Academy_elite_training_jump_f_nm_np1_ri_bad_14.npy
+Norm of logits:23.4037
+Top classes and probabilities
+0.930028 9.77167 jump
+0.0180793 5.83122 kick_ball
+0.0118847 5.4117 throw
+0.0115836 5.38604 run
+0.00755713 4.95894 pick
+
+
+Sam_Cooksey_Goalkeeper_Training_jump_f_cm_np1_le_bad_8.npy
+Norm of logits:19.8522
+Top classes and probabilities
+0.712867 7.18691 jump
+0.104826 5.26991 catch
+0.0657793 4.80392 smile
+0.0191106 3.56785 throw
+0.0168506 3.442 sword
+
+
+###########################
+The class jump has 13 videos , 0 right, and the accuracy is :
+jump                  0.0
+##########################
+Bottoms_Up_-_Bartending_Lesson__Licor_43_Dreamsicle_pour_u_nm_np2_fr_goo_0.npy
+Norm of logits:25.0215
+Top classes and probabilities
+0.548549 10.3747 pour
+0.423929 10.117 clap
+0.0155392 6.81081 chew
+0.0049936 5.6756 laugh
+0.00425326 5.51513 wave
+
+
+Tea_in_Wudang_pour_u_nm_np1_fr_med_0.npy
+Norm of logits:20.2564
+Top classes and probabilities
+0.882133 8.88588 pour
+0.04032 5.80038 hug
+0.0393606 5.7763 clap
+0.0107697 4.48027 wave
+0.00861483 4.25702 eat
+
+
+Pomegranate_Martini_Cocktail_Recipes_pour_u_cm_np1_fr_med_0.npy
+Norm of logits:27.9076
+Top classes and probabilities
+0.999407 15.1484 pour
+0.000222936 6.74032 chew
+0.00012858 6.18999 wave
+9.97476e-05 5.93608 pick
+4.1721e-05 5.06444 drink
+
+
+Bartender_of_America_Bartending_School_pour_u_cm_np1_fr_med_1.npy
+Norm of logits:29.255
+Top classes and probabilities
+0.999394 16.4512 pour
+0.000339455 8.46366 pick
+0.000235243 8.09694 wave
+8.18947e-06 4.73917 punch
+5.16224e-06 4.27769 fencing
+
+
+Cachaca_cocktails_pour_u_nm_np1_fr_med_2.npy
+Norm of logits:32.3174
+Top classes and probabilities
+0.999975 19.5959 pour
+1.29516e-05 8.34164 drink
+8.62111e-06 7.93463 pick
+1.36744e-06 6.09336 eat
+8.30723e-07 5.59496 laugh
+
+
+Tea_in_Wudang_pour_u_nm_np1_fr_med_1.npy
+Norm of logits:25.3813
+Top classes and probabilities
+0.981232 10.6639 pour
+0.0039181 5.14066 swing_baseball
+0.00360686 5.05789 draw_sword
+0.00305386 4.89146 pick
+0.00191093 4.42264 turn
+
+
+How_to_pour_wine_Bar_Basics_5_Bartending_tips_-_Rockstar_Bartender_pour_u_nm_np1_fr_med_0.npy
+Norm of logits:24.2276
+Top classes and probabilities
+0.83954 9.28153 pour
+0.057403 6.59877 pick
+0.0291254 5.92029 drink
+0.0208863 5.58777 walk
+0.0167891 5.3694 eat
+
+
+Mixing_Popular_Rum_Drinks_-_Making_a_Flaming_Zombie_Cocktail_pour_u_nm_np1_fr_goo_2.npy
+Norm of logits:29.4734
+Top classes and probabilities
+0.999713 16.3487 pour
+7.28751e-05 6.8222 eat
+6.71367e-05 6.74018 drink
+6.01367e-05 6.63007 chew
+4.41875e-05 6.32189 pick
+
+
+Bartender_School_Students_Practice_pour_u_cm_np1_fr_med_1.npy
+Norm of logits:22.6788
+Top classes and probabilities
+0.847309 9.11585 pour
+0.0988909 6.96781 pick
+0.0237294 5.5405 shoot_gun
+0.00573568 4.12049 wave
+0.0040233 3.76589 drink
+
+
+Video_Bartending_Guide_-_Kamikaze_Shot_Recipe_-_Vodka_Shots_pour_u_nm_np1_fr_med_0.npy
+Norm of logits:22.7766
+Top classes and probabilities
+0.999147 13.3504 pour
+0.000286934 5.195 pick
+0.000163849 4.63469 pullup
+0.000137264 4.45766 smoke
+6.67638e-05 3.73691 wave
+
+
+~~~~~~~~~~~~~~~~~Bier_richtig_einschenken_pour_u_cm_np1_fr_med_0.npy
+Norm of logits:27.2128
+Top classes and probabilities
+0.237452 6.60804 laugh
+0.182094 6.3426 drink
+0.167699 6.26024 smoke
+0.145008 6.11486 talk
+0.0847864 5.57821 pick
+
+
+###########################
+The class pour has 12 videos , 0 right, and the accuracy is :
+pour                  0.0
+##########################
+Best_Of_Skype_Laughter_Chain_laugh_h_nm_np2_le_med_21.npy
+Norm of logits:30.2763
+Top classes and probabilities
+0.999535 16.3624 laugh
+0.000300168 8.25171 smile
+5.45598e-05 6.54667 chew
+3.76083e-05 6.1746 kiss
+2.85315e-05 5.89838 wave
+
+
+skype_laughter_train___haughtbad_and_Da_Nannie_laugh_h_cm_np2_fr_med_2.npy
+Norm of logits:33.1112
+Top classes and probabilities
+0.995533 16.616 laugh
+0.00433805 11.1801 smile
+3.4007e-05 6.3315 brush_hair
+3.15578e-05 6.25676 hit
+3.042e-05 6.22004 chew
+
+
+Skype_Laughter_Chain_laugh_h_cm_np1_fr_goo_12.npy
+Norm of logits:21.6068
+Top classes and probabilities
+0.998968 12.9664 laugh
+0.000305534 4.87397 hit
+0.000261581 4.71865 brush_hair
+0.000205224 4.47601 smile
+5.25334e-05 3.11336 wave
+
+
+Best_laugh_ever_laugh_h_cm_np1_fr_goo_1.npy
+Norm of logits:27.8688
+Top classes and probabilities
+0.996165 13.4663 laugh
+0.00181099 7.15623 smile
+0.000866799 6.41941 wave
+0.000265635 5.23672 chew
+0.000226001 5.07514 brush_hair
+
+
+Skype_Laughter_by_Hungary_laugh_h_nm_np2_fr_goo_2.npy
+Norm of logits:27.5633
+Top classes and probabilities
+0.981797 13.4237 laugh
+0.00938903 8.77383 smoke
+0.00719197 8.50725 chew
+0.000569663 5.97158 wave
+0.000565421 5.9641 smile
+
+
+laughing_out_her_brains_laugh_u_cm_np1_fr_med_3.npy
+Norm of logits:28.7349
+Top classes and probabilities
+0.993436 14.4608 laugh
+0.00585632 9.32719 smile
+0.000380719 6.59397 eat
+0.000151839 5.67473 talk
+7.02355e-05 4.90377 pick
+
+
+Best_Of_Skype_Laughter_Chain_laugh_h_nm_np1_fr_bad_4.npy
+Norm of logits:28.7714
+Top classes and probabilities
+0.950531 13.7191 laugh
+0.0470353 10.7129 smile
+0.00184847 7.47639 talk
+0.000242441 5.44504 wave
+9.54337e-05 4.51271 smoke
+
+
+Best_Of_Skype_Laughter_Chain_laugh_h_nm_np1_fr_goo_12.npy
+Norm of logits:33.0258
+Top classes and probabilities
+0.536719 12.4042 laugh
+0.425958 12.173 eat
+0.0275714 9.43548 chew
+0.00602823 7.91516 pour
+0.00154285 6.55233 clap
+
+
+###########################
+The class laugh has 8 videos , 0 right, and the accuracy is :
+laugh                 0.0
+##########################
+GLOCK17_shoot_gun_f_nm_np1_fr_med_5.npy
+Norm of logits:25.5213
+Top classes and probabilities
+0.999911 15.7684 shoot_gun
+1.98187e-05 4.93963 throw
+1.78938e-05 4.83746 swing_baseball
+1.73677e-05 4.80762 clap
+1.05283e-05 4.30708 kick
+
+
+TanyaShooting_shoot_gun_u_nm_np1_ba_med_1.npy
+Norm of logits:31.0584
+Top classes and probabilities
+0.993991 13.3742 shoot_gun
+0.00183219 7.07797 drink
+0.00139509 6.80542 stand
+0.000988925 6.46132 push
+0.000525819 5.82966 eat
+
+
+TanyaShooting_shoot_gun_u_nm_np1_ri_med_3.npy
+Norm of logits:26.89
+Top classes and probabilities
+0.893458 10.6119 shoot_gun
+0.0593215 7.8998 drink
+0.0157822 6.57572 brush_hair
+0.0134218 6.41371 sit
+0.00993384 6.11278 eat
+
+
+~~~~~~~~~~~~~~~~~Glory_shoot_gun_u_nm_np1_le_med_47.npy
+Norm of logits:32.2422
+Top classes and probabilities
+0.559183 9.79672 hit
+0.248783 8.98683 sword
+0.0650565 7.6455 swing_baseball
+0.0478741 7.33882 punch
+0.0304425 6.88609 shoot_gun
+
+
+Hip_Firing_the_SAW_shoot_gun_u_cm_np1_ba_med_1.npy
+Norm of logits:21.8442
+Top classes and probabilities
+0.36481 6.28684 shoot_gun
+0.168454 5.51412 turn
+0.12535 5.21857 drink
+0.0701663 4.63833 sit
+0.0640673 4.54739 eat
+
+
+The_Matrix_4_shoot_gun_u_nm_np2_fr_goo_2.npy
+Norm of logits:23.2823
+Top classes and probabilities
+0.95785 9.72577 shoot_gun
+0.0116176 5.3136 punch
+0.00758103 4.88673 fall_floor
+0.00471147 4.41108 hit
+0.00388294 4.21767 kick
+
+
+TanyaShooting_shoot_gun_u_nm_np1_ba_med_0.npy
+Norm of logits:31.2437
+Top classes and probabilities
+0.883477 11.7249 shoot_gun
+0.0927734 9.47119 throw
+0.00944005 7.18599 pick
+0.00759796 6.96891 eat
+0.00229565 5.77205 turn
+
+
+Aplacetoshoot_shoot_gun_u_cm_np1_ba_med_3.npy
+Norm of logits:18.8487
+Top classes and probabilities
+0.554734 6.39276 shoot_gun
+0.126463 4.91422 fall_floor
+0.109908 4.77391 throw
+0.0422498 3.81787 drink
+0.0394854 3.7502 hit
+
+
+shooting_shoot_gun_u_nm_np1_le_med_4.npy
+Norm of logits:23.9486
+Top classes and probabilities
+0.98145 10.9407 shoot_gun
+0.0104047 6.39393 eat
+0.00207374 4.78103 turn
+0.00139126 4.38188 drink
+0.000834397 3.87063 stand
+
+
+###########################
+The class shoot_gun has 9 videos , 0 right, and the accuracy is :
+shoot_gun             0.0
+##########################
+Schnaaper_Crew__Eisbaden_(2007)_hit_f_cm_np1_fr_bad_6.npy
+Norm of logits:22.5973
+Top classes and probabilities
+0.918747 9.29153 hit
+0.0273108 5.7758 swing_baseball
+0.0102912 4.79982 jump
+0.00835079 4.59088 shoot_gun
+0.0076649 4.50518 sword_exercise
+
+
+TrumanShow_hit_u_cm_np1_ba_bad_31.npy
+Norm of logits:19.8968
+Top classes and probabilities
+0.340821 5.74686 hit
+0.14512 4.89306 sword
+0.0916353 4.43332 fall_floor
+0.0837623 4.34348 punch
+0.0825429 4.32882 throw
+
+
+Opel_vs_Vorschlaghammer_hit_f_cm_np1_ba_bad_2.npy
+Norm of logits:27.2935
+Top classes and probabilities
+0.993142 12.4716 hit
+0.00284054 6.61474 throw
+0.00135596 5.87526 pick
+0.000594719 5.05108 kick
+0.000536784 4.94859 sword_exercise
+
+
+Bela_B__am_Schlagzeug_bei__zu_sp_t__am_23_08_08_Uelzen_hit_u_cm_np1_fr_bad_0.npy
+Norm of logits:26.9653
+Top classes and probabilities
+0.441401 7.01741 hit
+0.112924 5.65417 brush_hair
+0.091421 5.44293 dive
+0.0523103 4.88465 sit
+0.0519035 4.87684 wave
+
+
+xbox_360_massive_destruction_hit_f_cm_np1_ri_bad_2.npy
+Norm of logits:31.9071
+Top classes and probabilities
+0.998801 15.2883 hit
+0.000663579 7.97166 sword
+0.000151108 6.49201 golf
+0.000136723 6.39197 shoot_gun
+0.000114976 6.21874 swing_baseball
+
+
+TheBoondockSaints_hit_u_nm_np1_le_bad_104.npy
+Norm of logits:37.6239
+Top classes and probabilities
+0.643916 10.408 hit
+0.159321 9.01131 throw
+0.0661821 8.1328 sword
+0.0409902 7.65372 sword_exercise
+0.0390425 7.60504 swing_baseball
+
+
+~~~~~~~~~~~~~~~~~Schnaaper_Crew__Eisbaden_(2007)_hit_f_cm_np1_le_bad_2.npy
+Norm of logits:18.9884
+Top classes and probabilities
+0.303836 6.19915 pour
+0.288538 6.14749 sword_exercise
+0.185443 5.70541 golf
+0.0586317 4.55394 handstand
+0.0507205 4.40899 throw
+
+
+~~~~~~~~~~~~~~~~~schrank_kaput_geschlagen_hit_u_cm_np1_ba_bad_2.npy
+Norm of logits:29.8655
+Top classes and probabilities
+0.441998 9.11882 somersault
+0.400779 9.02092 fall_floor
+0.0486358 6.91187 kick
+0.0422128 6.77024 dive
+0.0313309 6.47212 hit
+
+
+AmericanGangster_hit_u_nm_np1_le_med_64.npy
+Norm of logits:31.2254
+Top classes and probabilities
+0.887262 11.931 hit
+0.0636752 9.29665 punch
+0.0408846 8.85361 kick
+0.003851 6.49119 fall_floor
+0.0011972 5.32284 turn
+
+
+###########################
+The class hit has 9 videos , 0 right, and the accuracy is :
+hit                   0.0
+##########################
+OldSchool_turn_u_cm_np1_le_med_19.npy
+Norm of logits:28.7884
+Top classes and probabilities
+0.311111 7.29753 turn
+0.232227 7.00509 draw_sword
+0.0956435 6.118 sword_exercise
+0.0652227 5.73518 punch
+0.0577034 5.61269 hit
+
+
+~~~~~~~~~~~~~~~~~Sixthsense_turn_f_nm_np1_ba_med_6.npy
+Norm of logits:27.9473
+Top classes and probabilities
+0.892437 10.0598 walk
+0.0337829 6.78575 run
+0.0256305 6.50958 sit
+0.0156186 6.01426 jump
+0.00834001 5.38686 wave
+
+
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_2_turn_h_nm_np1_ri_goo_13.npy
+Norm of logits:29.4485
+Top classes and probabilities
+0.531951 8.65965 smile
+0.177604 7.56265 talk
+0.153518 7.41691 turn
+0.0374263 6.00547 drink
+0.0325105 5.86466 smoke
+
+
+~~~~~~~~~~~~~~~~~nameunknown256kb_turn_u_nm_np1_le_med_0.npy
+Norm of logits:32.6164
+Top classes and probabilities
+0.367842 9.11028 wave
+0.29433 8.88733 sit
+0.104594 7.85272 drink
+0.0943787 7.74995 turn
+0.0333344 6.70922 walk
+
+
+~~~~~~~~~~~~~~~~~HP_PRISONER_OF_AZKABAN_turn_u_cm_np1_fr_med_22.npy
+Norm of logits:32.1384
+Top classes and probabilities
+0.328857 9.14491 walk
+0.265308 8.93018 turn
+0.156066 8.39957 run
+0.150327 8.3621 throw
+0.0785163 7.71259 sit
+
+
+~~~~~~~~~~~~~~~~~LittleChildren_turn_f_nm_np1_ri_med_0.npy
+Norm of logits:24.0613
+Top classes and probabilities
+0.386953 6.9351 pullup
+0.234668 6.43498 climb
+0.15214 6.00161 jump
+0.0735343 5.27455 run
+0.0403755 4.67503 walk
+
+
+~~~~~~~~~~~~~~~~~The_Fugitive_2_turn_u_nm_np1_fr_goo_19.npy
+Norm of logits:25.0056
+Top classes and probabilities
+0.307471 7.02153 talk
+0.209302 6.63693 turn
+0.156048 6.34332 sit
+0.125962 6.12913 stand
+0.0756715 5.61956 eat
+
+
+~~~~~~~~~~~~~~~~~HP_PRISONER_OF_AZKABAN_turn_u_nm_np1_fr_med_40.npy
+Norm of logits:28.6755
+Top classes and probabilities
+0.532088 8.46088 sit
+0.14751 7.17796 stand
+0.0776247 6.53596 turn
+0.0749946 6.50149 eat
+0.0416976 5.91451 drink
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_turn_u_nm_np1_fr_med_28.npy
+Norm of logits:19.2203
+Top classes and probabilities
+0.423417 6.44478 walk
+0.28714 6.05639 wave
+0.147688 5.39152 sit
+0.0269023 3.68863 turn
+0.0232384 3.54222 pick
+
+
+~~~~~~~~~~~~~~~~~HP_PRISONER_OF_AZKABAN_turn_u_nm_np1_ba_med_34.npy
+Norm of logits:28.7866
+Top classes and probabilities
+0.467296 7.72747 wave
+0.197378 6.86562 turn
+0.152801 6.60964 walk
+0.0504944 5.50237 draw_sword
+0.030185 4.98785 drink
+
+
+~~~~~~~~~~~~~~~~~happy_go_lovely_turn_u_nm_np1_fr_med_12.npy
+Norm of logits:27.0528
+Top classes and probabilities
+0.750785 9.3199 sit
+0.1008 7.31192 walk
+0.0623598 6.8317 wave
+0.0456442 6.51966 turn
+0.0137985 5.32334 stand
+
+
+~~~~~~~~~~~~~~~~~The_House_on_Haunted_Hill_turn_u_nm_np1_le_med_5.npy
+Norm of logits:26.4631
+Top classes and probabilities
+0.694401 8.73811 walk
+0.144164 7.16601 turn
+0.0875787 6.6676 sit
+0.0176986 5.06854 talk
+0.0163663 4.99028 wave
+
+
+~~~~~~~~~~~~~~~~~20060723sfjffcomeback_turn_u_nm_np1_le_med_0.npy
+Norm of logits:21.6081
+Top classes and probabilities
+0.394458 6.41387 sword
+0.207425 5.77113 draw_sword
+0.157693 5.49701 clap
+0.055789 4.45794 throw
+0.042743 4.19156 fall_floor
+
+
+TheBoondockSaints_turn_u_nm_np1_fr_med_31.npy
+Norm of logits:15.0704
+Top classes and probabilities
+0.355194 4.83352 turn
+0.176594 4.13471 sit
+0.0946055 3.51057 pick
+0.0548926 2.96624 punch
+0.0472527 2.81637 sword
+
+
+50_FIRST_DATES_turn_u_nm_np1_fr_med_6.npy
+Norm of logits:21.4796
+Top classes and probabilities
+0.375792 5.97683 turn
+0.161873 5.13461 wave
+0.148643 5.04935 pick
+0.119595 4.83191 walk
+0.039295 3.71889 sit
+
+
+TheRoyalTenenbaums_turn_h_nm_np1_ba_goo_0.npy
+Norm of logits:20.2049
+Top classes and probabilities
+0.350743 5.84772 turn
+0.157852 5.04932 smile
+0.123643 4.80506 eat
+0.0966741 4.55901 talk
+0.0520473 3.93982 sit
+
+
+~~~~~~~~~~~~~~~~~likebeckam_turn_f_cm_np1_ba_med_44.npy
+Norm of logits:24.8897
+Top classes and probabilities
+0.610065 7.59646 kick
+0.0777493 5.53638 throw
+0.0540604 5.173 draw_sword
+0.0443265 4.97448 fall_floor
+0.0421065 4.9231 sword
+
+
+~~~~~~~~~~~~~~~~~SellingasaCareer_turn_u_nm_np1_fr_med_2.npy
+Norm of logits:29.7458
+Top classes and probabilities
+0.484053 7.63836 draw_sword
+0.139808 6.39644 sit
+0.0713334 5.72353 wave
+0.0581331 5.5189 shoot_gun
+0.0427439 5.21139 stand
+
+
+MeettheFockers_turn_u_nm_np1_ri_med_12.npy
+Norm of logits:24.4516
+Top classes and probabilities
+0.18735 5.10473 turn
+0.133876 4.76866 kiss
+0.124084 4.69271 eat
+0.0881028 4.35025 talk
+0.0831382 4.29225 pick
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_turn_f_nm_np1_le_med_22.npy
+Norm of logits:20.0646
+Top classes and probabilities
+0.667368 7.34463 stand
+0.172609 5.99232 wave
+0.0679693 5.06035 pick
+0.0353563 4.40677 sit
+0.00946298 3.08868 laugh
+
+
+###########################
+The class turn has 20 videos , 0 right, and the accuracy is :
+turn                  0.0
+##########################
+Learn_How_To_Ride_A_Bike_at_Any_Age_ride_bike_f_cm_np1_fr_med_6.npy
+Norm of logits:25.7582
+Top classes and probabilities
+0.999061 14.281 ride_bike
+0.000393317 6.44101 pick
+0.000190336 5.71519 run
+0.000140022 5.40819 dive
+4.43003e-05 4.25739 push
+
+
+Fahrrad_fahren_mit_Albert_ride_bike_f_cm_np1_ba_med_3.npy
+Norm of logits:30.0054
+Top classes and probabilities
+0.99608 15.7847 ride_bike
+0.00374204 10.2005 pick
+7.01228e-05 6.2234 kick
+4.69375e-05 5.82197 turn
+3.08433e-05 5.40207 dive
+
+
+Radfahren_um_die_Aggertalsperre_06_09_2009_ride_bike_f_cm_np2_le_med_2.npy
+Norm of logits:25.6698
+Top classes and probabilities
+0.999458 14.9561 ride_bike
+0.000297177 6.83544 pick
+0.000136462 6.05716 dive
+3.54347e-05 4.7088 fall_floor
+1.68153e-05 3.9634 kick
+
+
+Fahrrad_fahren_ride_bike_f_cm_np2_le_med_0.npy
+Norm of logits:25.0884
+Top classes and probabilities
+0.995756 13.4198 ride_bike
+0.00279978 7.54582 pick
+0.000880587 6.38911 fall_floor
+0.000271482 5.21242 dive
+0.000108358 4.29396 kick
+
+
+Schuodde_kann_kein_Fahrrad_fahren_ride_bike_l_cm_np1_le_med_0.npy
+Norm of logits:25.4198
+Top classes and probabilities
+0.989533 13.0839 ride_bike
+0.00617155 8.0066 pick
+0.00311104 7.32161 dive
+0.000724529 5.86442 fall_floor
+0.000159584 4.35147 jump
+
+
+Radfahren_um_die_Aggertalsperre_06_09_2009_ride_bike_f_cm_np2_fr_med_15.npy
+Norm of logits:23.6346
+Top classes and probabilities
+0.996757 12.9667 ride_bike
+0.00185186 6.67839 run
+0.000348983 5.00946 climb_stairs
+0.000323041 4.93222 walk
+0.000223774 4.56507 ride_horse
+
+
+1996_Tour_de_France_-_Indurain_Cracks_ride_bike_f_cm_np1_ri_med_3.npy
+Norm of logits:24.1816
+Top classes and probabilities
+0.82502 11.2517 ride_bike
+0.170043 9.67235 pick
+0.00177134 5.10804 smile
+0.0009396 4.474 kick
+0.000446897 3.73087 walk
+
+
+###########################
+The class ride_bike has 7 videos , 0 right, and the accuracy is :
+ride_bike             0.0
+##########################
+Faith_Rewarded_swing_baseball_f_nm_np1_ba_med_41.npy
+Norm of logits:56.2213
+Top classes and probabilities
+0.999936 24.046 swing_baseball
+4.72213e-05 14.0854 fencing
+1.30025e-05 12.7957 throw
+1.49856e-06 10.6351 sword
+5.6459e-07 9.65891 clap
+
+
+Tannerafterwecorrected_swing_baseball_f_cm_np1_fr_bad_2.npy
+Norm of logits:37.8016
+Top classes and probabilities
+0.999924 20.5324 swing_baseball
+3.74574e-05 10.3402 golf
+2.11062e-05 9.76654 sword_exercise
+8.54743e-06 8.8626 throw
+6.99232e-06 8.66178 sword
+
+
+~~~~~~~~~~~~~~~~~Faith_Rewarded_swing_baseball_f_nm_np1_fr_bad_64.npy
+Norm of logits:30.1852
+Top classes and probabilities
+0.425915 7.92774 throw
+0.166211 6.98676 dive
+0.102567 6.50402 shoot_gun
+0.0729425 6.16317 run
+0.0657971 6.06008 swing_baseball
+
+
+SlowMotionofMySwing_swing_baseball_f_cm_np1_fr_bad_0.npy
+Norm of logits:21.1935
+Top classes and probabilities
+0.94175 9.59321 swing_baseball
+0.0254647 5.98276 sword_exercise
+0.010826 5.12742 sword
+0.00642304 4.60536 fencing
+0.00396348 4.12259 handstand
+
+
+BaseballSwingAnalysis_swing_baseball_u_nm_np1_fr_med_16.npy
+Norm of logits:25.321
+Top classes and probabilities
+0.991126 12.5727 swing_baseball
+0.00719201 7.64686 catch
+0.000423696 4.81515 throw
+0.000297763 4.46243 brush_hair
+0.000193617 4.03202 clap
+
+
+Faith_Rewarded_swing_baseball_f_nm_np1_ri_bad_59.npy
+Norm of logits:29.6846
+Top classes and probabilities
+0.831661 12.1137 swing_baseball
+0.164964 10.496 throw
+0.000759004 5.11448 fencing
+0.000694872 5.0262 sword_exercise
+0.000554687 4.80088 hit
+
+
+BaseballSwingAnalysis_swing_baseball_u_nm_np1_fr_med_10.npy
+Norm of logits:24.4977
+Top classes and probabilities
+0.979842 11.4376 swing_baseball
+0.0139982 7.18911 talk
+0.00282326 5.58808 catch
+0.000708012 4.20489 pick
+0.000534903 3.92451 handstand
+
+
+Tannerafterwecorrected_swing_baseball_f_cm_np1_fr_bad_1.npy
+Norm of logits:40.3674
+Top classes and probabilities
+0.999736 20.2006 swing_baseball
+0.000159367 11.4565 golf
+4.33694e-05 10.1551 sword
+4.18055e-05 10.1184 throw
+9.02161e-06 8.58495 hit
+
+
+~~~~~~~~~~~~~~~~~Faith_Rewarded_swing_baseball_f_nm_np1_le_bad_39.npy
+Norm of logits:24.0646
+Top classes and probabilities
+0.699755 8.73545 throw
+0.241429 7.67129 swing_baseball
+0.0120305 4.67216 jump
+0.00949902 4.4359 kick
+0.00843966 4.31766 fall_floor
+
+
+hittingofftee2_swing_baseball_f_nm_np1_fr_med_4.npy
+Norm of logits:26.8292
+Top classes and probabilities
+0.98012 12.0007 swing_baseball
+0.0108753 7.4995 throw
+0.00305731 6.23055 catch
+0.00195135 5.78153 sword_exercise
+0.00104808 5.15998 handstand
+
+
+practicingmybaseballswing2009_swing_baseball_f_cm_np1_fr_med_12.npy
+Norm of logits:30.901
+Top classes and probabilities
+0.999543 16.312 swing_baseball
+0.000321732 8.27062 sword
+3.37289e-05 6.01525 sword_exercise
+2.76315e-05 5.81586 throw
+2.21529e-05 5.59487 hit
+
+
+MarkTeixeiratripleagainstBoston_swing_baseball_f_cm_np1_ba_bad_0.npy
+Norm of logits:28.521
+Top classes and probabilities
+0.768988 10.051 swing_baseball
+0.167601 8.5275 sword
+0.0255867 6.64798 sword_exercise
+0.00882874 5.58392 draw_sword
+0.00714038 5.37168 golf
+
+
+Faith_Rewarded_swing_baseball_f_nm_np1_fr_bad_36.npy
+Norm of logits:30.003
+Top classes and probabilities
+0.897541 11.1519 swing_baseball
+0.0591256 8.43191 punch
+0.0144436 7.0225 hit
+0.0133363 6.94274 kick_ball
+0.00748559 6.36523 throw
+
+
+VenomSwingIceman_swing_baseball_f_cm_np1_fr_bad_0.npy
+Norm of logits:41.974
+Top classes and probabilities
+0.999913 20.2965 swing_baseball
+3.93378e-05 10.1532 fencing
+3.76494e-05 10.1094 throw
+5.95304e-06 8.26495 jump
+1.65432e-06 6.98443 shoot_gun
+
+
+###########################
+The class swing_baseball has 14 videos , 0 right, and the accuracy is :
+swing_baseball        0.0
+##########################
+Drawing_and_Resheathing_the_Japanese_Sword_draw_sword_u_nm_np1_le_med_0.npy
+Norm of logits:29.9328
+Top classes and probabilities
+0.46897 8.13899 draw_sword
+0.234793 7.44715 sword
+0.180733 7.18547 shoot_gun
+0.0241892 5.17436 turn
+0.0131772 4.56694 pick
+
+
+~~~~~~~~~~~~~~~~~IAIDO_-_Training_TV-Bericht_10_2008_draw_sword_f_cm_np1_le_med_1.npy
+Norm of logits:22.0485
+Top classes and probabilities
+0.503341 7.96558 sword_exercise
+0.331192 7.54701 draw_sword
+0.0857753 6.19605 fencing
+0.032795 5.23459 ride_horse
+0.0255113 4.98344 sword
+
+
+Iaido_video_instruction_series_Wehrhahn_Sensei_draw_sword_f_nm_np1_le_med_4.npy
+Norm of logits:26.9526
+Top classes and probabilities
+0.893613 13.2034 draw_sword
+0.104655 11.0588 sword_exercise
+0.000742586 6.11054 fall_floor
+0.000262851 5.07199 throw
+0.000220596 4.89673 sword
+
+
+Albion_Mercenary_Draw_Cutting_(From_the_Scabbard)_draw_sword_u_cm_np1_fr_med_2.npy
+Norm of logits:25.1841
+Top classes and probabilities
+0.329055 6.31385 draw_sword
+0.195205 5.79168 throw
+0.0834376 4.94173 shoot_gun
+0.0807854 4.90943 sword
+0.0739383 4.82086 fencing
+
+
+Iaido_draw_sword_f_cm_np2_le_med_1.npy
+Norm of logits:23.6191
+Top classes and probabilities
+0.499305 8.00581 draw_sword
+0.347671 7.64385 sword_exercise
+0.0737811 6.09369 fencing
+0.0265283 5.0708 throw
+0.0233473 4.94307 dribble
+
+
+Master_Pena_Iaido_Katas_draw_sword_f_nm_np1_fr_med_1.npy
+Norm of logits:22.4088
+Top classes and probabilities
+0.986507 12.2423 draw_sword
+0.0104781 7.69744 sword_exercise
+0.00194939 6.01568 sword
+0.000350753 4.30049 fencing
+0.000242114 3.92982 swing_baseball
+
+
+~~~~~~~~~~~~~~~~~Takeda_Ryu_Iaido_draw_sword_f_nm_np1_fr_med_6.npy
+Norm of logits:30.7037
+Top classes and probabilities
+0.649165 11.72 sword_exercise
+0.221139 10.6431 sword
+0.119026 10.0236 draw_sword
+0.00483778 6.82072 golf
+0.00320124 6.40781 swing_baseball
+
+
+~~~~~~~~~~~~~~~~~IAIDO_-_Training_TV-Bericht_10_2008_draw_sword_f_cm_np4_le_med_3.npy
+Norm of logits:22.0548
+Top classes and probabilities
+0.352189 7.35806 fencing
+0.265449 7.07532 sword_exercise
+0.241333 6.98007 draw_sword
+0.0739008 5.79662 ride_horse
+0.0221741 4.59282 kick
+
+
+~~~~~~~~~~~~~~~~~VERGIL_(DEVIL_MAY_CRY)_swinging_his_sword_draw_sword_f_cm_np1_fr_med_4.npy
+Norm of logits:25.0915
+Top classes and probabilities
+0.936648 11.4573 sword_exercise
+0.056257 8.64492 draw_sword
+0.00316758 5.76796 wave
+0.00114278 4.74845 hug
+0.00065636 4.19394 sword
+
+
+###########################
+The class draw_sword has 9 videos , 0 right, and the accuracy is :
+draw_sword            0.0
+##########################
+CharlieAndTheChocolateFactory_sit_f_nm_np1_le_med_7.npy
+Norm of logits:33.2732
+Top classes and probabilities
+0.460344 9.69517 sit
+0.205832 8.89025 stand
+0.117557 8.33012 run
+0.0918234 8.08306 walk
+0.0532058 7.53736 climb_stairs
+
+
+AmericanGangster_sit_f_cm_np2_fr_med_59.npy
+Norm of logits:27.104
+Top classes and probabilities
+0.549955 8.56084 sit
+0.288122 7.91439 stand
+0.046935 6.09977 walk
+0.0464367 6.08909 turn
+0.0219019 5.33758 wave
+
+
+~~~~~~~~~~~~~~~~~LONGESTYARD_sit_f_nm_np1_ba_med_29.npy
+Norm of logits:21.1249
+Top classes and probabilities
+0.483431 6.37334 throw
+0.132532 5.07925 fall_floor
+0.0784566 4.55498 climb_stairs
+0.0725977 4.47736 wave
+0.0498129 4.1007 walk
+
+
+~~~~~~~~~~~~~~~~~EasternPromises_sit_f_nm_np1_fr_med_2.npy
+Norm of logits:23.984
+Top classes and probabilities
+0.62307 8.17364 walk
+0.226221 7.16049 sit
+0.0356081 5.31155 turn
+0.0295518 5.12512 stand
+0.0278413 5.0655 wave
+
+
+~~~~~~~~~~~~~~~~~Prelinger_FamilyLi1949_sit_f_cm_np1_fr_med_0.npy
+Norm of logits:22.4914
+Top classes and probabilities
+0.674725 8.09774 walk
+0.139105 6.51867 turn
+0.114392 6.32307 sit
+0.0229943 4.71868 throw
+0.020352 4.59662 run
+
+
+~~~~~~~~~~~~~~~~~Pirates_5_sit_f_nm_np1_fr_med_11.npy
+Norm of logits:21.8584
+Top classes and probabilities
+0.567734 6.76146 draw_sword
+0.117593 5.18703 fall_floor
+0.0781429 4.77834 wave
+0.0571217 4.46499 shoot_gun
+0.0267336 3.70572 walk
+
+
+AmericanGangster_sit_f_cm_np1_le_med_43.npy
+Norm of logits:16.5257
+Top classes and probabilities
+0.325375 5.0456 sit
+0.175117 4.42608 stand
+0.0920278 3.78271 jump
+0.0808562 3.6533 dive
+0.0700713 3.51014 somersault
+
+
+~~~~~~~~~~~~~~~~~NoCountryForOldMen_sit_f_nm_np1_ri_med_6.npy
+Norm of logits:22.9848
+Top classes and probabilities
+0.717052 8.43517 walk
+0.175773 7.02922 sit
+0.0303513 5.27286 stand
+0.0249632 5.07742 run
+0.0122136 4.36257 turn
+
+
+~~~~~~~~~~~~~~~~~50_FIRST_DATES_sit_f_nm_np1_le_med_4.npy
+Norm of logits:33.9503
+Top classes and probabilities
+0.455887 9.44501 stand
+0.178584 8.50782 wave
+0.138246 8.25179 sit
+0.0904673 7.82775 drink
+0.0869808 7.78845 eat
+
+
+TheLastManOnearth_sit_f_nm_np1_ri_med_51.npy
+Norm of logits:33.1677
+Top classes and probabilities
+0.622858 10.1543 sit
+0.1192 8.50074 stand
+0.102814 8.35286 walk
+0.0979805 8.30471 pour
+0.0387217 7.37634 wave
+
+
+~~~~~~~~~~~~~~~~~SellingasaCareer_sit_u_nm_np1_ri_med_3.npy
+Norm of logits:29.0911
+Top classes and probabilities
+0.337264 7.11737 stand
+0.182823 6.50502 pick
+0.165222 6.40379 sit
+0.113796 6.03092 wave
+0.0431487 5.06116 turn
+
+
+~~~~~~~~~~~~~~~~~AllThePresidentMen_sit_f_nm_np1_fr_goo_3.npy
+Norm of logits:27.2125
+Top classes and probabilities
+0.387663 7.42166 walk
+0.183613 6.67436 turn
+0.131844 6.34315 sit
+0.128895 6.32053 stand
+0.0854781 5.90979 wave
+
+
+~~~~~~~~~~~~~~~~~NOVA_ELEGANTUNIVERSE3_sit_f_nm_np1_fr_med_2.npy
+Norm of logits:21.1364
+Top classes and probabilities
+0.371649 6.10902 stand
+0.175985 5.36147 sword_exercise
+0.174157 5.35103 draw_sword
+0.108707 4.87973 jump
+0.0301829 3.59835 drink
+
+
+~~~~~~~~~~~~~~~~~Crash_sit_u_nm_np1_le_goo_26.npy
+Norm of logits:22.2931
+Top classes and probabilities
+0.211837 5.66652 eat
+0.152704 5.3392 stand
+0.138451 5.24121 sit
+0.138171 5.23919 drink
+0.113218 5.04001 pick
+
+
+###########################
+The class sit has 14 videos , 0 right, and the accuracy is :
+sit                   0.0
+##########################
+~~~~~~~~~~~~~~~~~Zorro_(Funny_Fight_Scene)_fencing_f_cm_np2_le_goo_0.npy
+Norm of logits:44.7976
+Top classes and probabilities
+0.866909 15.3758 sword
+0.11259 13.3346 fencing
+0.0144116 11.2789 hit
+0.00324873 9.78909 sword_exercise
+0.0018116 9.20504 kick
+
+
+Stage_Combat_-_Sword_Fight_fencing_f_nm_np2_ba_bad_0.npy
+Norm of logits:25.2171
+Top classes and probabilities
+0.923177 10.8813 fencing
+0.0411509 7.77069 kick
+0.0254037 7.28834 hit
+0.0028032 5.0842 sword
+0.00247772 4.96078 punch
+
+
+Redrock_Fencing_Club_Stab_N_Grab_Week_9_fencing_f_cm_np2_le_bad_2.npy
+Norm of logits:41.3067
+Top classes and probabilities
+0.999665 20.5402 fencing
+0.000138083 11.6529 draw_sword
+0.000116784 11.4854 kick
+5.89491e-05 10.8017 sword
+2.01262e-05 9.72709 sword_exercise
+
+
+~~~~~~~~~~~~~~~~~Duel_with_Rapiers_fencing_f_cm_np2_ri_bad_2.npy
+Norm of logits:33.48
+Top classes and probabilities
+0.599284 10.1193 kick
+0.218142 9.10874 fencing
+0.0782726 8.08379 kick_ball
+0.0459617 7.5514 jump
+0.0163476 6.51767 hit
+
+
+The_Duel_-_Reel_Kick_Films_fencing_f_cm_np2_le_bad_1.npy
+Norm of logits:53.5614
+Top classes and probabilities
+0.744591 18.3821 fencing
+0.186282 16.9966 sword
+0.0429523 15.5294 sword_exercise
+0.0240776 14.9506 draw_sword
+0.00147627 12.1588 kick
+
+
+Rapier_and_Rotella_(Shield)_Second_Bout_Nick_vs__Gareth_fencing_f_cm_np2_ri_bad_3.npy
+Norm of logits:30.838
+Top classes and probabilities
+0.992912 14.2288 fencing
+0.00435842 8.80026 sword
+0.00140034 7.66487 sword_exercise
+0.00101172 7.3398 draw_sword
+9.71157e-05 4.9963 golf
+
+
+Rapier_vs_longsword_Mike_fencing_f_cm_np2_ri_bad_0.npy
+Norm of logits:47.3231
+Top classes and probabilities
+0.987541 19.584 fencing
+0.0109311 15.0804 sword
+0.000963224 12.6513 hit
+0.000450788 11.892 sword_exercise
+4.3396e-05 9.55137 swing_baseball
+
+
+The_Scarlet_Pimpernel_-_duel_fencing_f_cm_np2_ba_goo_1.npy
+Norm of logits:28.1658
+Top classes and probabilities
+0.966634 12.0411 fencing
+0.0240742 8.34838 sword
+0.00550614 6.87311 sword_exercise
+0.000851043 5.00595 hit
+0.000847506 5.00179 draw_sword
+
+
+Rapier_and_Rotella_(Shield)_Second_Bout_Nick_vs__Gareth_fencing_f_cm_np2_ri_bad_5.npy
+Norm of logits:31.002
+Top classes and probabilities
+0.998284 16.0055 fencing
+0.00103599 9.13486 sword
+0.000301483 7.90046 sword_exercise
+0.000253503 7.72712 draw_sword
+8.75843e-05 6.66435 kick
+
+
+Stage_Combat_Rapier_and_Dagger_fencing_f_cm_np2_ri_bad_2.npy
+Norm of logits:32.1319
+Top classes and probabilities
+0.992973 13.8516 fencing
+0.0017384 7.50382 draw_sword
+0.00159427 7.41727 sword
+0.00136644 7.26307 kick
+0.00127177 7.19127 run
+
+
+~~~~~~~~~~~~~~~~~Hamlet_(1996)_Fencing_Scenes_fencing_u_cm_np2_fr_med_2.npy
+Norm of logits:20.7582
+Top classes and probabilities
+0.638897 7.55822 jump
+0.231138 6.54149 kick_ball
+0.0281983 4.43773 fencing
+0.0281257 4.43516 dive
+0.0165466 3.90465 run
+
+
+Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_fencing_f_cm_np2_le_goo_0.npy
+Norm of logits:27.4987
+Top classes and probabilities
+0.94035 10.8867 fencing
+0.0208777 7.07917 kick
+0.0162396 6.82794 sword_exercise
+0.00675356 5.95056 fall_floor
+0.00511941 5.67353 stand
+
+
+Rapier_drills_fencing_f_nm_np2_ri_bad_4.npy
+Norm of logits:45.0547
+Top classes and probabilities
+0.714629 15.938 fencing
+0.173697 14.5235 sword_exercise
+0.0863262 13.8243 draw_sword
+0.0209407 12.4079 sword
+0.00295431 10.4495 hit
+
+
+Rapier_drills_fencing_f_nm_np2_le_bad_5.npy
+Norm of logits:38.6367
+Top classes and probabilities
+0.983454 16.8022 fencing
+0.0095442 12.167 hit
+0.00485935 11.492 sword
+0.00109248 9.99954 kick
+0.000427571 9.06146 sword_exercise
+
+
+###########################
+The class fencing has 14 videos , 0 right, and the accuracy is :
+fencing               0.0
+##########################
+~~~~~~~~~~~~~~~~~American_History_X_dribble_f_cm_np1_le_bad_15.npy
+Norm of logits:27.5458
+Top classes and probabilities
+0.455239 9.36973 jump
+0.426462 9.30443 kick_ball
+0.0464323 7.0869 dive
+0.0454958 7.06653 dribble
+0.0102862 5.57971 run
+
+
+Basketball_Dribbling_Drills_-_The_12_Inch_Dribble_Drill_in_Basketball_dribble_f_cm_np1_ri_med_1.npy
+Norm of logits:25.9313
+Top classes and probabilities
+0.995175 13.3473 dribble
+0.00324298 7.62086 catch
+0.000946083 6.38895 run
+0.000204465 4.85701 punch
+0.000121019 4.33256 kick_ball
+
+
+Explosive_Guard_Dribbling_Basketball_Workout_(Jason_Otter)_dribble_f_cm_np1_ri_med_4.npy
+Norm of logits:27.9123
+Top classes and probabilities
+0.999733 16.0353 dribble
+9.98147e-05 6.82337 pick
+7.44217e-05 6.5298 ride_bike
+5.22157e-05 6.17544 push
+1.03717e-05 4.55913 stand
+
+
+Basketball_Dribbling_Tips__1_dribble_f_cm_np1_fr_med_0.npy
+Norm of logits:19.9489
+Top classes and probabilities
+0.78381 9.52753 dribble
+0.192273 8.12228 catch
+0.0134879 5.46515 ride_bike
+0.00495892 4.46455 pick
+0.00165948 3.36987 jump
+
+
+Basketball_Dribbling_-_Basketball_Dribbling-_Finger_Pads_dribble_f_nm_np2_le_med_4.npy
+Norm of logits:32.3191
+Top classes and probabilities
+0.999864 18.069 dribble
+9.11292e-05 8.76585 catch
+1.91416e-05 7.20544 pick
+1.03563e-05 6.59117 laugh
+9.45207e-06 6.49981 pullup
+
+
+Basic_Basketball_Moves_dribble_f_cm_np1_ri_goo_7.npy
+Norm of logits:19.2363
+Top classes and probabilities
+0.840405 7.96765 dribble
+0.0370184 4.84518 kick
+0.0340333 4.76111 climb
+0.0238571 4.40585 turn
+0.0153 3.96162 pick
+
+
+Basketball_Dribbling_-_Basketball_Dribbling-_Finger_Pads_dribble_f_nm_np2_le_med_6.npy
+Norm of logits:34.0889
+Top classes and probabilities
+0.99996 19.2807 dribble
+2.30782e-05 8.60408 catch
+8.52241e-06 7.60789 pick
+3.08499e-06 6.59174 pullup
+2.57375e-06 6.41056 laugh
+
+
+Basketball_Dribbling_Tips_dribble_f_cm_np1_ri_med_4.npy
+Norm of logits:21.6718
+Top classes and probabilities
+0.996865 12.9946 dribble
+0.00185094 6.70564 catch
+0.00047585 5.3473 kick_ball
+0.000438802 5.26624 pick
+0.000185106 4.40312 ride_bike
+
+
+How_to_Play_Professional_Basketball_-_The_Two_Dribble_Basketball_Drill_dribble_f_cm_np1_fr_med_4.npy
+Norm of logits:29.0101
+Top classes and probabilities
+0.999087 15.2153 dribble
+0.000564539 7.73672 catch
+0.000140653 6.34701 kick_ball
+3.6956e-05 5.01044 fencing
+3.22026e-05 4.87276 kick
+
+
+10YearOldYouthBasketballStarBaller_dribble_f_cm_np1_ri_med_6.npy
+Norm of logits:26.006
+Top classes and probabilities
+0.997885 14.4201 dribble
+0.00129014 7.76918 kick_ball
+0.000471535 6.76267 pick
+0.000145472 5.58666 stand
+0.000115533 5.35623 run
+
+
+JashaunKidsWhoRipAmazingBasketball_dribble_f_cm_np1_ba_med_7.npy
+Norm of logits:18.1698
+Top classes and probabilities
+0.864992 8.03668 dribble
+0.0682121 5.49658 kick_ball
+0.0128294 3.8257 stand
+0.0101524 3.59167 pick
+0.0101264 3.58911 run
+
+
+Basketball_Dribbling_-_Basketball_Dribbling-_Finger_Pads_dribble_f_nm_np2_le_med_5.npy
+Norm of logits:35.0362
+Top classes and probabilities
+0.999788 19.4597 dribble
+0.000198278 10.9341 catch
+6.80563e-06 7.56216 pullup
+3.0316e-06 6.7535 pick
+1.35592e-06 5.94889 laugh
+
+
+Basketball_Dribbling_-_Basketball_Dribbling-_Practice_With_Tennis_Balls_dribble_f_nm_np1_le_med_0.npy
+Norm of logits:21.2656
+Top classes and probabilities
+0.704251 8.42927 dribble
+0.160196 6.94853 sword_exercise
+0.0521815 5.82686 handstand
+0.0372013 5.48848 golf
+0.0237101 5.03803 pick
+
+
+How_to_Play_Professional_Basketball_-_The_Two_Dribble_Basketball_Drill_dribble_f_cm_np1_ba_bad_1.npy
+Norm of logits:27.4718
+Top classes and probabilities
+0.932925 10.2727 dribble
+0.0322473 6.90782 fencing
+0.0120082 5.91997 kick
+0.00930461 5.6649 run
+0.00298553 4.52817 punch
+
+
+10YearOldYouthBasketballStarBaller_dribble_f_cm_np1_ri_med_4.npy
+Norm of logits:23.2817
+Top classes and probabilities
+0.990999 11.7343 dribble
+0.00478038 6.40015 kick_ball
+0.00138926 5.1644 run
+0.000671942 4.43804 pick
+0.000611693 4.3441 stand
+
+
+JordanWorld_sbest6yearoldBaller_dribble_f_cm_np1_fr_med_4.npy
+Norm of logits:33.1309
+Top classes and probabilities
+0.999987 19.4419 dribble
+6.44751e-06 7.49012 kick_ball
+1.91548e-06 6.2764 pick
+1.56529e-06 6.0745 run
+1.096e-06 5.7181 catch
+
+
+###########################
+The class dribble has 16 videos , 0 right, and the accuracy is :
+dribble               0.0
+##########################
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_stand_u_cm_np1_fr_med_6.npy
+Norm of logits:19.4242
+Top classes and probabilities
+0.321506 5.49268 talk
+0.183271 4.93063 punch
+0.100057 4.3254 stand
+0.0892024 4.21057 smile
+0.0796415 4.0972 laugh
+
+
+Panic_in_the_Streets_stand_u_cm_np1_ri_med_2.npy
+Norm of logits:28.2615
+Top classes and probabilities
+0.431662 7.63156 stand
+0.234751 7.02244 sit
+0.131196 6.44061 walk
+0.076242 5.89783 turn
+0.0419899 5.30134 drink
+
+
+CharlieAndTheChocolateFactory_stand_f_nm_np1_ba_med_4.npy
+Norm of logits:27.8891
+Top classes and probabilities
+0.399398 7.2748 stand
+0.205763 6.61157 turn
+0.152359 6.31108 sit
+0.0558862 5.30816 talk
+0.04724 5.14009 walk
+
+
+~~~~~~~~~~~~~~~~~KUNG_FU_HUSTLE_stand_u_cm_np1_fr_med_34.npy
+Norm of logits:18.8992
+Top classes and probabilities
+0.823012 8.10603 fall_floor
+0.0878658 5.86887 punch
+0.0192988 4.3531 kick
+0.0170419 4.22873 stand
+0.0164653 4.19431 hit
+
+
+SweeneyTodd_stand_f_cm_np1_ri_med_33.npy
+Norm of logits:25.2895
+Top classes and probabilities
+0.713393 9.95875 stand
+0.269353 8.98474 sit
+0.00525175 5.04728 pick
+0.00239899 4.26377 climb_stairs
+0.00165108 3.89015 turn
+
+
+~~~~~~~~~~~~~~~~~Crash_stand_u_cm_np1_le_med_8.npy
+Norm of logits:26.7542
+Top classes and probabilities
+0.457048 8.28082 sit
+0.24997 7.67738 eat
+0.204413 7.47618 stand
+0.0208622 5.19397 turn
+0.0133182 4.74517 walk
+
+
+~~~~~~~~~~~~~~~~~GuardiansOfO256kb_stand_u_nm_np1_ri_med_1.npy
+Norm of logits:32.1425
+Top classes and probabilities
+0.40559 8.76888 sit
+0.38929 8.72786 stand
+0.0771025 7.10867 pick
+0.0329235 6.25772 wave
+0.0192444 5.72076 drink
+
+
+~~~~~~~~~~~~~~~~~FestivalofColors_stand_f_nm_np1_fr_med_0.npy
+Norm of logits:25.7813
+Top classes and probabilities
+0.340635 6.55666 sit
+0.249237 6.24425 draw_sword
+0.136507 5.64222 pick
+0.0771079 5.07105 clap
+0.0492335 4.62242 stand
+
+
+RATRACE_stand_f_cm_np1_ri_med_28.npy
+Norm of logits:25.5923
+Top classes and probabilities
+0.542042 8.47112 stand
+0.291575 7.85107 sit
+0.0333107 5.68165 walk
+0.0288525 5.53797 pick
+0.0202242 5.18265 drink
+
+
+~~~~~~~~~~~~~~~~~happy_go_lovely_stand_u_nm_np1_fr_med_9.npy
+Norm of logits:26.7544
+Top classes and probabilities
+0.370516 6.67243 shoot_gun
+0.0983009 5.34556 drink
+0.091749 5.27659 wave
+0.082446 5.16967 eat
+0.0818509 5.16243 sit
+
+
+GoneBabyGone_stand_f_cm_np1_fr_med_0.npy
+Norm of logits:30.2299
+Top classes and probabilities
+0.857852 9.66739 stand
+0.0281583 6.2508 sit
+0.0207197 5.94404 laugh
+0.0198299 5.90015 wave
+0.0183129 5.82056 punch
+
+
+~~~~~~~~~~~~~~~~~20060723sfjffdabaum_stand_u_nm_np1_fr_med_1.npy
+Norm of logits:32.8925
+Top classes and probabilities
+0.967416 12.474 clap
+0.0110871 8.00511 pour
+0.00686884 7.52633 wave
+0.00552798 7.30916 sit
+0.00307307 6.72201 eat
+
+
+~~~~~~~~~~~~~~~~~Crash_stand_u_nm_np1_ri_med_23.npy
+Norm of logits:28.1924
+Top classes and probabilities
+0.706096 8.45396 punch
+0.150365 6.90728 turn
+0.019781 4.87893 kick
+0.0181702 4.79399 stand
+0.0162655 4.68326 hit
+
+
+Panic_in_the_Streets_stand_f_nm_np1_fr_med_8.npy
+Norm of logits:30.24
+Top classes and probabilities
+0.844705 10.2303 stand
+0.065163 7.6682 sit
+0.0395038 7.16771 talk
+0.0121869 5.99167 drink
+0.00926425 5.71748 walk
+
+
+~~~~~~~~~~~~~~~~~American_History_X_stand_u_cm_np1_fr_med_38.npy
+Norm of logits:18.9737
+Top classes and probabilities
+0.55643 6.36441 wave
+0.125285 4.87346 sit
+0.0750402 4.3609 eat
+0.0450157 3.84988 stand
+0.0444307 3.8368 pick
+
+
+###########################
+The class stand has 15 videos , 0 right, and the accuracy is :
+stand                 0.0
+##########################
+Paul_Hamm_on_Floor_Exercise_at_2008_Pacific_Rim_somersault_f_cm_np1_fr_med_0.npy
+Norm of logits:30.0877
+Top classes and probabilities
+0.691056 12.1641 somersault
+0.295293 11.3139 flic_flac
+0.00952381 7.87968 jump
+0.00224845 6.43613 dive
+0.000544874 5.01868 fall_floor
+
+
+Boden-K_r_somersault_f_cm_np1_ri_med_1.npy
+Norm of logits:29.7323
+Top classes and probabilities
+0.866744 11.7969 somersault
+0.117633 9.79972 flic_flac
+0.00706389 6.98714 throw
+0.00382979 6.37496 handstand
+0.00193886 5.69425 dive
+
+
+~~~~~~~~~~~~~~~~~Le_Parkour_et_Accros_Kevin_Ryser_2008-2009_somersault_f_nm_np1_le_med_0.npy
+Norm of logits:34.8933
+Top classes and probabilities
+0.808767 14.4614 jump
+0.187697 13.0007 dive
+0.00168905 8.29005 somersault
+0.00116769 7.92091 run
+0.000237288 6.3274 fall_floor
+
+
+Parkour_Dive_Tutorial_somersault_u_cm_np1_ri_bad_0.npy
+Norm of logits:33.3791
+Top classes and probabilities
+0.954515 12.6589 somersault
+0.0355647 9.36906 hit
+0.00246498 6.69989 jump
+0.0023038 6.63227 flic_flac
+0.00125398 6.02403 kick
+
+
+Rush_Hour_4_Turnk_r_somersault_f_cm_np2_le_med_0.npy
+Norm of logits:24.4726
+Top classes and probabilities
+0.984943 12.6038 somersault
+0.00943197 7.95532 fall_floor
+0.00457773 7.23242 flic_flac
+0.00050454 5.0271 cartwheel
+0.000155842 3.8523 handstand
+
+
+Bodenk_r_somersault_f_cm_np1_fr_med_5.npy
+Norm of logits:35.0937
+Top classes and probabilities
+0.990089 15.6225 somersault
+0.00651391 10.5987 flic_flac
+0.0025622 9.66562 throw
+0.000676888 8.3345 fall_floor
+5.78043e-05 5.87406 catch
+
+
+Monikas_Staatsexamen__Turnen_somersault_f_cm_np1_le_med_5.npy
+Norm of logits:26.3158
+Top classes and probabilities
+0.943397 11.0857 somersault
+0.0224224 7.34625 fall_floor
+0.0111041 6.6435 handstand
+0.00922575 6.45818 dive
+0.00922535 6.45814 cartwheel
+
+
+Ger_teturnen_Pr_fung_-_G_S_somersault_f_cm_np1_le_med_0.npy
+Norm of logits:30.4377
+Top classes and probabilities
+0.997344 14.1081 somersault
+0.00143322 7.56293 flic_flac
+0.000620132 6.72518 fall_floor
+0.000181182 5.49475 throw
+7.78135e-05 4.64956 jump
+
+
+~~~~~~~~~~~~~~~~~Parkour_Dive_Tutorial_somersault_f_cm_np1_fr_bad_2.npy
+Norm of logits:28.9372
+Top classes and probabilities
+0.513156 10.8694 jump
+0.350566 10.4884 somersault
+0.127004 9.47306 dive
+0.00381844 5.96868 run
+0.00241508 5.51057 fall_floor
+
+
+Parkour_Dive_Tutorial_somersault_f_cm_np1_ba_bad_1.npy
+Norm of logits:39.7343
+Top classes and probabilities
+0.95163 15.7251 somersault
+0.0393473 12.5393 jump
+0.00830452 10.9837 dive
+0.000396864 7.94272 run
+0.000158678 7.026 hit
+
+
+Uni-Koblenz_Normfreies_Turnen__WS_05_06__Pr_fung_somersault_f_cm_np2_ri_bad_1.npy
+Norm of logits:44.8866
+Top classes and probabilities
+0.971845 19.0434 somersault
+0.0152303 14.8875 catch
+0.0116469 14.6192 handstand
+0.000664592 11.7556 flic_flac
+0.00058651 11.6306 cartwheel
+
+
+MWG_Bodenturnen_somersault_f_cm_np1_ri_bad_4.npy
+Norm of logits:18.4779
+Top classes and probabilities
+0.440636 5.94769 somersault
+0.171237 5.00252 cartwheel
+0.0940379 4.40317 handstand
+0.0752735 4.1806 hit
+0.0596243 3.94753 fall_floor
+
+
+Philli_beim_Bodenturnen_somersault_f_cm_np1_ri_bad_5.npy
+Norm of logits:20.7602
+Top classes and probabilities
+0.915291 8.98091 somersault
+0.0502743 6.07916 handstand
+0.00930004 4.39169 flic_flac
+0.00539591 3.84731 cartwheel
+0.00345026 3.40012 situp
+
+
+So_turnt_man_richtig!!!_somersault_f_cm_np1_fr_med_1.npy
+Norm of logits:32.1641
+Top classes and probabilities
+0.933466 12.4595 somersault
+0.0340845 9.14947 throw
+0.0153911 8.35441 handstand
+0.0108391 8.00378 cartwheel
+0.00227386 6.4421 flic_flac
+
+
+###########################
+The class somersault has 14 videos , 0 right, and the accuracy is :
+somersault            0.0
+##########################
+Fechten_mit_dem_langen_Schwert_sword_f_cm_np2_le_med_8.npy
+Norm of logits:50.9635
+Top classes and probabilities
+0.920955 19.9019 sword
+0.075074 17.395 fencing
+0.00303256 14.1859 sword_exercise
+0.000675883 12.6848 swing_baseball
+0.000105775 10.8301 hit
+
+
+~~~~~~~~~~~~~~~~~Stage_Combat_4_-_Sword_Fight_sword_f_cm_np2_le_bad_1.npy
+Norm of logits:38.3582
+Top classes and probabilities
+0.836355 14.088 hit
+0.0667755 11.5602 sword_exercise
+0.0533312 11.3354 sword
+0.0234574 10.5141 golf
+0.0175141 10.2219 swing_baseball
+
+
+Duncan_Macleod_&_Amanda_Soulmates_Part_2_sword_u_cm_np2_fr_med_2.npy
+Norm of logits:31.8949
+Top classes and probabilities
+0.841152 11.3418 sword
+0.104912 9.26019 sword_exercise
+0.0310185 8.04165 fencing
+0.00640123 6.46355 hit
+0.00499349 6.2152 kick
+
+
+2006_Full_Contact_Medieval_Sword_Tournament_Final_sword_f_cm_np2_fr_bad_2.npy
+Norm of logits:25.7088
+Top classes and probabilities
+0.837812 9.31566 sword
+0.057066 6.62908 kick_ball
+0.0366227 6.18554 swing_baseball
+0.0188805 5.523 fencing
+0.0141896 5.23737 run
+
+
+~~~~~~~~~~~~~~~~~HIGHLANDER___TRAINING___WEEPING_OF_THE_SPIRITS_sword_u_cm_np2_fr_med_1.npy
+Norm of logits:30.4965
+Top classes and probabilities
+0.464858 9.58462 hit
+0.300089 9.14697 sword
+0.0957052 8.00417 punch
+0.0743914 7.75223 fall_floor
+0.0379128 7.07818 kick
+
+
+Kendo_sword_f_nm_np1_fr_bad_5.npy
+Norm of logits:30.9353
+Top classes and probabilities
+0.938161 12.5069 sword
+0.0323715 9.14024 sword_exercise
+0.0162534 8.45127 draw_sword
+0.00680718 7.58094 hit
+0.00348128 6.91036 throw
+
+
+Kendo_sword_f_nm_np2_ba_bad_2.npy
+Norm of logits:35.8472
+Top classes and probabilities
+0.937822 13.5268 sword
+0.0452201 10.4947 sword_exercise
+0.00837576 8.80854 draw_sword
+0.00538986 8.36772 hit
+0.00128523 6.93413 throw
+
+
+~~~~~~~~~~~~~~~~~Star_Wars_I_Light_Sabre_Battle_Re-cut_sword_f_cm_np2_ba_med_3.npy
+Norm of logits:33.1308
+Top classes and probabilities
+0.988422 14.3442 hit
+0.00792659 9.51828 sword_exercise
+0.001343 7.74296 swing_baseball
+0.000685086 7.06985 sword
+0.000520559 6.7952 jump
+
+
+~~~~~~~~~~~~~~~~~Best_Sword_Fights_-_Vol__1_-__Rob_Roy__sword_f_cm_np2_ba_bad_0.npy
+Norm of logits:26.2424
+Top classes and probabilities
+0.576477 7.90287 kick
+0.118029 6.31686 stand
+0.107432 6.22279 jump
+0.0572527 5.59341 kick_ball
+0.0301541 4.95225 run
+
+
+Blade_Vs_Deacon_Frost_Sword_Fight_Scene_sword_f_cm_np2_le_med_1.npy
+Norm of logits:38.0425
+Top classes and probabilities
+0.903684 11.6513 sword
+0.0394639 8.52019 sword_exercise
+0.0155677 7.59 kick
+0.0122371 7.34927 hit
+0.00719852 6.81868 throw
+
+
+David_Carradine_vs__Michael_Jai_White_sword_u_nm_np2_fr_med_1.npy
+Norm of logits:40.189
+Top classes and probabilities
+0.879142 13.9026 sword
+0.0727296 11.4104 sword_exercise
+0.0340453 10.6514 draw_sword
+0.00513572 8.75988 fencing
+0.00266668 8.1045 hit
+
+
+~~~~~~~~~~~~~~~~~Gohatto_-_sword_fight_scene_sword_f_cm_np2_ba_med_3.npy
+Norm of logits:25.4301
+Top classes and probabilities
+0.392809 7.60435 draw_sword
+0.26171 7.19827 swing_baseball
+0.221136 7.02981 sword
+0.02356 4.79058 kick
+0.0172201 4.47711 hit
+
+
+Fechten_mit_dem_langen_Schwert_sword_f_cm_np2_le_med_2.npy
+Norm of logits:55.5079
+Top classes and probabilities
+0.998632 22.3992 sword
+0.000656885 15.0726 fencing
+0.000653704 15.0677 hit
+4.1971e-05 12.322 sword_exercise
+8.15557e-06 10.6838 kick
+
+
+Medieval_knight_fight_sword_f_cm_np1_ri_med_3.npy
+Norm of logits:31.3096
+Top classes and probabilities
+0.63781 9.02839 sword
+0.109372 7.2651 throw
+0.0891239 7.06037 kick
+0.0417205 6.30134 run
+0.0319413 6.03424 fencing
+
+
+Best_Sword_Fights_-_Vol__1_-__Rob_Roy__sword_u_cm_np2_fr_med_1.npy
+Norm of logits:29.2019
+Top classes and probabilities
+0.496626 9.16472 sword
+0.332147 8.76246 sword_exercise
+0.104181 7.60302 fencing
+0.0172823 5.80657 draw_sword
+0.0126153 5.4918 kick
+
+
+Ziyi_Zhang_vs__Michelle_Yeoh_best_fight_scene_ever_sword_u_cm_np2_ri_med_0.npy
+Norm of logits:27.4401
+Top classes and probabilities
+0.914492 11.4323 sword
+0.0441551 8.40166 sword_exercise
+0.0166532 7.42656 fencing
+0.00795963 6.68834 hit
+0.00697333 6.55605 kick
+
+
+Medieval_sword_fight_sword_f_cm_np2_ba_med_1.npy
+Norm of logits:37.9871
+Top classes and probabilities
+0.675422 13.8268 sword
+0.215578 12.6848 hit
+0.0980719 11.8972 fencing
+0.00465684 8.84983 kick
+0.00205992 8.03416 punch
+
+
+Ziyi_Zhang_vs__Michelle_Yeoh_best_fight_scene_ever_sword_u_cm_np2_le_med_2.npy
+Norm of logits:45.5294
+Top classes and probabilities
+0.990316 18.6251 sword
+0.00423883 13.1714 fencing
+0.00335681 12.9381 sword_exercise
+0.00135428 12.0304 hit
+0.000468131 10.9681 swing_baseball
+
+
+Schwertkampf__in_Bechtolsheim_sword_f_cm_np2_le_med_2.npy
+Norm of logits:53.764
+Top classes and probabilities
+0.978295 21.1185 sword
+0.0148436 16.9303 fencing
+0.00591223 16.0098 swing_baseball
+0.000697573 13.8726 hit
+0.000214161 12.6917 draw_sword
+
+
+###########################
+The class sword has 19 videos , 0 right, and the accuracy is :
+sword                 0.0
+##########################
+50_pull_ups_made_in_germany_pullup_f_nm_np1_le_med_1.npy
+Norm of logits:26.6324
+Top classes and probabilities
+0.982846 12.1211 pullup
+0.00830335 7.34731 pour
+0.00288767 6.2911 situp
+0.00158865 5.69353 catch
+0.000981332 5.2118 climb_stairs
+
+
+Perfect_Pull_Up_-_How_To_Do_Pull_Ups_pullup_u_cm_np1_fr_goo_1.npy
+Norm of logits:21.9465
+Top classes and probabilities
+0.954334 9.20391 pullup
+0.00975134 4.6203 sit
+0.00704235 4.29484 jump
+0.0051734 3.98643 catch
+0.00489215 3.93053 shoot_gun
+
+
+Pull_ups-_77_for_8_minutes_without_rest_pullup_u_cm_np1_fr_bad_0.npy
+Norm of logits:24.0634
+Top classes and probabilities
+0.997231 12.0216 pullup
+0.000479659 4.38192 handstand
+0.000377163 4.14152 throw
+0.000341661 4.04266 walk
+0.000260331 3.7708 push
+
+
+32_Pull-ups_at_193IBS_pullup_f_cm_np1_ba_med_0.npy
+Norm of logits:41.5371
+Top classes and probabilities
+1.0 24.8999 pullup
+2.88222e-07 9.8404 pushup
+1.45113e-07 9.15419 jump
+1.42188e-08 6.83124 somersault
+4.41445e-09 5.66156 climb_stairs
+
+
+Basic_Exercise_Plans_-_How_to_Do_a_Pull-Up_pullup_f_cm_np1_le_goo_0.npy
+Norm of logits:22.735
+Top classes and probabilities
+0.963537 10.3124 pullup
+0.0255087 6.68084 climb
+0.00424087 4.88659 push
+0.000944316 3.38453 punch
+0.000924008 3.36279 run
+
+
+22_Pull-ups_with_Speed_and_Perfect_Form_pullup_f_cm_np1_ba_med_2.npy
+Norm of logits:34.2524
+Top classes and probabilities
+0.999979 19.2803 pullup
+8.95018e-06 7.65645 pour
+8.23466e-06 7.57313 somersault
+1.37995e-06 5.78682 catch
+1.02268e-06 5.4872 situp
+
+
+pull_ups_pullup_u_nm_np1_fr_med_3.npy
+Norm of logits:27.971
+Top classes and probabilities
+0.999639 16.297 pullup
+0.00031506 8.2346 pushup
+1.17284e-05 4.94386 laugh
+1.03121e-05 4.81516 jump
+4.8279e-06 4.05625 kick
+
+
+Pull-ups-_Nicole_Weeks_pullup_u_cm_np1_le_goo_0.npy
+Norm of logits:26.45
+Top classes and probabilities
+0.996954 12.6629 pullup
+0.000706322 5.41051 handstand
+0.000649033 5.32592 stand
+0.000430107 4.91447 pushup
+0.000385584 4.8052 jump
+
+
+Pull_ups-_77_for_8_minutes_without_rest_pullup_u_cm_np1_fr_bad_2.npy
+Norm of logits:28.862
+Top classes and probabilities
+0.998941 14.3076 pullup
+0.000609899 6.90641 push
+0.000124969 5.32118 handstand
+8.66157e-05 4.95459 pushup
+6.96681e-05 4.73685 climb
+
+
+Girl_does_12_pull-ups_pullup_u_cm_np1_ba_med_1.npy
+Norm of logits:36.1942
+Top classes and probabilities
+0.999959 20.4237 pullup
+3.46075e-05 10.1523 pushup
+3.03546e-06 7.71861 climb_stairs
+2.336e-06 7.45669 catch
+2.83039e-07 5.34608 somersault
+
+
+35_pull_ups_pullup_f_nm_np1_fr_goo_2.npy
+Norm of logits:53.279
+Top classes and probabilities
+1.0 30.8395 pullup
+4.01417e-09 11.5061 climb
+9.12371e-10 10.0246 pushup
+3.41321e-10 9.04135 jump
+1.28355e-10 8.06332 somersault
+
+
+20_Marine_Corps_Pull_Ups_-_JimmyDShea_pullup_f_cm_np1_ba_bad_3.npy
+Norm of logits:31.8294
+Top classes and probabilities
+0.999636 16.7748 pullup
+0.000302021 8.67013 climb
+1.84193e-05 5.87304 jump
+1.57156e-05 5.71429 climb_stairs
+5.35925e-06 4.63846 kick
+
+
+Metaphysics_Pull_up_specialist_pullup_u_cm_np1_fr_med_3.npy
+Norm of logits:29.8933
+Top classes and probabilities
+0.992907 14.7083 pullup
+0.00673371 9.71482 climb
+0.000105922 5.56264 throw
+5.58597e-05 4.92279 jump
+4.12983e-05 4.62076 climb_stairs
+
+
+Basic_Exercise_Plans_-_How_to_Do_a_Pull-Up_pullup_f_cm_np1_le_goo_1.npy
+Norm of logits:26.9864
+Top classes and probabilities
+0.997949 13.8968 pullup
+0.00140897 7.33399 climb
+0.00018037 5.27838 somersault
+0.000140074 5.02554 push
+7.18107e-05 4.35741 catch
+
+
+Metaphysics_Pull_up_specialist_pullup_u_cm_np1_fr_med_5.npy
+Norm of logits:34.1208
+Top classes and probabilities
+0.999936 17.7764 pullup
+2.01349e-05 6.96337 climb
+1.59263e-05 6.72889 jump
+1.32163e-05 6.54237 dribble
+3.37647e-06 5.17775 ride_bike
+
+
+###########################
+The class pullup has 15 videos , 0 right, and the accuracy is :
+pullup                0.0
+##########################
+~~~~~~~~~~~~~~~~~Smile_smile_h_cm_np1_fr_goo_0.npy
+Norm of logits:20.2926
+Top classes and probabilities
+0.915325 8.78857 chew
+0.0320272 5.43588 smile
+0.0160035 4.7421 talk
+0.00881991 4.14631 smoke
+0.00643542 3.83111 wave
+
+
+YouTube_smiles!_smile_h_nm_np1_fr_goo_29.npy
+Norm of logits:32.7209
+Top classes and probabilities
+0.955626 15.4463 smile
+0.0431782 12.3493 laugh
+0.000825722 8.39246 chew
+0.000151261 6.69521 wave
+7.9631e-05 6.0536 clap
+
+
+YouTube_smiles!_smile_h_nm_np1_fr_med_4.npy
+Norm of logits:24.7699
+Top classes and probabilities
+0.552132 8.80409 smile
+0.350955 8.35096 punch
+0.0323029 5.96546 wave
+0.0256061 5.73313 laugh
+0.0129246 5.04944 swing_baseball
+
+
+SMILES_FROM_OFF_THE_ROAD_3_-TRAVELS_WITH_A_HAT_smile_h_nm_np1_fr_med_1.npy
+Norm of logits:25.2571
+Top classes and probabilities
+0.958674 10.6403 smile
+0.0134897 6.37672 ride_bike
+0.0120667 6.26525 laugh
+0.00518673 5.4209 dive
+0.00363426 5.0652 talk
+
+
+~~~~~~~~~~~~~~~~~Re-_Show_your_Smile!_9_smile_h_nm_np1_fr_med_0.npy
+Norm of logits:23.7525
+Top classes and probabilities
+0.749046 10.1352 chew
+0.204717 8.83806 smoke
+0.028434 6.86402 smile
+0.00400379 4.90368 talk
+0.00310438 4.64925 pour
+
+
+~~~~~~~~~~~~~~~~~MySmile_smile_h_nm_np1_fr_goo_0.npy
+Norm of logits:25.8703
+Top classes and probabilities
+0.705475 9.15623 laugh
+0.131191 7.47402 chew
+0.0780791 6.95508 talk
+0.0246988 5.80412 eat
+0.0227243 5.7208 punch
+
+
+~~~~~~~~~~~~~~~~~my_smile_smile_h_cm_np1_fr_goo_0.npy
+Norm of logits:23.6154
+Top classes and probabilities
+0.671842 9.20714 talk
+0.192503 7.95723 smile
+0.0857257 7.14827 laugh
+0.0195705 5.67114 pick
+0.00887057 4.87986 jump
+
+
+Re-_Show_Your_Smile_smile_h_nm_np1_fr_goo_0.npy
+Norm of logits:19.0055
+Top classes and probabilities
+0.821413 7.20276 smile
+0.0235747 3.65191 jump
+0.020309 3.5028 kiss
+0.0177959 3.3707 talk
+0.0161977 3.2766 stand
+
+
+~~~~~~~~~~~~~~~~~prelinger_LetsPlay1949_smile_h_nm_np1_fr_goo_27.npy
+Norm of logits:19.6243
+Top classes and probabilities
+0.578466 8.27783 talk
+0.343208 7.75578 smile
+0.0568621 5.95807 turn
+0.00671172 3.8213 wave
+0.00207304 2.64646 brush_hair
+
+
+Re-_Show_your_Smile!_10_smile_h_nm_np1_fr_goo_0.npy
+Norm of logits:21.9617
+Top classes and probabilities
+0.648475 8.07486 smile
+0.157074 6.65696 chew
+0.0854684 6.04838 talk
+0.0292334 4.97555 turn
+0.0227142 4.72323 smoke
+
+
+YouTube_smiles!_smile_h_nm_np1_fr_med_15.npy
+Norm of logits:36.5447
+Top classes and probabilities
+0.954481 16.8917 smile
+0.04507 13.8388 laugh
+0.0003862 9.07915 wave
+1.51807e-05 5.84282 talk
+1.06679e-05 5.49004 jump
+
+
+###########################
+The class smile has 11 videos , 0 right, and the accuracy is :
+smile                 0.0
+##########################
+~~~~~~~~~~~~~~~~~My_Lil__Man_clapping_his_Hands_clap_u_nm_np1_fr_goo_0.npy
+Norm of logits:21.4311
+Top classes and probabilities
+0.864703 9.26926 wave
+0.0498655 6.41621 catch
+0.0363605 6.10036 brush_hair
+0.0209805 5.55047 clap
+0.00736156 4.50315 situp
+
+
+The_Slow_Clap_clap_u_cm_np1_fr_bad_6.npy
+Norm of logits:23.9692
+Top classes and probabilities
+0.975084 10.9345 clap
+0.0161745 6.83543 wave
+0.00232259 4.89467 swing_baseball
+0.000916842 3.96517 throw
+0.000908387 3.95591 jump
+
+
+The_Slow_Clap_clap_u_nm_np1_fr_med_30.npy
+Norm of logits:25.5519
+Top classes and probabilities
+0.602486 9.6882 clap
+0.368069 9.19541 wave
+0.00639278 5.14231 smoke
+0.00612202 5.09903 shoot_gun
+0.00422563 4.7283 drink
+
+
+The_Slow_Clap_clap_u_cm_np1_fr_bad_7.npy
+Norm of logits:25.2777
+Top classes and probabilities
+0.965426 10.071 clap
+0.0129419 5.75887 swing_baseball
+0.00473747 4.7539 wave
+0.00435679 4.67013 sword
+0.00183664 3.80633 talk
+
+
+A_Round_of_Applause_clap_u_cm_np1_fr_med_0.npy
+Norm of logits:32.0164
+Top classes and probabilities
+0.997601 17.1378 clap
+0.00203223 10.9416 wave
+0.000320329 9.09402 laugh
+2.43714e-05 6.51808 brush_hair
+8.68576e-06 5.48635 smile
+
+
+~~~~~~~~~~~~~~~~~Glory_clap_h_nm_np1_fr_med_52.npy
+Norm of logits:21.1957
+Top classes and probabilities
+0.266524 5.3962 wave
+0.130647 4.68323 sword
+0.125984 4.64688 punch
+0.0802397 4.19575 swing_baseball
+0.0778672 4.16574 shoot_gun
+
+
+~~~~~~~~~~~~~~~~~boom_snap_clap_(challenge)_HARDCORE_VERSION!_clap_u_nm_np1_fr_bad_1.npy
+Norm of logits:21.4274
+Top classes and probabilities
+0.730422 8.08467 wave
+0.159103 6.5606 brush_hair
+0.0371585 5.10624 clap
+0.0169642 4.32215 walk
+0.0112216 3.90889 smile
+
+
+#20_Rhythm_clap_u_nm_np1_le_goo_4.npy
+Norm of logits:26.1865
+Top classes and probabilities
+0.959362 11.2215 clap
+0.0251797 7.58125 shoot_gun
+0.00536494 6.0351 wave
+0.00301719 5.45954 turn
+0.00177575 4.92944 throw
+
+
+The_Slow_Clap_clap_u_nm_np1_fr_med_14.npy
+Norm of logits:32.3583
+Top classes and probabilities
+0.99053 14.1561 clap
+0.00550613 8.96375 pour
+0.00107871 7.33365 laugh
+0.000902866 7.1557 wave
+0.000732199 6.94618 chew
+
+
+###########################
+The class clap has 9 videos , 0 right, and the accuracy is :
+clap                  0.0
+##########################
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_kick_f_nm_np1_fr_med_68.npy
+Norm of logits:31.7637
+Top classes and probabilities
+0.707196 12.0401 fall_floor
+0.283313 11.1254 kick
+0.00627246 7.31501 fencing
+0.000640143 5.03277 pick
+0.000463212 4.70927 sword_exercise
+
+
+Best_fight_scene_in_history_of_movie_kick_f_cm_np2_ba_bad_2.npy
+Norm of logits:33.1927
+Top classes and probabilities
+0.432227 9.84721 kick
+0.264444 9.35589 hit
+0.111084 8.48855 sword
+0.0640248 7.93753 fencing
+0.0603791 7.8789 fall_floor
+
+
+THE_PROTECTOR_kick_f_cm_np1_fr_bad_53.npy
+Norm of logits:40.4708
+Top classes and probabilities
+0.976753 15.0779 kick
+0.0106704 10.5612 fencing
+0.00938124 10.4324 fall_floor
+0.00140039 8.53045 punch
+0.000904874 8.09374 hit
+
+
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_1_kick_f_nm_np1_ba_med_48.npy
+Norm of logits:26.659
+Top classes and probabilities
+0.628752 9.22611 fall_floor
+0.286503 8.44012 kick
+0.02744 6.09437 run
+0.0214022 5.84587 fencing
+0.00717421 4.75287 punch
+
+
+~~~~~~~~~~~~~~~~~FOOT_2009_(REMI_GAILLARD)_kick_f_cm_np1_ba_med_5.npy
+Norm of logits:22.5901
+Top classes and probabilities
+0.578414 7.54144 kick_ball
+0.222305 6.5852 fall_floor
+0.0862045 5.63787 pick
+0.0540213 5.17053 kick
+0.0107687 3.55779 jump
+
+
+KUNG_FU_HUSTLE_kick_u_cm_np1_le_med_12.npy
+Norm of logits:43.4217
+Top classes and probabilities
+0.536747 13.9693 kick
+0.311935 13.4265 punch
+0.118546 12.4591 fall_floor
+0.0229782 10.8183 fencing
+0.00480293 9.25298 hit
+
+
+kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_f_cm_np1_fr_med_11.npy
+Norm of logits:36.6929
+Top classes and probabilities
+0.780567 13.4812 kick
+0.176661 11.9954 punch
+0.0188085 9.75549 fencing
+0.0105385 9.17621 hit
+0.00712295 8.7845 fall_floor
+
+
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_1_kick_f_nm_np1_ri_med_37.npy
+Norm of logits:31.2983
+Top classes and probabilities
+0.396255 8.16135 hit
+0.192322 7.43846 jump
+0.143074 7.14265 run
+0.103405 6.81794 kick
+0.0365245 5.77727 sit
+
+
+THE_PROTECTOR_kick_f_cm_np1_ri_med_40.npy
+Norm of logits:37.0401
+Top classes and probabilities
+0.490467 11.5445 kick
+0.379203 11.2872 punch
+0.0589588 9.42597 hug
+0.0487756 9.23636 fencing
+0.00504129 6.96679 sword
+
+
+~~~~~~~~~~~~~~~~~The_Matrix_5_kick_u_nm_np1_fr_bad_14.npy
+Norm of logits:28.6679
+Top classes and probabilities
+0.398277 7.66943 punch
+0.233563 7.13573 kick
+0.123816 6.50107 clap
+0.0934166 6.21935 fall_floor
+0.0245377 4.88249 sword
+
+
+The_Matrix_6_kick_f_nm_np1_fr_med_6.npy
+Norm of logits:33.8929
+Top classes and probabilities
+0.631543 11.0403 kick
+0.199675 9.88884 fencing
+0.0860639 9.04724 punch
+0.0507892 8.51983 fall_floor
+0.0184471 7.50705 hit
+
+
+~~~~~~~~~~~~~~~~~kick__bruce_lee_v_s_japanese_kick_u_cm_np1_ri_bad_0.npy
+Norm of logits:31.0457
+Top classes and probabilities
+0.379498 8.41547 draw_sword
+0.22044 7.87225 shoot_gun
+0.176898 7.65219 clap
+0.091901 6.99733 wave
+0.0528774 6.44459 kick
+
+
+###########################
+The class kick has 12 videos , 0 right, and the accuracy is :
+kick                  0.0
+##########################
+Pushups_Workout__Push_Up_protein__Part_One_pushup_f_cm_np1_le_bad_3.npy
+Norm of logits:28.1152
+Top classes and probabilities
+0.9874 12.391 pushup
+0.00653401 7.37291 handstand
+0.00281937 6.5324 situp
+0.00076555 5.22872 pullup
+0.000736395 5.1899 stand
+
+
+push-up_or_shut_up_(MLE)_pushup_f_cm_np1_le_med_1.npy
+Norm of logits:42.0256
+Top classes and probabilities
+0.999807 20.1307 pushup
+9.02129e-05 10.8175 pullup
+6.50163e-05 10.49 situp
+2.90549e-05 9.68453 handstand
+7.14525e-06 8.28179 pick
+
+
+100_Push-ups_Initial_Test_hundredpushups_com_pushup_f_nm_np1_fr_goo_2.npy
+Norm of logits:40.8718
+Top classes and probabilities
+0.999792 21.1283 pushup
+0.000183358 12.5245 situp
+2.05974e-05 10.3382 pullup
+1.12156e-06 7.42775 shoot_gun
+9.42948e-07 7.25428 kick
+
+
+Luke_s_Push_Up_Challenge_pushup_f_cm_np1_fr_goo_2.npy
+Norm of logits:40.7743
+Top classes and probabilities
+0.999998 22.766 pushup
+1.39069e-06 9.28031 laugh
+4.09178e-07 8.05691 pullup
+1.3367e-07 6.93814 situp
+1.1939e-07 6.82516 stand
+
+
+Angela_pushup_u_cm_np1_le_med_2.npy
+Norm of logits:20.1828
+Top classes and probabilities
+0.512625 8.17961 pushup
+0.424834 7.99176 pick
+0.0198247 4.92699 handstand
+0.0124173 4.45915 kiss
+0.00798789 4.01799 sit
+
+
+Pushups___The_Hardway!!!_Shaolin_Style_pushup_f_cm_np1_le_med_1.npy
+Norm of logits:24.7675
+Top classes and probabilities
+0.851437 9.03465 pushup
+0.0782554 6.6477 fall_floor
+0.0156925 5.0409 push
+0.00879785 4.46223 climb_stairs
+0.00856403 4.4353 sit
+
+
+Laura_-_PushUps_pushup_f_cm_np1_le_med_2.npy
+Norm of logits:27.8405
+Top classes and probabilities
+0.530898 8.08044 pushup
+0.196182 7.08491 situp
+0.170632 6.94538 throw
+0.0198791 4.79554 hit
+0.0139032 4.43799 punch
+
+
+100_push_ups_by_a_GIRL!!!_pushup_f_nm_np1_fr_goo_0.npy
+Norm of logits:46.5761
+Top classes and probabilities
+1.0 26.5009 pushup
+2.13467e-07 11.1411 pullup
+6.87001e-08 10.0074 situp
+1.46537e-08 8.46236 jump
+1.41313e-08 8.42606 fall_floor
+
+
+push-up_or_shut_up_(IXK)_pushup_f_cm_np1_le_med_2.npy
+Norm of logits:23.1579
+Top classes and probabilities
+0.831939 8.58633 pushup
+0.050676 5.78802 kick
+0.0417957 5.59536 stand
+0.0222122 4.96321 situp
+0.0194763 4.83176 fall_floor
+
+
+###########################
+The class pushup has 9 videos , 0 right, and the accuracy is :
+pushup                0.0
+##########################
+Oceans11_drink_h_nm_np1_fr_goo_4.npy
+Norm of logits:33.6412
+Top classes and probabilities
+0.996508 16.2789 drink
+0.00307296 10.4973 eat
+0.000271817 8.072 smoke
+4.4257e-05 6.25689 clap
+3.92289e-05 6.13629 talk
+
+
+AmericanGangster_drink_h_nm_np1_fr_goo_27.npy
+Norm of logits:30.3993
+Top classes and probabilities
+0.975405 10.9269 drink
+0.00897376 6.23835 eat
+0.00188207 4.67642 stand
+0.00169883 4.57399 punch
+0.00155722 4.48695 clap
+
+
+AmericanGangster_drink_u_nm_np1_fr_med_40.npy
+Norm of logits:26.1155
+Top classes and probabilities
+0.598671 8.2186 drink
+0.236173 7.28845 eat
+0.0382343 5.46762 sit
+0.0301057 5.22861 walk
+0.0253803 5.05786 clap
+
+
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_drink_h_nm_np1_fr_bad_36.npy
+Norm of logits:24.618
+Top classes and probabilities
+0.713705 7.98791 wave
+0.0528923 5.3857 walk
+0.0497692 5.32484 stand
+0.0306723 4.8408 sit
+0.0291469 4.78979 drink
+
+
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_38.npy
+Norm of logits:24.2054
+Top classes and probabilities
+0.311968 6.13141 talk
+0.291693 6.06421 shoot_gun
+0.10876 5.07765 sit
+0.0626893 4.5267 drink
+0.0606998 4.49445 stand
+
+
+BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_4.npy
+Norm of logits:37.8728
+Top classes and probabilities
+0.933376 13.1789 drink
+0.0551942 10.3509 eat
+0.00309425 7.46959 sit
+0.0026173 7.30219 smoke
+0.00204129 7.05363 stand
+
+
+~~~~~~~~~~~~~~~~~The_Departed_-_Part_1_drink_h_nm_np1_fr_goo_8.npy
+Norm of logits:20.8052
+Top classes and probabilities
+0.875709 9.74757 eat
+0.101416 7.59177 drink
+0.00765432 5.00781 chew
+0.00691909 4.90682 pour
+0.00301707 4.07682 talk
+
+
+~~~~~~~~~~~~~~~~~Finding_Forrester_4_drink_h_cm_np1_ri_med_4.npy
+Norm of logits:32.307
+Top classes and probabilities
+0.592779 8.77534 talk
+0.0665326 6.58821 turn
+0.0613552 6.5072 drink
+0.0600309 6.48538 smoke
+0.0495274 6.29304 laugh
+
+
+The_House_on_Haunted_Hill_drink_u_nm_np1_fr_goo_2.npy
+Norm of logits:29.3955
+Top classes and probabilities
+0.966529 14.2638 drink
+0.0324297 10.8691 wave
+0.00061611 6.90573 walk
+0.000149083 5.48681 stand
+0.000106788 5.15315 talk
+
+
+~~~~~~~~~~~~~~~~~Finding_Forrester_5_drink_h_cm_np1_ri_goo_3.npy
+Norm of logits:28.012
+Top classes and probabilities
+0.471153 7.82405 stand
+0.107454 6.34593 drink
+0.105864 6.33103 walk
+0.0921626 6.19242 sit
+0.078924 6.03736 talk
+
+
+The_Departed_-_Part_2_drink_u_nm_np1_fr_bad_0.npy
+Norm of logits:23.4965
+Top classes and probabilities
+0.584859 7.52662 drink
+0.171997 6.30273 wave
+0.0841496 5.58784 pick
+0.0335705 4.6689 smile
+0.0285752 4.50779 talk
+
+
+AmericanGangster_drink_u_nm_np1_le_goo_46.npy
+Norm of logits:28.9259
+Top classes and probabilities
+0.763785 9.77923 drink
+0.197523 8.4268 eat
+0.0106941 5.51063 smoke
+0.00649561 5.01206 stand
+0.00588334 4.91306 turn
+
+
+BIG_FISH_drink_u_nm_np1_fr_goo_5.npy
+Norm of logits:33.5264
+Top classes and probabilities
+0.5055 11.568 drink
+0.452213 11.4566 smoke
+0.0344434 8.88181 eat
+0.0046811 6.88602 kiss
+0.000757421 5.06466 talk
+
+
+AmericanGangster_drink_h_nm_np1_ri_bad_4.npy
+Norm of logits:21.5344
+Top classes and probabilities
+0.475038 6.88628 drink
+0.247907 6.23594 eat
+0.117625 5.49039 kiss
+0.0336266 4.2382 talk
+0.0210098 3.76787 laugh
+
+
+###########################
+The class drink has 14 videos , 0 right, and the accuracy is :
+drink                 0.0
+##########################
+Kristina_Goryunova_-_Floor_Exercise_-_2009_Tyson_American_Cu_flic_flac_f_cm_np1_ba_med_0.npy
+Norm of logits:27.8188
+Top classes and probabilities
+0.920967 10.6423 flic_flac
+0.0233294 6.96656 somersault
+0.0228703 6.94668 kick_ball
+0.0105774 6.17557 cartwheel
+0.00602866 5.61337 pour
+
+
+17flaks_flic_flac_f_cm_np1_fr_med_1.npy
+Norm of logits:34.3267
+Top classes and probabilities
+0.995103 15.8678 flic_flac
+0.00261746 9.92712 cartwheel
+0.001761 9.5308 somersault
+0.000272206 7.66372 handstand
+0.000166589 7.17269 dive
+
+
+turnles!!_flic_flac_f_cm_np1_le_med_8.npy
+Norm of logits:33.3651
+Top classes and probabilities
+0.991661 16.3942 flic_flac
+0.00411149 10.9086 cartwheel
+0.00328071 10.6829 somersault
+0.000626779 9.02766 dive
+0.000278319 8.21584 jump
+
+
+JOAKIN_(air_tricks_extreme)_flic_flac_f_cm_np1_ri_med_9.npy
+Norm of logits:32.9982
+Top classes and probabilities
+0.977748 17.3238 flic_flac
+0.0210743 13.4866 cartwheel
+0.000655416 10.016 handstand
+0.000487055 9.71915 somersault
+3.18186e-05 6.99083 dive
+
+
+Flic_flac_1_flic_flac_f_cm_np1_ri_med_0.npy
+Norm of logits:28.0477
+Top classes and probabilities
+0.921566 12.5628 flic_flac
+0.0708221 9.99688 cartwheel
+0.00345263 6.97584 jump
+0.00204713 6.45315 somersault
+0.00079143 5.50279 dive
+
+
+Bodenturnen_2004_flic_flac_f_cm_np1_ri_med_6.npy
+Norm of logits:29.8919
+Top classes and probabilities
+0.886586 12.9575 flic_flac
+0.0735518 10.4682 cartwheel
+0.0327788 9.65995 somersault
+0.00507605 7.7947 dive
+0.000861509 6.0211 handstand
+
+
+~~~~~~~~~~~~~~~~~Rush_Hour_4_Turnk_r_flic_flac_f_cm_np1_ri_med_5.npy
+Norm of logits:34.3932
+Top classes and probabilities
+0.83152 15.8272 somersault
+0.104902 13.757 flic_flac
+0.062704 13.2424 cartwheel
+0.000529654 8.46843 handstand
+0.000216592 7.57423 fall_floor
+
+
+Gentleman_Flick_Flack_Salto_flic_flac_f_cm_np1_le_med_2.npy
+Norm of logits:48.4136
+Top classes and probabilities
+0.991935 24.5913 flic_flac
+0.00801221 19.7726 cartwheel
+4.82352e-05 14.66 somersault
+3.77489e-06 12.1123 dive
+3.02232e-07 9.58734 handstand
+
+
+Turnen_Training_flick_flack_salto_gymnastics_backhandspring_backtuck_flic_flac_f_cm_np1_fr_bad_2.npy
+Norm of logits:44.3689
+Top classes and probabilities
+0.999557 22.9766 flic_flac
+0.000365131 15.0618 somersault
+7.38593e-05 13.4637 cartwheel
+1.78293e-06 9.73978 dive
+1.32433e-06 9.44243 jump
+
+
+###########################
+The class flic_flac has 9 videos , 0 right, and the accuracy is :
+flic_flac             0.0
+##########################
+Free_Hugs_-_Paris_www_calins-gratuits_com_hug_f_cm_np2_ba_med_8.npy
+Norm of logits:25.6239
+Top classes and probabilities
+0.989271 11.1066 hug
+0.00320948 5.37577 kick
+0.00179896 4.79687 pick
+0.0012765 4.45378 fall_floor
+0.000815055 4.00517 throw
+
+
+-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_9.npy
+Norm of logits:20.9828
+Top classes and probabilities
+0.398679 5.92377 hug
+0.148814 4.93832 run
+0.0775321 4.28631 wave
+0.0663016 4.12983 punch
+0.0516797 3.88068 sword
+
+
+Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_8.npy
+Norm of logits:26.4629
+Top classes and probabilities
+0.858965 9.51802 hug
+0.0364628 6.35858 clap
+0.029261 6.13855 punch
+0.0220859 5.85723 hit
+0.0108878 5.14993 kiss
+
+
+~~~~~~~~~~~~~~~~~d173_graveyard_call_price_giving_ceremony_hug_f_cm_np2_ba_med_1.npy
+Norm of logits:26.5345
+Top classes and probabilities
+0.343955 7.35707 walk
+0.290634 7.18863 hug
+0.137582 6.44079 wave
+0.0606707 5.62202 throw
+0.0578854 5.57503 sit
+
+
+-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_0.npy
+Norm of logits:29.3174
+Top classes and probabilities
+0.999986 18.0321 hug
+4.95307e-06 5.81658 kiss
+2.86659e-06 5.26969 shoot_gun
+2.1278e-06 4.97166 sword_exercise
+1.05012e-06 4.26548 turn
+
+
+Free_Hugs_-_Medellin_hug_f_cm_np2_le_med_11.npy
+Norm of logits:25.1009
+Top classes and probabilities
+0.917735 11.042 hug
+0.0685813 8.44812 pick
+0.00876525 6.39089 walk
+0.00127276 4.46129 run
+0.000614497 3.73315 turn
+
+
+~~~~~~~~~~~~~~~~~d173_graveyard_call_price_giving_ceremony_hug_u_cm_np2_le_bad_3.npy
+Norm of logits:28.4172
+Top classes and probabilities
+0.521361 8.20689 sit
+0.139627 6.88942 walk
+0.125709 6.78441 turn
+0.0555128 5.96706 wave
+0.0489956 5.84217 pick
+
+
+Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np3_le_med_28.npy
+Norm of logits:30.0052
+Top classes and probabilities
+0.999914 17.348 hug
+5.93395e-05 7.61582 shoot_gun
+8.42619e-06 5.66389 kiss
+5.68263e-06 5.26995 pick
+2.44823e-06 4.42791 push
+
+
+~~~~~~~~~~~~~~~~~veoh_harold_and_kumar_hug_f_cm_np2_le_med_7.npy
+Norm of logits:22.4279
+Top classes and probabilities
+0.239582 5.4764 walk
+0.112517 4.72061 stand
+0.112452 4.72003 sit
+0.0857983 4.4495 hit
+0.076847 4.33932 fall_floor
+
+
+Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_18.npy
+Norm of logits:21.6739
+Top classes and probabilities
+0.99275 10.9403 hug
+0.00285864 5.09017 pick
+0.000997483 4.0373 kiss
+0.000607282 3.54106 punch
+0.000458749 3.26057 hit
+
+
+~~~~~~~~~~~~~~~~~American_History_X_hug_u_cm_np2_le_med_19.npy
+Norm of logits:23.0937
+Top classes and probabilities
+0.354155 6.8273 sit
+0.344086 6.79846 punch
+0.148843 5.96045 turn
+0.0300465 4.36031 pick
+0.0299656 4.35762 stand
+
+
+-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_8.npy
+Norm of logits:25.0568
+Top classes and probabilities
+0.98831 12.6219 hug
+0.0101511 8.04353 punch
+0.000538004 5.10605 hit
+0.000307743 4.54745 clap
+9.5721e-05 3.37963 jump
+
+
+Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_f_cm_np2_ba_bad_0.npy
+Norm of logits:21.6425
+Top classes and probabilities
+0.669351 6.93355 hug
+0.0862936 4.88499 hit
+0.0431273 4.19139 kick
+0.043056 4.18974 walk
+0.0325896 3.91123 turn
+
+
+Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_13.npy
+Norm of logits:20.9441
+Top classes and probabilities
+0.91054 8.14239 hug
+0.0187916 4.26176 pick
+0.013557 3.93525 sword
+0.00852169 3.47096 throw
+0.0054239 3.01917 wave
+
+
+~~~~~~~~~~~~~~~~~Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_u_cm_np2_le_med_1.npy
+Norm of logits:31.8933
+Top classes and probabilities
+0.990129 14.8163 kiss
+0.00947942 10.1675 hug
+9.12673e-05 5.52446 pick
+8.9669e-05 5.50679 hit
+6.23248e-05 5.14302 smoke
+
+
+American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_le_med_4.npy
+Norm of logits:21.5141
+Top classes and probabilities
+0.815137 8.04451 hug
+0.0583649 5.40787 ride_bike
+0.0498034 5.24924 run
+0.0184057 4.25381 dive
+0.0153339 4.07122 talk
+
+
+Free_Hugs_-_Medellin_hug_f_cm_np2_ba_med_8.npy
+Norm of logits:22.7162
+Top classes and probabilities
+0.967483 10.7454 hug
+0.0222633 6.97361 clap
+0.0031515 5.01855 walk
+0.00190487 4.51508 throw
+0.00115425 4.01413 run
+
+
+Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_f_cm_np2_le_med_1.npy
+Norm of logits:26.8416
+Top classes and probabilities
+0.711631 10.0208 hug
+0.208088 8.79123 walk
+0.0482653 7.32998 pick
+0.0174408 6.31208 run
+0.00712423 5.41677 wave
+
+
+-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_11.npy
+Norm of logits:18.6113
+Top classes and probabilities
+0.788875 6.91419 hug
+0.0422719 3.9877 sword_exercise
+0.0185318 3.16307 hit
+0.015699 2.99718 kick
+0.0155913 2.99029 pick
+
+
+###########################
+The class hug has 19 videos , 0 right, and the accuracy is :
+hug                   0.0
+##########################
+TheLastManOnearth_run_f_cm_np1_fr_med_48.npy
+Norm of logits:23.793
+Top classes and probabilities
+0.445555 7.41083 run
+0.135496 6.22045 jump
+0.118693 6.08804 kick
+0.0825392 5.72478 kick_ball
+0.0787561 5.67786 fall_floor
+
+
+Veoh_Alpha_Dog_2_run_f_nm_np1_fr_med_26.npy
+Norm of logits:27.363
+Top classes and probabilities
+0.708998 9.85822 run
+0.206912 8.62666 climb_stairs
+0.0408078 7.00324 kick_ball
+0.0207786 6.32829 jump
+0.00748912 5.30782 dribble
+
+
+~~~~~~~~~~~~~~~~~metacafe_coolsoccer_run_f_cm_np1_ba_med_1.npy
+Norm of logits:28.6302
+Top classes and probabilities
+0.725151 11.7917 kick_ball
+0.12164 10.0064 dive
+0.109683 9.9029 catch
+0.0343221 8.7411 run
+0.00644448 7.06853 jump
+
+
+~~~~~~~~~~~~~~~~~BRIDGETOTERABITHIA_run_f_nm_np1_le_med_6.npy
+Norm of logits:25.9311
+Top classes and probabilities
+0.230965 6.27293 walk
+0.20716 6.16416 sit
+0.174207 5.99091 pick
+0.0930979 5.36432 hit
+0.0768464 5.17247 push
+
+
+Crash_run_u_nm_np1_fr_med_20.npy
+Norm of logits:27.9944
+Top classes and probabilities
+0.616626 9.17187 run
+0.155688 7.79546 climb_stairs
+0.133393 7.64091 brush_hair
+0.0184295 5.66156 jump
+0.0177517 5.62409 pour
+
+
+~~~~~~~~~~~~~~~~~TrumanShow_run_f_cm_np1_le_med_3.npy
+Norm of logits:25.5124
+Top classes and probabilities
+0.580296 9.04394 walk
+0.338651 8.50537 run
+0.0388437 6.33994 sit
+0.0217227 5.75876 pick
+0.00552216 4.38917 turn
+
+
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_run_l_nm_np1_ba_med_16.npy
+Norm of logits:27.1685
+Top classes and probabilities
+0.325148 7.34019 climb_stairs
+0.285176 7.20901 walk
+0.168219 6.68117 run
+0.0728555 5.84438 fall_floor
+0.0476156 5.41907 punch
+
+
+~~~~~~~~~~~~~~~~~AgentCodyBanks_run_u_cm_np1_le_med_13.npy
+Norm of logits:20.9502
+Top classes and probabilities
+0.555345 6.98147 pick
+0.172621 5.81298 eat
+0.0675073 4.87411 sit
+0.0551195 4.67138 hug
+0.0386427 4.31624 stand
+
+
+The_Matrix_1_run_f_cm_np1_fr_med_1.npy
+Norm of logits:22.219
+Top classes and probabilities
+0.761215 8.00403 run
+0.068296 5.59296 kick
+0.0587793 5.4429 jump
+0.0376623 4.99777 fall_floor
+0.0178644 4.25192 pullup
+
+
+~~~~~~~~~~~~~~~~~The_Matrix_Revolutions_5_run_u_cm_np1_ri_med_3.npy
+Norm of logits:26.3402
+Top classes and probabilities
+0.845404 9.25367 punch
+0.058718 6.5866 shoot_gun
+0.0300219 5.91578 run
+0.0233919 5.66624 draw_sword
+0.0101325 4.8296 kick
+
+
+IamLegend_run_f_nm_np1_fr_med_13.npy
+Norm of logits:34.0606
+Top classes and probabilities
+0.988024 13.7182 run
+0.00388896 8.18063 jump
+0.00218364 7.60348 climb_stairs
+0.00205953 7.54497 fall_floor
+0.00132422 7.10332 kick
+
+
+~~~~~~~~~~~~~~~~~American_History_X_run_f_nm_np1_fr_med_50.npy
+Norm of logits:16.8096
+Top classes and probabilities
+0.305224 4.87638 turn
+0.165906 4.26676 walk
+0.107839 3.83597 hug
+0.0900745 3.65597 kiss
+0.0657447 3.34111 wave
+
+
+~~~~~~~~~~~~~~~~~likebeckam_run_f_cm_np1_fr_med_30.npy
+Norm of logits:32.4127
+Top classes and probabilities
+0.868954 12.5059 kick_ball
+0.11141 10.4518 run
+0.00875382 7.90808 jump
+0.00664995 7.6332 kick
+0.00269895 6.73145 ride_horse
+
+
+~~~~~~~~~~~~~~~~~Fellowship_7_run_u_cm_np1_fr_med_5.npy
+Norm of logits:40.2623
+Top classes and probabilities
+0.515191 11.811 shoot_gun
+0.387308 11.5257 sword
+0.0275162 8.88124 sword_exercise
+0.0259139 8.82124 draw_sword
+0.0184515 8.4816 swing_baseball
+
+
+Crash_run_f_cm_np1_fr_med_17.npy
+Norm of logits:23.7001
+Top classes and probabilities
+0.649543 8.04945 run
+0.122152 6.37844 sit
+0.109038 6.26487 walk
+0.0344662 5.11315 pick
+0.0258956 4.82725 jump
+
+
+HP_PRISONER_OF_AZKABAN_run_f_cm_np1_ri_bad_32.npy
+Norm of logits:27.4793
+Top classes and probabilities
+0.929637 10.2301 run
+0.0389019 7.05638 fall_floor
+0.00674408 5.30401 dive
+0.00588825 5.1683 jump
+0.0050906 5.02274 kick_ball
+
+
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_run_f_cm_np1_ba_med_44.npy
+Norm of logits:25.1311
+Top classes and probabilities
+0.627254 8.77501 climb_stairs
+0.194025 7.60164 run
+0.0987417 6.92616 walk
+0.0278402 5.66014 pick
+0.0144502 5.00436 jump
+
+
+~~~~~~~~~~~~~~~~~EVOLUTION_run_f_cm_np1_ba_med_0.npy
+Norm of logits:34.3176
+Top classes and probabilities
+0.235608 7.83364 kick
+0.174631 7.53415 sword
+0.119628 7.15586 punch
+0.103084 7.00702 throw
+0.101541 6.99194 turn
+
+
+###########################
+The class run has 18 videos , 0 right, and the accuracy is :
+run                   0.0
+##########################
+~~~~~~~~~~~~~~~~~Veoh_Alpha_Dog_1_smoke_h_nm_np1_fr_goo_53.npy
+Norm of logits:27.966
+Top classes and probabilities
+0.759979 10.5345 eat
+0.13455 8.80312 drink
+0.0752887 8.22252 smoke
+0.0202666 6.91016 chew
+0.0028387 4.94454 sit
+
+
+smoking_smoking_-_tricks!_smoke_h_nm_np1_fr_goo_1.npy
+Norm of logits:32.9415
+Top classes and probabilities
+0.997051 15.8837 smoke
+0.00232308 9.82183 eat
+0.00043934 8.15646 chew
+6.90154e-05 6.30551 drink
+5.11748e-05 6.00643 brush_hair
+
+
+How_to_smoke_smoke_h_nm_np1_fr_goo_0.npy
+Norm of logits:25.7586
+Top classes and probabilities
+0.441059 9.31291 smoke
+0.376893 9.15569 chew
+0.108727 7.91257 drink
+0.0323422 6.7001 talk
+0.0323352 6.69988 eat
+
+
+Glory_smoke_u_nm_np1_le_goo_34.npy
+Norm of logits:23.3711
+Top classes and probabilities
+0.410558 6.70468 smoke
+0.133337 5.58005 drink
+0.122637 5.4964 wave
+0.106999 5.35999 eat
+0.064458 4.85318 fall_floor
+
+
+raucher_smoke_u_nm_np1_fr_med_1.npy
+Norm of logits:29.3243
+Top classes and probabilities
+0.92307 10.5386 smoke
+0.019236 6.66771 wave
+0.0166586 6.52385 eat
+0.0124661 6.23393 chew
+0.00905888 5.91467 draw_sword
+
+
+~~~~~~~~~~~~~~~~~girl_smoking_smoke_h_cm_np1_ri_goo_1.npy
+Norm of logits:27.2705
+Top classes and probabilities
+0.652403 9.78359 smile
+0.273062 8.91263 smoke
+0.0326207 6.78788 kiss
+0.0274304 6.61458 turn
+0.00610304 5.11172 hug
+
+
+~~~~~~~~~~~~~~~~~A_Beautiful_Mind_1_smoke_h_nm_np1_fr_goo_8.npy
+Norm of logits:30.0416
+Top classes and probabilities
+0.410506 9.11202 eat
+0.348457 8.94814 talk
+0.0841675 7.52744 laugh
+0.0617896 7.21836 drink
+0.0247299 6.30264 smile
+
+
+###########################
+The class smoke has 7 videos , 0 right, and the accuracy is :
+smoke                 0.0
+##########################
+Bungee_Jumping_Europabr_cke_192m_dive_f_cm_np1_ri_bad_0.npy
+Norm of logits:29.746
+Top classes and probabilities
+0.960795 12.6105 dive
+0.0209795 8.78632 jump
+0.013259 8.32745 climb
+0.0020666 6.46868 climb_stairs
+0.0012001 5.92518 fall_floor
+
+
+Dive_Roll_dive_f_cm_np1_le_bad_1.npy
+Norm of logits:31.4018
+Top classes and probabilities
+0.548498 11.288 dive
+0.359067 10.8643 jump
+0.0439238 8.76329 somersault
+0.0207524 8.01349 hit
+0.0186546 7.90692 push
+
+
+GoalKeeper_Training_2_dive_f_cm_np1_le_bad_11.npy
+Norm of logits:30.8229
+Top classes and probabilities
+0.505014 9.65415 dive
+0.364247 9.32739 jump
+0.0435977 7.20457 somersault
+0.0272477 6.73453 kick_ball
+0.0220084 6.52099 run
+
+
+BungyjumpingAJHackettNewZealand_dive_f_cm_np1_ri_bad_0.npy
+Norm of logits:22.1843
+Top classes and probabilities
+0.377921 6.10781 dive
+0.164745 5.27753 run
+0.139945 5.11438 jump
+0.0802989 4.55888 fall_floor
+0.0413896 3.89616 draw_sword
+
+
+BungyjumpingAJHackettNewZealand_dive_f_cm_np1_ba_bad_2.npy
+Norm of logits:19.4638
+Top classes and probabilities
+0.5162 6.28595 dive
+0.112199 4.75973 jump
+0.0825891 4.45333 fall_floor
+0.0655599 4.22242 throw
+0.0513214 3.97756 run
+
+
+~~~~~~~~~~~~~~~~~BATMAN_BEGINS_dive_f_cm_np1_fr_bad_17.npy
+Norm of logits:21.1698
+Top classes and probabilities
+0.199139 5.49391 stand
+0.159731 5.27339 kick
+0.145594 5.18072 fall_floor
+0.112071 4.91903 hit
+0.111966 4.9181 run
+
+
+bungee_jumping_compilation_dive_f_cm_np1_le_bad_4.npy
+Norm of logits:22.8386
+Top classes and probabilities
+0.926164 10.928 dive
+0.0510814 8.03035 jump
+0.0187239 7.02673 climb
+0.00153647 4.52642 wave
+0.000440974 3.27816 somersault
+
+
+base_jumping_compilation_3_FMJ_dive_f_cm_np1_ba_bad_0.npy
+Norm of logits:35.6631
+Top classes and probabilities
+0.962017 13.9409 dive
+0.0184952 9.98935 kick_ball
+0.00673285 8.97884 somersault
+0.00592009 8.85019 fall_floor
+0.0050489 8.69101 jump
+
+
+GoalKeeper_Training_2_dive_f_cm_np1_ba_bad_2.npy
+Norm of logits:33.9151
+Top classes and probabilities
+0.891623 11.8039 dive
+0.0455461 8.82955 catch
+0.021263 8.06779 somersault
+0.00997216 7.31062 kick_ball
+0.00855502 7.15734 fall_floor
+
+
+Extreme_Cliffdiving_dive_f_cm_np1_le_bad_1.npy
+Norm of logits:32.6465
+Top classes and probabilities
+0.999705 16.8186 dive
+9.3676e-05 7.54319 handstand
+8.17451e-05 7.40696 cartwheel
+4.88749e-05 6.89261 jump
+2.24118e-05 6.11294 fall_floor
+
+
+BASE_JUMPING_COMPILATION_PART_3_AMAZING!!!!!!!_dive_f_cm_np3_ri_bad_2.npy
+Norm of logits:37.5918
+Top classes and probabilities
+0.954788 15.5964 dive
+0.034148 12.2657 ride_horse
+0.00678412 10.6495 kiss
+0.00388425 10.0919 jump
+0.000163135 6.92178 kick_ball
+
+
+RETURN_OF_THE_KING_dive_f_nm_np1_ba_bad_38.npy
+Norm of logits:22.6807
+Top classes and probabilities
+0.470783 6.68654 dive
+0.190512 5.78186 fall_floor
+0.0723532 4.8137 jump
+0.0597827 4.62286 stand
+0.0348202 4.08234 pick
+
+
+###########################
+The class dive has 12 videos , 0 right, and the accuracy is :
+dive                  0.0
+##########################
+Dhan_Dhana_Dhan_Goal_(2007)_w__Eng_Sub_-_Watch_Online_-_4_16_kick_ball_f_cm_np1_ri_goo_2.npy
+Norm of logits:24.1258
+Top classes and probabilities
+0.561556 9.61455 kick_ball
+0.410017 9.30004 dribble
+0.00995939 5.58236 turn
+0.00476372 4.84487 kick
+0.00437704 4.76022 pick
+
+
+likebeckam_kick_ball_f_nm_np1_fr_bad_13.npy
+Norm of logits:29.3778
+Top classes and probabilities
+0.738286 9.98859 kick_ball
+0.173851 8.54245 throw
+0.0529089 7.35283 kick
+0.0099386 5.68068 dive
+0.00656433 5.2659 hit
+
+
+FC_Venus_-_Ausschnitt_Teil_2_kick_ball_f_cm_np1_fr_med_0.npy
+Norm of logits:24.5608
+Top classes and probabilities
+0.774108 8.85202 kick_ball
+0.123546 7.01692 catch
+0.0236249 5.36261 shoot_gun
+0.0187414 5.13104 dive
+0.0163104 4.99211 swing_baseball
+
+
+~~~~~~~~~~~~~~~~~Der_f_nfte_Spieltag_kick_ball_f_cm_np2_ba_med_3.npy
+Norm of logits:32.605
+Top classes and probabilities
+0.991397 15.7873 dribble
+0.00805848 10.9749 kick_ball
+0.000246528 7.48793 run
+0.000184761 7.19952 catch
+3.86604e-05 5.63528 kick
+
+
+~~~~~~~~~~~~~~~~~Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_fr_med_1.npy
+Norm of logits:17.0207
+Top classes and probabilities
+0.156754 4.11465 smile
+0.124756 3.88634 sword
+0.11809 3.83142 cartwheel
+0.114154 3.79753 run
+0.0983949 3.64897 sword_exercise
+
+
+Manchester_United_vs_Chelsea_Champion_League_final_2008_penalty_shootout_kick_ball_f_nm_np1_ba_bad_0.npy
+Norm of logits:30.2421
+Top classes and probabilities
+0.458428 11.3812 kick_ball
+0.43423 11.3269 catch
+0.101283 9.87128 jump
+0.0031416 6.39809 laugh
+0.00069039 4.88286 dive
+
+
+Dhan_Dhana_Dhan_Goal_(2007)_w__Eng_Sub_-_Watch_Online_-_4_16_kick_ball_f_cm_np1_le_med_1.npy
+Norm of logits:44.8384
+Top classes and probabilities
+0.969387 15.7268 kick_ball
+0.022767 11.9755 dive
+0.00404354 10.2473 kick
+0.00146358 9.23107 catch
+0.000897999 8.7426 fall_floor
+
+
+funny_soccer_commercial_kick_ball_f_cm_np1_fr_med_0.npy
+Norm of logits:25.3351
+Top classes and probabilities
+0.729914 9.97885 kick_ball
+0.206608 8.71674 jump
+0.0183617 6.29619 swing_baseball
+0.0173263 6.23814 dive
+0.015584 6.13216 run
+
+
+~~~~~~~~~~~~~~~~~Der_f_nfte_Spieltag_kick_ball_f_cm_np1_ri_goo_2.npy
+Norm of logits:32.1447
+Top classes and probabilities
+0.986893 14.8394 dribble
+0.0118702 10.4188 kick_ball
+0.000672921 7.54867 catch
+0.000262318 6.6066 run
+0.000141564 5.9898 kick
+
+
+~~~~~~~~~~~~~~~~~LONGESTYARD_kick_ball_f_cm_np1_le_bad_9.npy
+Norm of logits:23.8984
+Top classes and probabilities
+0.633928 7.3108 run
+0.0812456 5.25634 kick_ball
+0.0551513 4.86894 shoot_gun
+0.0383573 4.50581 stand
+0.0346754 4.40489 fall_floor
+
+
+~~~~~~~~~~~~~~~~~Dhan_Dhana_Dhan_Goal_(2007)_w__Eng_Sub_-_Watch_Online_-_3_16_kick_ball_f_cm_np1_fr_med_1.npy
+Norm of logits:21.8086
+Top classes and probabilities
+0.191719 5.48722 somersault
+0.148681 5.23299 handstand
+0.115114 4.97711 flic_flac
+0.086589 4.69236 dive
+0.0796433 4.60874 fall_floor
+
+
+Goal_1_&_2_kick_ball_l_cm_np2_le_bad_1.npy
+Norm of logits:31.1781
+Top classes and probabilities
+0.999233 15.7756 kick_ball
+0.000289638 7.62947 pick
+0.000254753 7.50113 dive
+7.08233e-05 6.22103 jump
+6.23417e-05 6.09347 run
+
+
+The_Monk_Best_Bits_2_kick_ball_f_cm_np2_ri_med_2.npy
+Norm of logits:38.7394
+Top classes and probabilities
+0.946679 15.3062 kick_ball
+0.0253941 11.6878 run
+0.0210952 11.5023 catch
+0.00520612 10.1031 jump
+0.00071123 8.11248 dive
+
+
+metacafe_coolsoccer_kick_ball_f_nm_np1_ba_bad_5.npy
+Norm of logits:28.2957
+Top classes and probabilities
+0.940514 11.8776 kick_ball
+0.0296871 8.42192 run
+0.0172728 7.88035 catch
+0.00665745 6.92695 jump
+0.00407946 6.43717 pick
+
+
+The_Monk_Best_Bits_2_kick_ball_f_cm_np3_fr_med_0.npy
+Norm of logits:26.7006
+Top classes and probabilities
+0.749152 9.98201 kick_ball
+0.0823175 7.77365 swing_baseball
+0.0588545 7.43813 catch
+0.0488794 7.25242 run
+0.0240861 6.5447 dive
+
+
+Nike_Soccer_Freestyle_kick_ball_f_cm_np1_ba_med_1.npy
+Norm of logits:33.9765
+Top classes and probabilities
+0.600862 11.6898 kick_ball
+0.335448 11.1069 fall_floor
+0.0276283 8.61024 kick
+0.0265203 8.56931 run
+0.00641264 7.14967 throw
+
+
+Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_ba_med_0.npy
+Norm of logits:21.1489
+Top classes and probabilities
+0.741578 8.14717 kick_ball
+0.0828846 5.95584 run
+0.082734 5.95402 dribble
+0.0225407 4.65371 catch
+0.0224206 4.64837 dive
+
+
+###########################
+The class kick_ball has 17 videos , 0 right, and the accuracy is :
+kick_ball             0.0
+##########################
+AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_19.npy
+Norm of logits:39.0498
+Top classes and probabilities
+0.996827 17.5361 punch
+0.00291982 11.7031 kick
+0.000107588 8.40212 sword_exercise
+6.51025e-05 7.89977 hit
+5.35365e-05 7.70417 run
+
+
+PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_1.npy
+Norm of logits:27.2418
+Top classes and probabilities
+0.925725 10.6189 punch
+0.0359501 7.37041 kick
+0.0123658 6.30321 shoot_gun
+0.00850172 5.92855 fall_floor
+0.00540019 5.47471 run
+
+
+AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_1.npy
+Norm of logits:33.5933
+Top classes and probabilities
+0.995029 15.246 punch
+0.00383294 9.68685 kick
+0.000843227 8.1727 run
+8.38731e-05 5.86477 fall_floor
+6.08814e-05 5.54439 pick
+
+
+~~~~~~~~~~~~~~~~~Oceans11_punch_u_nm_np1_fr_med_9.npy
+Norm of logits:23.4574
+Top classes and probabilities
+0.367936 6.90926 stand
+0.346667 6.84971 punch
+0.10353 5.64121 hug
+0.057023 5.0448 turn
+0.0266394 4.28374 sit
+
+
+PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_2.npy
+Norm of logits:31.8272
+Top classes and probabilities
+0.894636 12.0513 punch
+0.0782389 9.61466 sword_exercise
+0.0133279 7.84476 kick
+0.00752395 7.27299 fall_floor
+0.00260134 6.21092 catch
+
+
+THE_PROTECTOR_punch_u_cm_np1_ba_med_82.npy
+Norm of logits:47.1416
+Top classes and probabilities
+0.635896 14.7629 punch
+0.206108 13.6362 sword
+0.0839461 12.738 kick
+0.0445626 12.1047 hit
+0.0269487 11.6018 fencing
+
+
+The_Matrix_5_punch_u_cm_np1_fr_med_18.npy
+Norm of logits:32.5952
+Top classes and probabilities
+0.937371 12.0774 punch
+0.0471966 9.08868 hit
+0.00807393 7.323 kick
+0.00219296 6.01961 jump
+0.00183141 5.83944 fall_floor
+
+
+AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_4.npy
+Norm of logits:41.3212
+Top classes and probabilities
+0.9995 18.5567 punch
+0.000321032 10.5132 kick
+0.00014856 9.74264 run
+1.07325e-05 7.11493 sword_exercise
+7.3897e-06 6.74174 hit
+
+
+Two_Towers_6_punch_h_nm_np1_fr_med_10.npy
+Norm of logits:25.3109
+Top classes and probabilities
+0.533162 7.2219 punch
+0.132013 5.82597 kick
+0.100612 5.55435 ride_horse
+0.0497307 4.8497 fall_floor
+0.0433834 4.71315 sword
+
+
+The_Matrix_4_punch_u_cm_np1_fr_med_4.npy
+Norm of logits:45.3269
+Top classes and probabilities
+0.982916 17.7373 punch
+0.0125257 13.3746 sword
+0.0027495 11.8582 kick
+0.00168046 11.3659 hit
+5.1607e-05 7.8827 throw
+
+
+Veoh_Alpha_Dog_1_punch_u_cm_np1_ba_med_52.npy
+Norm of logits:23.511
+Top classes and probabilities
+0.701225 7.84417 punch
+0.0930747 5.82474 hit
+0.0589649 5.36828 kick
+0.0317554 4.7494 fall_floor
+0.0305608 4.71106 sit
+
+
+LivefreeorDieHard_punch_u_cm_np1_fr_med_1.npy
+Norm of logits:23.0997
+Top classes and probabilities
+0.535663 7.32043 punch
+0.159732 6.11042 kick
+0.137068 5.9574 hit
+0.0573354 5.08584 fall_floor
+0.0227049 4.1595 sword
+
+
+PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_4.npy
+Norm of logits:25.2328
+Top classes and probabilities
+0.914711 9.84442 punch
+0.0292404 6.40136 kick
+0.0185185 5.94458 fall_floor
+0.0131235 5.60021 catch
+0.00718956 4.99844 sword_exercise
+
+
+BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_1.npy
+Norm of logits:20.478
+Top classes and probabilities
+0.806367 7.88776 punch
+0.0698014 5.44087 pick
+0.0447307 4.99588 situp
+0.0228134 4.32257 pushup
+0.00982125 3.47977 throw
+
+
+~~~~~~~~~~~~~~~~~Glory_punch_u_cm_np1_ba_med_50.npy
+Norm of logits:26.0766
+Top classes and probabilities
+0.470499 7.66749 kick
+0.154598 6.55453 punch
+0.146127 6.49818 fall_floor
+0.100486 6.12372 hit
+0.045095 5.32247 stand
+
+
+AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_8.npy
+Norm of logits:41.4319
+Top classes and probabilities
+0.999825 20.2975 punch
+0.000140038 11.4241 kick
+2.04167e-05 9.4985 sword_exercise
+6.59849e-06 8.36899 clap
+2.3578e-06 7.33988 hit
+
+
+~~~~~~~~~~~~~~~~~BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_2.npy
+Norm of logits:17.2249
+Top classes and probabilities
+0.193012 4.31368 throw
+0.192256 4.30975 punch
+0.187559 4.28502 pick
+0.0687416 3.28128 pour
+0.0531544 3.02413 somersault
+
+
+AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_14.npy
+Norm of logits:31.1229
+Top classes and probabilities
+0.998589 14.7265 punch
+0.000756269 7.54083 kick
+0.0003602 6.7991 run
+5.97565e-05 5.00272 hug
+4.2506e-05 4.66208 clap
+
+
+~~~~~~~~~~~~~~~~~Return_of_the_King_10_punch_u_cm_np1_ri_med_1.npy
+Norm of logits:32.6892
+Top classes and probabilities
+0.461448 9.21389 kick
+0.275826 8.69929 punch
+0.129876 7.9461 sword
+0.0597542 7.16976 fencing
+0.0179125 5.96502 draw_sword
+
+
+PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_13.npy
+Norm of logits:26.5923
+Top classes and probabilities
+0.930364 10.8226 punch
+0.0266323 7.26919 sword_exercise
+0.0185853 6.90944 fall_floor
+0.00894067 6.17768 catch
+0.00537063 5.66801 kick
+
+
+###########################
+The class punch has 20 videos , 0 right, and the accuracy is :
+punch                 0.0
+##########################
+~~~~~~~~~~~~~~~~~Hitch_Part_1_wave_u_nm_np1_fr_goo_1.npy
+Norm of logits:29.2872
+Top classes and probabilities
+0.891463 9.95874 turn
+0.0440977 6.95228 wave
+0.0248417 6.3784 shoot_gun
+0.0156318 5.91518 punch
+0.00594042 4.94766 hit
+
+
+~~~~~~~~~~~~~~~~~50_FIRST_DATES_wave_f_cm_np1_fr_med_0.npy
+Norm of logits:19.2503
+Top classes and probabilities
+0.357397 6.24724 pick
+0.224475 5.78215 wave
+0.138455 5.29893 sit
+0.0740875 4.67363 dive
+0.0626071 4.50527 walk
+
+
+~~~~~~~~~~~~~~~~~Chris_Benoit_waving_goodbye_wave_u_nm_np1_fr_med_0.npy
+Norm of logits:20.4862
+Top classes and probabilities
+0.917598 9.46019 clap
+0.0645002 6.8051 wave
+0.00216593 3.41128 pour
+0.00204905 3.35581 smoke
+0.00204503 3.35384 throw
+
+
+Miro_Klose_winkt_wave_f_cm_np1_le_med_0.npy
+Norm of logits:23.0774
+Top classes and probabilities
+0.484658 7.69187 wave
+0.368367 7.41751 kick_ball
+0.0699574 5.75631 smile
+0.0225113 4.62244 swing_baseball
+0.00771946 3.55217 hit
+
+
+BIG_FISH_wave_u_nm_np1_fr_bad_4.npy
+Norm of logits:21.543
+Top classes and probabilities
+0.302761 5.65079 wave
+0.152605 4.96571 stand
+0.118925 4.71635 smile
+0.0824489 4.35003 walk
+0.0722046 4.21736 sit
+
+
+Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_0.npy
+Norm of logits:20.2705
+Top classes and probabilities
+0.352568 5.97123 wave
+0.158013 5.16866 walk
+0.147673 5.10099 throw
+0.0713298 4.3733 pick
+0.0592598 4.18792 hug
+
+
+MUSE_Wave_Goodbye_in_Wembley_wave_u_nm_np3_fr_med_0.npy
+Norm of logits:24.4237
+Top classes and probabilities
+0.636369 8.35058 wave
+0.171006 7.0365 clap
+0.106748 6.56527 shoot_gun
+0.037559 5.52071 punch
+0.0105361 4.2496 hit
+
+
+~~~~~~~~~~~~~~~~~BLACK_HAWK_DOWN_wave_u_nm_np1_ba_goo_19.npy
+Norm of logits:24.2404
+Top classes and probabilities
+0.54488 8.23511 drink
+0.267936 7.52529 eat
+0.117808 6.7036 wave
+0.0147676 4.62698 clap
+0.0122425 4.43945 shoot_gun
+
+
+~~~~~~~~~~~~~~~~~CastAway1_wave_u_cm_np1_ri_med_4.npy
+Norm of logits:23.268
+Top classes and probabilities
+0.217944 5.38284 shoot_gun
+0.166761 5.11517 turn
+0.0739714 4.30229 drink
+0.0661591 4.19067 stand
+0.0597384 4.08858 run
+
+
+~~~~~~~~~~~~~~~~~Abschieds-winken_!!!!!!_Gruss_Guido_wave_u_cm_np1_fr_bad_1.npy
+Norm of logits:19.4157
+Top classes and probabilities
+0.364944 6.65101 pushup
+0.342425 6.58732 punch
+0.067104 4.95751 wave
+0.0607394 4.85786 shoot_gun
+0.0551494 4.76132 laugh
+
+
+Newall_Green_High_Students_Waving_Goodbye_wave_u_cm_np1_fr_bad_2.npy
+Norm of logits:33.4694
+Top classes and probabilities
+0.751915 10.1672 wave
+0.107957 8.22631 smile
+0.0652453 7.72273 clap
+0.0333301 7.05103 laugh
+0.0150603 6.25664 sit
+
+
+###########################
+The class wave has 11 videos , 0 right, and the accuracy is :
+wave                  0.0
+##########################
+Best_kisses_kiss_h_nm_np2_le_goo_5.npy
+Norm of logits:29.5798
+Top classes and probabilities
+0.978263 13.0657 kiss
+0.0124907 8.70492 smoke
+0.005585 7.90002 drink
+0.00235009 7.03439 hug
+0.00025801 4.82518 eat
+
+
+BestKisses_kiss_u_nm_np2_fr_med_4.npy
+Norm of logits:23.1141
+Top classes and probabilities
+0.976093 10.7827 kiss
+0.0112038 6.3154 eat
+0.00294119 4.97796 smoke
+0.00207308 4.62818 smile
+0.00187056 4.52538 drink
+
+
+TVs_Best_Kisses_Top_50_(30_to_21)_kiss_u_cm_np2_le_goo_6.npy
+Norm of logits:26.6607
+Top classes and probabilities
+0.880876 9.23116 kiss
+0.0269602 5.74461 turn
+0.019331 5.41195 drink
+0.0127813 4.99823 clap
+0.012384 4.96665 smoke
+
+
+BestKisses_kiss_h_cm_np2_ri_goo_13.npy
+Norm of logits:32.2738
+Top classes and probabilities
+0.99963 17.505 kiss
+0.000220322 9.08499 turn
+0.000127284 8.53632 hug
+7.7937e-06 5.74322 pick
+3.25607e-06 4.87042 talk
+
+
+5GreatHollywoodKisses_kiss_u_nm_np2_ri_goo_2.npy
+Norm of logits:52.325
+Top classes and probabilities
+0.999976 23.8086 kiss
+2.25233e-05 13.1077 turn
+6.77109e-07 9.60322 hug
+1.71537e-07 8.23019 laugh
+1.01446e-07 7.70491 stand
+
+
+TVs_Best_Kisses_Top_50_(30_to_21)_kiss_h_cm_np2_le_goo_5.npy
+Norm of logits:22.5619
+Top classes and probabilities
+0.437257 6.51828 kiss
+0.243226 5.93175 drink
+0.0545679 4.4372 smoke
+0.0468126 4.28391 talk
+0.0409571 4.15028 turn
+
+
+TVs_Best_Kisses_Top_50-_(40_to_31)_kiss_h_cm_np2_fr_goo_9.npy
+Norm of logits:20.9044
+Top classes and probabilities
+0.573272 6.80674 kiss
+0.12716 5.30083 drink
+0.0603711 4.55589 talk
+0.0543178 4.45023 turn
+0.0426454 4.2083 stand
+
+
+Best_kisses_kiss_h_cm_np2_le_goo_8.npy
+Norm of logits:36.7265
+Top classes and probabilities
+0.999154 19.5307 kiss
+0.000815446 12.4198 hug
+2.66798e-05 8.99998 push
+1.76697e-06 6.28534 pick
+6.8397e-07 5.33623 turn
+
+
+5GreatHollywoodKisses_kiss_h_nm_np2_ri_goo_0.npy
+Norm of logits:20.9695
+Top classes and probabilities
+0.959666 9.37169 kiss
+0.0119083 4.98234 hug
+0.00568145 4.24231 smoke
+0.00391567 3.87009 drink
+0.00314957 3.65237 turn
+
+
+TVs_Best_Kisses_Top_50-_(40_to_31)_kiss_h_cm_np2_le_goo_8.npy
+Norm of logits:20.7677
+Top classes and probabilities
+0.765219 7.36342 kiss
+0.0723839 5.00524 turn
+0.0283017 4.06618 drink
+0.0264275 3.99767 smoke
+0.0257624 3.97218 eat
+
+
+TVs_Best_Kisses_Top_50_(52_to_41)_kiss_u_cm_np2_le_goo_4.npy
+Norm of logits:33.9436
+Top classes and probabilities
+0.982868 14.095 kiss
+0.00826577 9.3167 drink
+0.00712168 9.16772 eat
+0.00103036 7.23448 hug
+0.000314867 6.04897 clap
+
+
+Moviekissmontage_kiss_u_cm_np2_le_med_3.npy
+Norm of logits:36.1679
+Top classes and probabilities
+0.999923 18.3685 kiss
+2.95557e-05 7.93932 drink
+1.53662e-05 7.28521 smoke
+1.31077e-05 7.12624 hug
+9.62019e-06 6.81691 laugh
+
+
+Best_Kisses_in_TV_Movies_1_3_kiss_h_cm_np2_le_goo_4.npy
+Norm of logits:31.5974
+Top classes and probabilities
+0.99193 12.537 kiss
+0.00252452 6.56344 drink
+0.0011231 5.75348 stand
+0.000997602 5.63499 turn
+0.000860955 5.48767 hug
+
+
+TVs_Best_Kisses_Top_50-_(40_to_31)_kiss_h_nm_np2_le_med_4.npy
+Norm of logits:20.0726
+Top classes and probabilities
+0.870436 8.90053 kiss
+0.0903541 6.63527 turn
+0.0161522 4.91359 drink
+0.0032229 3.30182 run
+0.00297404 3.22146 jump
+
+
+###########################
+The class kiss has 14 videos , 0 right, and the accuracy is :
+kiss                  0.0
+##########################
+Torwartraining_TuS_Koblenz_11_08_09_catch_f_cm_np1_le_bad_1.npy
+Norm of logits:38.0913
+Top classes and probabilities
+0.960681 13.907 catch
+0.0176819 9.91187 kick_ball
+0.0176197 9.90835 handstand
+0.000992614 7.03192 cartwheel
+0.000731378 6.7265 golf
+
+
+Torwarttraining_catch_u_cm_np1_le_bad_7.npy
+Norm of logits:29.4155
+Top classes and probabilities
+0.999931 17.5941 catch
+4.23664e-05 7.52497 golf
+8.63519e-06 5.93446 wave
+8.49367e-06 5.91794 swing_baseball
+2.41851e-06 4.66177 dribble
+
+
+Torwarttraining_Arminia_Bielefeld_catch_f_cm_np1_le_med_8.npy
+Norm of logits:37.0917
+Top classes and probabilities
+0.956117 17.2602 catch
+0.0437249 14.1753 kick_ball
+8.69619e-05 7.95507 throw
+2.26063e-05 6.60783 handstand
+1.65385e-05 6.2953 jump
+
+
+Florian_Fromlowitz_beim_Training_der_U_21_Nationalmannschaft_catch_u_cm_np1_le_med_3.npy
+Norm of logits:25.2354
+Top classes and probabilities
+0.993697 12.2469 catch
+0.00339939 6.56908 run
+0.00132293 5.62533 kick_ball
+0.000381008 4.38055 sword
+0.000289129 4.1046 dribble
+
+
+torwart_de-Camp_2009_-_Hohe_B_lle_catch_f_cm_np1_ba_med_2.npy
+Norm of logits:26.6231
+Top classes and probabilities
+0.865181 9.56115 catch
+0.0524545 6.75815 somersault
+0.0180047 5.68884 dive
+0.0128938 5.35496 run
+0.0117707 5.26382 pick
+
+
+torwart_de_-_Torwarttraining_Werder_Bremen_catch_f_cm_np1_ba_bad_0.npy
+Norm of logits:21.6607
+Top classes and probabilities
+0.99124 10.9654 catch
+0.00295255 5.14913 kick_ball
+0.00167267 4.58088 jump
+0.00073259 3.75529 cartwheel
+0.000529343 3.43034 pick
+
+
+Torwarttraining_Arminia_Bielefeld_catch_f_cm_np1_ri_med_5.npy
+Norm of logits:27.4061
+Top classes and probabilities
+0.864005 13.3157 catch
+0.134901 11.4587 kick_ball
+0.00053369 5.92623 jump
+0.000109282 4.34034 throw
+0.000109276 4.34029 swing_baseball
+
+
+Behinderten_Sport_part_2_catch_f_cm_np1_fr_bad_0.npy
+Norm of logits:38.0352
+Top classes and probabilities
+0.95134 14.5707 catch
+0.0437843 11.4921 kick_ball
+0.00379024 9.04527 fall_floor
+0.000284824 6.45696 throw
+0.000260166 6.36641 pick
+
+
+Seldin_Lipovic_-_Willi_Weber__Torwarttraining__catch_f_cm_np1_le_med_1.npy
+Norm of logits:18.3867
+Top classes and probabilities
+0.91105 7.93673 catch
+0.0263945 4.39528 swing_baseball
+0.00918559 3.33976 kick_ball
+0.00593907 2.90368 clap
+0.00531011 2.79174 handstand
+
+
+###########################
+The class catch has 9 videos , 0 right, and the accuracy is :
+catch                 0.0
+##########################
+~~~~~~~~~~~~~~~~~amazingballthrowingtricks_throw_f_cm_np1_ri_med_5.npy
+Norm of logits:22.6455
+Top classes and probabilities
+0.32892 5.9204 jump
+0.19609 5.40316 fall_floor
+0.0893478 4.61712 run
+0.0886401 4.60917 sit
+0.0392216 3.79381 kick_ball
+
+
+~~~~~~~~~~~~~~~~~AboutABoy_throw_f_nm_np1_ba_med_2.npy
+Norm of logits:23.2595
+Top classes and probabilities
+0.792498 8.31466 wave
+0.0523989 5.59835 turn
+0.0448433 5.44264 sit
+0.0365611 5.23845 walk
+0.0306059 5.06066 catch
+
+
+KnifeThrowing_throw_f_nm_np1_le_med_2.npy
+Norm of logits:20.822
+Top classes and probabilities
+0.985479 10.1342 throw
+0.00442171 4.72763 draw_sword
+0.00213228 3.9983 pick
+0.00130492 3.50725 fall_floor
+0.00108804 3.32548 kick_ball
+
+
+~~~~~~~~~~~~~~~~~Faith_Rewarded_throw_u_cm_np1_fr_med_2.npy
+Norm of logits:18.9928
+Top classes and probabilities
+0.346666 5.56508 dive
+0.224173 5.12913 throw
+0.0736901 4.01658 swing_baseball
+0.0614184 3.83443 flic_flac
+0.0598711 3.80891 jump
+
+
+Compilationknifethrowing_throw_u_nm_np1_ba_med_9.npy
+Norm of logits:19.4315
+Top classes and probabilities
+0.321239 5.67933 throw
+0.304795 5.62679 sit
+0.0915139 4.42364 walk
+0.0427742 3.66308 turn
+0.0385364 3.55875 pick
+
+
+~~~~~~~~~~~~~~~~~amazingballthrowingtricks_throw_f_cm_np1_fr_med_6.npy
+Norm of logits:20.0601
+Top classes and probabilities
+0.24778 5.45177 jump
+0.113921 4.67473 walk
+0.109391 4.63416 climb_stairs
+0.0882115 4.41896 pick
+0.0868627 4.40355 push
+
+
+BiomechanicsEvaluationofaPitcher_throw_f_cm_np1_ri_med_0.npy
+Norm of logits:22.5752
+Top classes and probabilities
+0.397952 6.5983 throw
+0.29782 6.30846 shoot_gun
+0.0776521 4.96421 handstand
+0.0711933 4.87737 sword_exercise
+0.0442257 4.40128 situp
+
+
+ScottKazmir_throw_f_cm_np1_fr_med_0.npy
+Norm of logits:30.8235
+Top classes and probabilities
+0.954328 11.8091 throw
+0.0338537 8.4701 swing_baseball
+0.00390855 6.31122 catch
+0.00174877 5.50697 fencing
+0.0016267 5.43461 fall_floor
+
+
+Compilationknifethrowing_throw_u_nm_np1_ba_med_15.npy
+Norm of logits:22.393
+Top classes and probabilities
+0.571263 7.00703 throw
+0.0983546 5.24776 hug
+0.0726564 4.94493 pick
+0.0693849 4.89885 walk
+0.0435248 4.43252 turn
+
+
+~~~~~~~~~~~~~~~~~Faith_Rewarded_throw_u_cm_np1_ba_med_6.npy
+Norm of logits:14.2165
+Top classes and probabilities
+0.461636 5.24816 pick
+0.103562 3.75355 fall_floor
+0.0835497 3.53883 turn
+0.0580729 3.17508 throw
+0.052659 3.07722 handstand
+
+
+Webbpitching0045-8-08_throw_f_cm_np1_ba_med_7.npy
+Norm of logits:20.6573
+Top classes and probabilities
+0.874399 8.20076 throw
+0.047042 5.27826 swing_baseball
+0.0176423 4.29752 handstand
+0.0121885 3.92772 dive
+0.00952956 3.68162 flic_flac
+
+
+amazingballthrowingtricks_throw_u_cm_np1_fr_med_3.npy
+Norm of logits:24.0502
+Top classes and probabilities
+0.289606 6.3821 throw
+0.200593 6.01485 push
+0.109418 5.40875 hit
+0.0895513 5.20839 shoot_gun
+0.0880358 5.19132 pick
+
+
+###########################
+The class throw has 12 videos , 0 right, and the accuracy is :
+throw                 0.0
+##########################
+Braune_Stiefel_brown_boots_hot_high_heels_Treppen_steigen_Down-_and_upstairs_climb_stairs_l_cm_np1_ba_med_0.npy
+Norm of logits:16.7886
+Top classes and probabilities
+0.589119 6.34624 climb_stairs
+0.138246 4.89665 wave
+0.0819699 4.37396 sit
+0.0624253 4.10158 pour
+0.0290265 3.33582 walk
+
+
+Stadium_Plyometric_Workout_climb_stairs_l_cm_np1_ri_med_1.npy
+Norm of logits:36.0912
+Top classes and probabilities
+0.99788 17.3377 climb_stairs
+0.00162208 10.9157 jump
+0.00034424 9.3656 run
+9.33215e-05 8.06031 walk
+3.59633e-05 7.10676 kick
+
+
+I_DO_NOT_Run_Up_Stairs_Like_A_GIRL_climb_stairs_l_cm_np1_ba_med_5.npy
+Norm of logits:36.421
+Top classes and probabilities
+0.998304 15.6143 climb_stairs
+0.000454955 7.92073 jump
+0.00044732 7.9038 dive
+0.00033396 7.61155 run
+0.000167186 6.91963 flic_flac
+
+
+~~~~~~~~~~~~~~~~~Fellowship_6_climb_stairs_f_cm_np1_ba_med_3.npy
+Norm of logits:28.7015
+Top classes and probabilities
+0.227826 6.22159 talk
+0.180458 5.9885 sword
+0.130917 5.66757 stand
+0.114388 5.5326 turn
+0.0494131 4.69322 run
+
+
+~~~~~~~~~~~~~~~~~treppensteigen_1_climb_stairs_f_cm_np2_fr_med_1.npy
+Norm of logits:22.138
+Top classes and probabilities
+0.24357 5.42796 wave
+0.193365 5.19714 climb_stairs
+0.102766 4.56501 hit
+0.0810254 4.32732 sit
+0.0802267 4.31741 punch
+
+
+Narcotic1967256kb_climb_stairs_f_nm_np1_ba_med_0.npy
+Norm of logits:25.9943
+Top classes and probabilities
+0.658689 9.46924 climb_stairs
+0.192287 8.23798 jump
+0.0809584 7.37293 walk
+0.037173 6.59457 run
+0.0160745 5.75623 fall_floor
+
+
+Piano_stairs__-_TheFunTheory_com_-_Rolighetsteorin_se_climb_stairs_f_nm_np1_ba_med_0.npy
+Norm of logits:24.0194
+Top classes and probabilities
+0.874938 10.1366 climb_stairs
+0.0996539 7.9642 walk
+0.00550893 5.06886 fall_floor
+0.00443576 4.85219 pick
+0.00353488 4.62518 stand
+
+
+H_I_I_T__Swamis_stairs_with_Max_Wettstein_featuring_Donna_Wettstein_climb_stairs_f_cm_np1_ba_med_7.npy
+Norm of logits:34.0895
+Top classes and probabilities
+0.999779 17.1158 climb_stairs
+0.000121269 8.09849 ride_bike
+5.43671e-05 7.29624 push
+2.37203e-05 6.46681 run
+6.32772e-06 5.14542 pick
+
+
+~~~~~~~~~~~~~~~~~Stadium_Plyometric_Workout_climb_stairs_l_cm_np1_ba_med_3.npy
+Norm of logits:41.0401
+Top classes and probabilities
+0.583893 14.8891 jump
+0.411376 14.5389 climb_stairs
+0.0017168 9.05984 somersault
+0.00143142 8.87804 run
+0.000893665 8.40695 kick
+
+
+How_to_walk_in_high_heels_stilettos_up_and_down_stairs_climb_stairs_l_cm_np2_ri_med_0.npy
+Norm of logits:24.5345
+Top classes and probabilities
+0.885945 9.00784 climb_stairs
+0.0295149 5.60608 stand
+0.0221777 5.32027 pullup
+0.0160001 4.99378 wave
+0.0110213 4.62101 climb
+
+
+Stadium_Plyometric_Workout_climb_stairs_l_cm_np1_ri_med_0.npy
+Norm of logits:29.8467
+Top classes and probabilities
+0.964129 12.3397 climb_stairs
+0.0215148 8.53718 jump
+0.00566329 7.20244 sit
+0.0047816 7.03321 walk
+0.00129616 5.72785 stand
+
+
+~~~~~~~~~~~~~~~~~Fellowship_6_climb_stairs_f_nm_np1_ba_bad_4.npy
+Norm of logits:34.2392
+Top classes and probabilities
+0.749093 11.5915 ride_horse
+0.175482 10.1401 climb_stairs
+0.0368153 8.57852 run
+0.0114166 7.40767 stand
+0.00891759 7.16063 climb
+
+
+Treppen_steigen_climb_stairs_f_cm_np1_le_bad_6.npy
+Norm of logits:19.9895
+Top classes and probabilities
+0.531659 7.08524 climb_stairs
+0.230692 6.25032 sit
+0.086492 5.26929 wave
+0.0605904 4.91337 pick
+0.0248638 4.02265 walk
+
+
+Beginner_Boxing_Lessons_-_Using_Stairs_for_Boxing_Training_climb_stairs_l_cm_np1_ba_med_1.npy
+Norm of logits:33.1098
+Top classes and probabilities
+0.999731 16.3592 climb_stairs
+0.000111771 7.26037 flic_flac
+4.74406e-05 6.40339 run
+3.45589e-05 6.08658 dribble
+1.87328e-05 5.47419 somersault
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_climb_stairs_f_cm_np3_ba_med_125.npy
+Norm of logits:23.8713
+Top classes and probabilities
+0.536783 8.35138 walk
+0.350142 7.92412 climb_stairs
+0.0557585 6.08681 jump
+0.0130133 4.63176 sit
+0.0122625 4.57233 ride_bike
+
+
+###########################
+The class climb_stairs has 15 videos , 0 right, and the accuracy is :
+climb_stairs          0.0
+##########################
+IamLegend_eat_h_nm_np1_le_goo_25.npy
+Norm of logits:26.233
+Top classes and probabilities
+0.618241 10.3514 eat
+0.339922 9.75326 chew
+0.0161727 6.70787 smoke
+0.0092541 6.14961 drink
+0.00654777 5.80367 talk
+
+
+CharlieAndTheChocolateFactory_eat_u_nm_np1_fr_goo_22.npy
+Norm of logits:17.6081
+Top classes and probabilities
+0.346933 5.26494 eat
+0.201544 4.72181 pick
+0.0826553 3.83049 laugh
+0.0675422 3.62856 smoke
+0.0435249 3.18914 drink
+
+
+~~~~~~~~~~~~~~~~~RETURN_OF_THE_KING_eat_h_nm_np1_ri_bad_17.npy
+Norm of logits:20.8907
+Top classes and probabilities
+0.714694 7.68975 smile
+0.113989 5.854 talk
+0.0466748 4.9611 eat
+0.037778 4.74962 turn
+0.0251821 4.34403 drink
+
+
+~~~~~~~~~~~~~~~~~WeddingCrashers_eat_h_nm_np1_fr_goo_8.npy
+Norm of logits:27.9201
+Top classes and probabilities
+0.908811 12.0339 chew
+0.048228 9.09771 eat
+0.0217187 8.29994 smoke
+0.0155314 7.96463 brush_hair
+0.002533 6.15117 talk
+
+
+~~~~~~~~~~~~~~~~~Crash_eat_h_cm_np1_fr_med_11.npy
+Norm of logits:24.6733
+Top classes and probabilities
+0.237191 6.1346 smoke
+0.166821 5.78266 drink
+0.148469 5.66611 turn
+0.0997377 5.26828 eat
+0.0895265 5.16027 wave
+
+
+AMADEUS_eat_u_nm_np1_fr_goo_10.npy
+Norm of logits:30.4688
+Top classes and probabilities
+0.481282 7.84824 eat
+0.0906344 6.17862 drink
+0.0830615 6.09137 stand
+0.0639845 5.83042 draw_sword
+0.0613537 5.78844 laugh
+
+
+~~~~~~~~~~~~~~~~~American_History_X_eat_h_nm_np1_fr_goo_47.npy
+Norm of logits:33.4701
+Top classes and probabilities
+0.731585 12.1478 chew
+0.119826 10.3386 eat
+0.0775913 9.90406 smoke
+0.0524612 9.51268 laugh
+0.0103482 7.88942 drink
+
+
+IamLegendII_eat_h_nm_np1_le_goo_8.npy
+Norm of logits:29.037
+Top classes and probabilities
+0.648934 12.219 eat
+0.334781 11.5571 chew
+0.00936925 7.98105 smoke
+0.00266021 6.72203 drink
+0.00181388 6.33909 talk
+
+
+Two_Towers_1_eat_h_nm_np1_fr_goo_0.npy
+Norm of logits:38.9783
+Top classes and probabilities
+0.552615 12.8609 eat
+0.39467 12.5243 smoke
+0.0479695 10.4168 drink
+0.00108561 6.62838 chew
+0.000900157 6.44105 clap
+
+
+20060723sfjffsomelikeitwarmed_eat_u_cm_np1_ri_med_3.npy
+Norm of logits:40.7255
+Top classes and probabilities
+0.989487 15.4304 eat
+0.00494082 10.1308 clap
+0.00337459 9.74951 drink
+0.00084486 8.36465 sit
+0.000811994 8.32498 pour
+
+
+BIG_FISH_eat_h_nm_np1_fr_goo_15.npy
+Norm of logits:38.0356
+Top classes and probabilities
+0.887607 15.9133 eat
+0.103304 13.7624 chew
+0.00412546 10.5419 smoke
+0.00258276 10.0736 pour
+0.00231162 9.96268 drink
+
+
+RETURN_OF_THE_KING_eat_h_nm_np1_ri_goo_16.npy
+Norm of logits:26.0489
+Top classes and probabilities
+0.966376 10.9359 eat
+0.0196379 7.03985 drink
+0.00279419 5.08993 kick_ball
+0.00263571 5.03154 swing_baseball
+0.00149768 4.4663 throw
+
+
+Prelinger_HabitPat1954_eat_u_nm_np1_fr_goo_16.npy
+Norm of logits:26.3988
+Top classes and probabilities
+0.988873 12.3776 eat
+0.00335844 6.69252 talk
+0.00306087 6.59975 drink
+0.00230695 6.31698 clap
+0.00104045 5.5207 chew
+
+
+###########################
+The class eat has 13 videos , 0 right, and the accuracy is :
+eat                   0.0
+##########################
+Mylifehorseriding_ride_horse_f_cm_np1_ri_med_0.npy
+Norm of logits:18.021
+Top classes and probabilities
+0.946775 9.41779 ride_horse
+0.041752 6.29648 ride_bike
+0.00309456 3.69437 dive
+0.00125269 2.79002 drink
+0.000956889 2.52066 climb_stairs
+
+
+CrossCountry_ride_horse_f_cm_np1_ba_med_0.npy
+Norm of logits:16.5737
+Top classes and probabilities
+0.907946 7.72345 ride_horse
+0.0193743 3.87621 fall_floor
+0.0176285 3.78179 run
+0.00846182 3.04783 pick
+0.00710049 2.87243 swing_baseball
+
+
+ChikiMovie_ride_horse_f_cm_np1_le_med_6.npy
+Norm of logits:17.7287
+Top classes and probabilities
+0.960418 9.16543 ride_horse
+0.014338 4.96098 kick_ball
+0.00663915 4.19104 ride_bike
+0.00524346 3.95504 run
+0.00231942 3.13938 dive
+
+
+CrossCountry_ride_horse_f_cm_np1_le_med_2.npy
+Norm of logits:27.595
+Top classes and probabilities
+0.999946 17.3193 ride_horse
+2.85428e-05 6.85528 kick_ball
+1.43363e-05 6.16667 swing_baseball
+3.03737e-06 4.61487 run
+1.58344e-06 3.96347 draw_sword
+
+
+DressageandJumping_ride_horse_f_cm_np1_ri_med_0.npy
+Norm of logits:21.7592
+Top classes and probabilities
+0.995419 11.5255 ride_horse
+0.00193465 5.28222 run
+0.000503501 3.93612 ride_bike
+0.000496798 3.92272 kick
+0.000393869 3.69056 fall_floor
+
+
+~~~~~~~~~~~~~~~~~Return_of_the_King_2_ride_horse_f_cm_np1_ba_bad_8.npy
+Norm of logits:31.3029
+Top classes and probabilities
+0.447282 9.74508 dive
+0.324468 9.42407 run
+0.110426 8.34623 climb
+0.0773084 7.98969 fall_floor
+0.0135163 6.24579 kick_ball
+
+
+DressageandJumping_ride_horse_f_cm_np1_fr_med_2.npy
+Norm of logits:23.9942
+Top classes and probabilities
+0.875888 8.89773 ride_horse
+0.0376105 5.74978 sit
+0.0199691 5.11668 draw_sword
+0.0143119 4.78358 swing_baseball
+0.0111527 4.53417 hug
+
+
+ChelseaLately-Chelsea_ride_horse_f_cm_np1_le_med_6.npy
+Norm of logits:25.2642
+Top classes and probabilities
+0.999788 16.3981 ride_horse
+0.000184611 7.80104 ride_bike
+1.11785e-05 4.99678 kick_ball
+2.8322e-06 3.62384 climb_stairs
+2.81154e-06 3.61652 fall_floor
+
+
+BackBreakingFun_ride_horse_f_cm_np1_ba_med_1.npy
+Norm of logits:22.7551
+Top classes and probabilities
+0.999667 14.3868 ride_horse
+0.000126125 5.40892 ride_bike
+8.00012e-05 4.95368 kick_ball
+4.59248e-05 4.39865 climb_stairs
+1.74015e-05 3.4282 run
+
+
+CrossCountry_ride_horse_f_cm_np1_fr_med_11.npy
+Norm of logits:24.4988
+Top classes and probabilities
+0.985245 11.0528 ride_horse
+0.00739095 6.16013 run
+0.00233359 5.00729 swing_baseball
+0.000708935 3.81588 walk
+0.00064954 3.72838 fall_floor
+
+
+Paula_sHorsebackRidingLesson!7_22_08_ride_horse_f_cm_np1_ba_med_1.npy
+Norm of logits:22.6944
+Top classes and probabilities
+0.992751 11.8339 ride_horse
+0.00350161 6.18661 hug
+0.00123871 5.14745 climb_stairs
+0.000805092 4.71659 stand
+0.000642416 4.49086 ride_bike
+
+
+###########################
+The class ride_horse has 11 videos , 0 right, and the accuracy is :
+ride_horse            0.0
+##########################
+~~~~~~~~~~~~~~~~~Crash_fall_floor_u_cm_np1_fr_med_1.npy
+Norm of logits:32.8359
+Top classes and probabilities
+0.650962 10.2427 kick
+0.20841 9.10373 punch
+0.08003 8.14663 fall_floor
+0.0165605 6.57125 fencing
+0.0112991 6.18895 sit
+
+
+THE_PROTECTOR_fall_floor_f_nm_np1_ri_bad_92.npy
+Norm of logits:26.749
+Top classes and probabilities
+0.924877 10.6673 fall_floor
+0.0381946 7.48034 somersault
+0.022302 6.94233 jump
+0.0060226 5.63317 run
+0.001427 4.19323 dive
+
+
+BATMAN_BEGINS_fall_floor_f_cm_np1_ba_med_3.npy
+Norm of logits:41.2852
+Top classes and probabilities
+0.712263 14.7311 fall_floor
+0.284442 13.8132 kick
+0.00139175 8.49322 throw
+0.000669022 7.76072 fencing
+0.000223392 6.66383 sword_exercise
+
+
+~~~~~~~~~~~~~~~~~LONGESTYARD_fall_floor_f_cm_np1_fr_med_25.npy
+Norm of logits:16.9875
+Top classes and probabilities
+0.610897 6.30944 pick
+0.131273 4.77179 fall_floor
+0.0344142 3.43298 kick
+0.0329389 3.38916 stand
+0.0297226 3.28642 jump
+
+
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_fall_floor_f_cm_np1_fr_med_55.npy
+Norm of logits:28.1316
+Top classes and probabilities
+0.531604 8.67215 punch
+0.187728 7.63125 somersault
+0.161123 7.47843 fall_floor
+0.0508478 6.32509 kick
+0.0189737 5.33931 hug
+
+
+~~~~~~~~~~~~~~~~~Return_of_the_King_4_fall_floor_u_cm_np1_fr_med_9.npy
+Norm of logits:21.2467
+Top classes and probabilities
+0.461754 6.48359 punch
+0.120134 5.13717 wave
+0.103782 4.99085 sit
+0.0996073 4.9498 hit
+0.0679598 4.56748 stand
+
+
+~~~~~~~~~~~~~~~~~Fellowship_5_fall_floor_u_cm_np1_fr_med_8.npy
+Norm of logits:28.3699
+Top classes and probabilities
+0.679594 9.52421 punch
+0.161342 8.08624 sword
+0.0727892 7.29028 kick
+0.0332461 6.50665 fall_floor
+0.0114157 5.4377 run
+
+
+KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_49.npy
+Norm of logits:25.075
+Top classes and probabilities
+0.980309 10.9352 fall_floor
+0.00826004 6.15875 kick
+0.00479397 5.61468 dive
+0.00139123 4.37751 fencing
+0.0010411 4.0876 hit
+
+
+Return_of_the_King_8_fall_floor_f_cm_np1_ba_med_2.npy
+Norm of logits:31.09
+Top classes and probabilities
+0.842949 10.2654 fall_floor
+0.0465343 7.36865 ride_horse
+0.0347512 7.07668 punch
+0.0183104 6.43593 throw
+0.015037 6.23898 somersault
+
+
+KUNG_FU_HUSTLE_fall_floor_f_cm_np1_fr_bad_22.npy
+Norm of logits:27.8295
+Top classes and probabilities
+0.665843 9.57213 fall_floor
+0.122731 7.88106 kick_ball
+0.0935417 7.60948 run
+0.0756988 7.39784 jump
+0.0209223 6.11189 kick
+
+
+~~~~~~~~~~~~~~~~~50_FIRST_DATES_fall_floor_f_cm_np1_fr_med_14.npy
+Norm of logits:23.313
+Top classes and probabilities
+0.87198 8.65229 somersault
+0.0420106 5.61945 hit
+0.0208158 4.91724 flic_flac
+0.0133112 4.47013 fall_floor
+0.00980707 4.16463 stand
+
+
+Prelinger_ActYourA1949_fall_floor_f_nm_np1_ri_med_9.npy
+Norm of logits:25.854
+Top classes and probabilities
+0.328462 7.3428 fall_floor
+0.278093 7.17633 dive
+0.174525 6.71045 jump
+0.0535905 5.52975 throw
+0.0417763 5.2807 run
+
+
+THE_PROTECTOR_fall_floor_u_cm_np1_fr_med_56.npy
+Norm of logits:22.7361
+Top classes and probabilities
+0.802722 8.5536 fall_floor
+0.0761599 6.19842 kick
+0.0587761 5.93932 punch
+0.0156267 4.61457 hit
+0.0119021 4.34231 jump
+
+
+~~~~~~~~~~~~~~~~~RushHour2_fall_floor_f_cm_np1_fr_bad_3.npy
+Norm of logits:17.9155
+Top classes and probabilities
+0.452452 5.70969 kick
+0.167798 4.71777 fall_floor
+0.131297 4.47247 jump
+0.0339621 3.12025 throw
+0.0253259 2.82684 shoot_gun
+
+
+~~~~~~~~~~~~~~~~~THE_PROTECTOR_fall_floor_f_cm_np1_fr_bad_41.npy
+Norm of logits:35.4838
+Top classes and probabilities
+0.543444 10.3759 dive
+0.183651 9.29101 somersault
+0.146983 9.06829 hug
+0.0521407 8.03192 fall_floor
+0.0337838 7.59796 run
+
+
+###########################
+The class fall_floor has 15 videos , 0 right, and the accuracy is :
+fall_floor            0.0
+##########################
+Silky_Straight_Hair_Original_brush_hair_u_nm_np1_ba_goo_2.npy
+Norm of logits:31.9046
+Top classes and probabilities
+0.999979 19.8176 brush_hair
+1.55285e-05 8.74477 talk
+4.58183e-06 7.5242 sword_exercise
+3.40126e-07 4.92366 kiss
+2.76324e-07 4.71592 chew
+
+
+brushing_hair_brush_hair_f_nm_np2_ri_goo_3.npy
+Norm of logits:23.9799
+Top classes and probabilities
+0.992227 11.9108 brush_hair
+0.00400028 6.39723 clap
+0.000989302 5.00011 wave
+0.000873246 4.87533 hit
+0.000733586 4.70106 push
+
+
+Brunette_Foxyanya_ultra_silky_long_hair_brushing_hairjob_brush_hair_h_cm_np2_ri_goo_6.npy
+Norm of logits:22.3049
+Top classes and probabilities
+0.987375 12.5563 brush_hair
+0.0113645 8.0917 talk
+0.000377851 4.68795 wave
+0.000284357 4.40369 smile
+0.000125325 3.58436 chew
+
+
+Brushing_Hair_with_Beth_brush_hair_u_nm_np1_fr_goo_2.npy
+Norm of logits:29.2383
+Top classes and probabilities
+0.913824 10.8008 brush_hair
+0.0455545 7.80207 wave
+0.0152043 6.70474 clap
+0.0106436 6.34812 smile
+0.00430598 5.44316 chew
+
+
+me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_le_goo_1.npy
+Norm of logits:35.3351
+Top classes and probabilities
+0.999545 16.5798 brush_hair
+0.00011398 7.50079 clap
+0.000113753 7.4988 chew
+7.09257e-05 7.0264 smoke
+4.97226e-05 6.67123 wave
+
+
+Trannydude___Brushing_SyntheticHair___OhNOES!__those_fukin_knots!_brush_hair_u_nm_np1_fr_goo_2.npy
+Norm of logits:34.8961
+Top classes and probabilities
+0.985364 15.013 brush_hair
+0.0100698 10.4295 smoke
+0.00316283 9.27144 talk
+0.000776063 7.86645 chew
+0.00024288 6.70478 drink
+
+
+Olivia_Brushing_Hair_Playing_with_Evelyn_brush_hair_u_cm_np1_fr_goo_1.npy
+Norm of logits:18.2056
+Top classes and probabilities
+0.702081 6.56056 brush_hair
+0.0489565 3.89744 swing_baseball
+0.043948 3.78952 clap
+0.0338823 3.5294 cartwheel
+0.0226133 3.12505 eat
+
+
+###########################
+The class brush_hair has 7 videos , 0 right, and the accuracy is :
+brush_hair            0.0
+##########################
+situps_situp_f_cm_np1_le_med_1.npy
+Norm of logits:23.076
+Top classes and probabilities
+0.997285 12.5937 situp
+0.000931272 5.61747 laugh
+0.00060582 5.1875 kick_ball
+0.000410032 4.79715 clap
+0.000371651 4.69887 swing_baseball
+
+
+Britney_Spears__Ab_Workout_Revealed_Video_situp_f_cm_np1_ri_goo_0.npy
+Norm of logits:21.8866
+Top classes and probabilities
+0.999858 14.8238 situp
+7.66629e-05 5.34789 somersault
+1.63831e-05 3.80472 draw_sword
+6.51258e-06 2.88221 punch
+6.49975e-06 2.88024 pushup
+
+
+How_to_Do_Proper_Situps_situp_f_cm_np1_le_goo_1.npy
+Norm of logits:34.0993
+Top classes and probabilities
+0.999028 16.5043 situp
+0.000621682 9.12223 somersault
+0.000124297 7.51248 fall_floor
+0.000112996 7.41716 hit
+5.9163e-05 6.7701 throw
+
+
+6_Minute_Abs_Routine_situp_f_nm_np2_le_bad_1.npy
+Norm of logits:17.82
+Top classes and probabilities
+0.954286 8.58212 situp
+0.011869 4.19508 pick
+0.00467705 3.26382 wave
+0.00460598 3.24851 handstand
+0.00274903 2.7324 chew
+
+
+Britney_Spears__Ab_Workout_Revealed_Video_situp_f_cm_np1_ri_goo_2.npy
+Norm of logits:27.1507
+Top classes and probabilities
+0.999949 17.3412 situp
+3.36527e-05 7.0418 pushup
+6.30191e-06 5.36656 fall_floor
+3.04361e-06 4.63875 somersault
+2.94961e-06 4.60738 punch
+
+
+Intermidate_to_advanced_abs_situp_f_nm_np1_fr_med_2.npy
+Norm of logits:24.5956
+Top classes and probabilities
+0.652145 8.11361 situp
+0.154741 6.6751 eat
+0.0551458 5.64332 stand
+0.0448986 5.43775 throw
+0.0375857 5.25997 sit
+
+
+How_To_Workout_On_Vacation_-_How_to_Do_Crunches_Exercises_on_Vacation_situp_f_nm_np1_ba_goo_2.npy
+Norm of logits:26.1762
+Top classes and probabilities
+0.997871 14.4959 situp
+0.00144934 7.96138 somersault
+0.000244733 6.18268 pullup
+0.000236281 6.14753 throw
+9.00188e-05 5.18253 pushup
+
+
+Ninja_Warrior_Ultimate_Six_Pack_Abs_Sit_up_Training_situp_f_nm_np1_ri_med_0.npy
+Norm of logits:35.8811
+Top classes and probabilities
+0.999357 20.094 situp
+0.000584517 12.6499 pushup
+4.6543e-05 10.1195 somersault
+9.11582e-06 8.48911 pullup
+2.1467e-06 7.04303 fall_floor
+
+
+crazy_105_sit-ups_situp_f_cm_np2_le_med_2.npy
+Norm of logits:32.688
+Top classes and probabilities
+0.968662 16.188 situp
+0.0310145 12.7466 somersault
+0.00023254 7.85341 fall_floor
+3.28559e-05 5.89648 flic_flac
+2.07267e-05 5.43577 laugh
+
+
+Ab_Workout__(_6_pack_abs_)_[_ab_exercises_for_ripped_abs_]_situp_f_nm_np1_le_goo_2.npy
+Norm of logits:29.8758
+Top classes and probabilities
+0.999547 16.2082 situp
+0.000234189 7.84925 pushup
+0.000160855 7.47362 pullup
+3.02735e-05 5.80339 fall_floor
+7.04102e-06 4.34487 somersault
+
+
+Abs__Situps__Crunches_situp_u_cm_np1_ri_goo_2.npy
+Norm of logits:28.5904
+Top classes and probabilities
+0.999957 17.2553 situp
+1.74687e-05 6.30024 somersault
+6.84028e-06 5.36266 kiss
+5.18524e-06 5.08565 pullup
+4.89338e-06 5.02771 pushup
+
+
+###########################
+The class situp has 11 videos , 0 right, and the accuracy is :
+situp                 0.0
+##########################
+How_to_do_a_Cartwheel_cartwheel_f_nm_np1_ri_med_0.npy
+Norm of logits:30.2233
+Top classes and probabilities
+0.637015 11.6352 cartwheel
+0.340081 11.0076 handstand
+0.00919902 7.39752 throw
+0.00692446 7.11348 flic_flac
+0.00416052 6.60406 catch
+
+
+Beim_Radschlag_Hose_gerissen_(Nick)_xD_cartwheel_f_cm_np1_ri_med_0.npy
+Norm of logits:41.8858
+Top classes and probabilities
+0.621688 17.5418 cartwheel
+0.370807 17.025 handstand
+0.00731425 13.0992 flic_flac
+9.03755e-05 8.70555 somersault
+4.89636e-05 8.09265 dive
+
+
+cartwheel_challange_cartwheel_f_cm_np2_le_med_1.npy
+Norm of logits:30.3219
+Top classes and probabilities
+0.447058 9.2636 cartwheel
+0.299506 8.86305 somersault
+0.124004 7.98123 dive
+0.0431881 6.92648 flic_flac
+0.038752 6.8181 jump
+
+
+Jessica_and_Gregs_Cartwheel_Competition_cartwheel_f_cm_np1_le_med_4.npy
+Norm of logits:36.156
+Top classes and probabilities
+0.99869 19.3834 cartwheel
+0.000726645 12.1577 handstand
+0.000580213 11.9326 flic_flac
+1.45965e-06 5.94743 dive
+2.6684e-07 4.24813 jump
+
+
+Cartwheel_Contest_cartwheel_f_cm_np1_fr_med_2.npy
+Norm of logits:35.815
+Top classes and probabilities
+0.974215 16.1783 cartwheel
+0.021998 12.3876 flic_flac
+0.00363351 10.5868 handstand
+8.46529e-05 6.82745 hit
+2.02798e-05 5.39851 somersault
+
+
+Cartwheel_Competition_cartwheel_f_cm_np1_ri_med_3.npy
+Norm of logits:44.04
+Top classes and probabilities
+0.983444 20.4053 cartwheel
+0.0162386 16.3016 handstand
+0.000305888 12.3297 flic_flac
+6.79961e-06 8.52335 hit
+2.22285e-06 7.40527 throw
+
+
+(Rad)Schlag_die_Bank!_cartwheel_f_cm_np1_le_med_0.npy
+Norm of logits:31.5037
+Top classes and probabilities
+0.841792 13.891 cartwheel
+0.11315 11.8841 handstand
+0.0415497 10.8823 flic_flac
+0.00196617 7.8315 dive
+0.00135864 7.4619 somersault
+
+
+How_to_Do_an_Aerial_-_Aerial_vs__Cartwheel_cartwheel_f_cm_np1_ri_med_1.npy
+Norm of logits:27.9547
+Top classes and probabilities
+0.530172 10.7002 cartwheel
+0.402142 10.4238 handstand
+0.0633227 8.57523 flic_flac
+0.00175493 4.98941 kick_ball
+0.000358655 3.40159 hit
+
+
+Charlottes_Brilliant_Roly_Poly__Handstand_Thingy_cartwheel_f_cm_np1_le_bad_1.npy
+Norm of logits:31.0266
+Top classes and probabilities
+0.986595 15.743 cartwheel
+0.0123962 11.3662 handstand
+0.000866459 8.70545 flic_flac
+9.17236e-05 6.45981 hit
+1.23573e-05 4.45528 swing_baseball
+
+
+###########################
+The class cartwheel has 10 videos , 0 right, and the accuracy is :
+cartwheel             0.0
+##########################
+THE_WALLET_TRICK!!!_pick_f_cm_np1_fr_med_2.npy
+Norm of logits:17.4352
+Top classes and probabilities
+0.829529 7.96453 pick
+0.118998 6.02278 sit
+0.0106785 3.6119 walk
+0.00769296 3.28397 kick_ball
+0.00616205 3.06208 hit
+
+
+~~~~~~~~~~~~~~~~~Stevie_And_Lindsay_Picking_Up_Garbage_pick_f_cm_np1_ri_med_3.npy
+Norm of logits:15.5885
+Top classes and probabilities
+0.323272 4.89018 handstand
+0.191201 4.36501 kick_ball
+0.10328 3.74912 wave
+0.0911325 3.624 hit
+0.0501878 3.02746 pick
+
+
+~~~~~~~~~~~~~~~~~ThePerfectScore_pick_u_nm_np1_ba_goo_3.npy
+Norm of logits:19.4325
+Top classes and probabilities
+0.645045 6.77985 smile
+0.121645 5.11163 stand
+0.0552208 4.32187 hit
+0.0348174 3.86064 laugh
+0.016469 3.11201 turn
+
+
+~~~~~~~~~~~~~~~~~Oceans13_pick_u_nm_np1_ba_goo_5.npy
+Norm of logits:17.6198
+Top classes and probabilities
+0.420463 5.61924 drink
+0.15808 4.64099 smoke
+0.0895243 4.0724 chew
+0.0685675 3.8057 sit
+0.0344108 3.11626 eat
+
+
+garbage_men_pick_f_cm_np1_ri_med_2.npy
+Norm of logits:22.7918
+Top classes and probabilities
+0.807378 8.18917 pick
+0.0482269 5.3713 hit
+0.0403381 5.19268 fall_floor
+0.0193508 4.45811 push
+0.0162124 4.28115 run
+
+
+~~~~~~~~~~~~~~~~~Rent_a_Pocher_Beim_Pilze_sammeln_Oliver_Pocher_pick_f_cm_np2_fr_med_0.npy
+Norm of logits:26.9726
+Top classes and probabilities
+0.656887 9.49844 eat
+0.176383 8.18359 drink
+0.126957 7.85478 pick
+0.0174799 5.87198 sit
+0.00668968 4.9115 talk
+
+
+~~~~~~~~~~~~~~~~~Flaschenrolf_auf_Tour_pick_u_cm_np1_ba_bad_1.npy
+Norm of logits:15.5205
+Top classes and probabilities
+0.355149 5.4018 sit
+0.336136 5.34678 pick
+0.060417 3.63054 dive
+0.0569117 3.57077 walk
+0.0490008 3.4211 wave
+
+
+~~~~~~~~~~~~~~~~~IamLegendII_pick_u_nm_np1_fr_bad_0.npy
+Norm of logits:28.5476
+Top classes and probabilities
+0.789743 8.42303 punch
+0.0520217 5.70298 hit
+0.0362947 5.34299 fall_floor
+0.0172229 4.59756 talk
+0.0164098 4.5492 stand
+
+
+~~~~~~~~~~~~~~~~~Die_Pfandpiraten_Doku_pick_f_cm_np1_ba_med_1.npy
+Norm of logits:27.4198
+Top classes and probabilities
+0.228083 6.41041 kick_ball
+0.205464 6.30598 fall_floor
+0.195169 6.25457 sword
+0.183837 6.19475 swing_baseball
+0.0517808 4.92772 kick
+
+
+Fishing_For_People_pick_f_cm_np1_fr_med_3.npy
+Norm of logits:26.2994
+Top classes and probabilities
+0.446946 7.36626 pick
+0.228465 6.6952 smile
+0.100913 5.87808 kiss
+0.0616963 5.38604 ride_bike
+0.0450197 5.07092 ride_horse
+
+
+###########################
+The class pick has 10 videos , 0 right, and the accuracy is :
+pick                  0.0
+##########################
+micah_pushing_wagon_push_f_cm_np1_ri_bad_5.npy
+Norm of logits:38.0969
+Top classes and probabilities
+0.999997 22.2083 push
+2.19413e-06 9.17859 ride_bike
+2.50405e-07 7.00812 hit
+3.30583e-08 4.98332 stand
+2.93086e-08 4.86293 walk
+
+
+~~~~~~~~~~~~~~~~~prelinger_LetsBeGo1953_push_f_cm_np1_ba_med_11.npy
+Norm of logits:24.2099
+Top classes and probabilities
+0.291675 6.27121 walk
+0.253337 6.13029 turn
+0.188572 5.83504 hug
+0.0574809 4.64702 run
+0.0429473 4.35554 sit
+
+
+Pushing_Music_Table_push_f_cm_np1_le_bad_5.npy
+Norm of logits:33.3943
+Top classes and probabilities
+0.999979 19.5023 push
+1.85095e-05 8.60505 ride_bike
+3.11826e-07 4.52146 wave
+3.09645e-07 4.51444 stand
+2.55374e-07 4.32174 run
+
+
+pushing_blocks_push_f_nm_np1_le_bad_1.npy
+Norm of logits:25.2698
+Top classes and probabilities
+0.738553 8.31534 push
+0.089221 6.20177 shoot_gun
+0.0357482 5.28715 hit
+0.0329708 5.20628 throw
+0.032068 5.17851 climb
+
+
+~~~~~~~~~~~~~~~~~TheBoondockSaints_push_u_cm_np1_ba_bad_87.npy
+Norm of logits:30.8024
+Top classes and probabilities
+0.770034 10.3306 kick
+0.123817 8.50293 punch
+0.0336592 7.20042 hit
+0.0251652 6.90959 fencing
+0.0176723 6.55613 hug
+
+
+pushing_blocks_push_f_nm_np1_le_bad_0.npy
+Norm of logits:25.6767
+Top classes and probabilities
+0.605282 7.73804 push
+0.10184 5.95575 hit
+0.100422 5.94172 shoot_gun
+0.0616533 5.45387 throw
+0.0335441 4.84521 stand
+
+
+~~~~~~~~~~~~~~~~~Pushing_train_-_Me_and_my_friend_-_Worlds_strongest_men_push_f_cm_np2_ri_bad_0.npy
+Norm of logits:24.3414
+Top classes and probabilities
+0.543884 7.86804 pick
+0.240859 7.05352 push
+0.113287 6.29923 stand
+0.0385409 5.22103 kick
+0.022026 4.66153 sit
+
+
+~~~~~~~~~~~~~~~~~Return_of_the_King_10_push_u_cm_np1_le_med_3.npy
+Norm of logits:33.0957
+Top classes and probabilities
+0.386991 8.78016 sword
+0.2375 8.29193 punch
+0.112575 7.54539 hit
+0.107148 7.49597 kick
+0.0556204 6.84031 fall_floor
+
+
+Neil_pushing_wagon_push_f_cm_np1_fr_bad_5.npy
+Norm of logits:32.8809
+Top classes and probabilities
+0.987144 12.8725 push
+0.00808369 8.06757 ride_bike
+0.00145053 6.34965 run
+0.000825822 5.78634 dive
+0.000430973 5.13601 climb
+
+
+Box_Pull_Push_push_f_cm_np1_ba_bad_3.npy
+Norm of logits:30.5832
+Top classes and probabilities
+0.762109 10.1562 push
+0.193626 8.78607 climb_stairs
+0.0111923 5.93537 run
+0.0109976 5.91782 kick_ball
+0.00534004 5.19537 punch
+
+
+Joshua_pushing_wagon_push_f_cm_np1_ri_bad_1.npy
+Norm of logits:24.4976
+Top classes and probabilities
+0.98158 10.9324 push
+0.00689613 5.9742 pushup
+0.00232973 4.88899 shoot_gun
+0.0020768 4.77406 wave
+0.00200528 4.73902 walk
+
+
+###########################
+The class push has 11 videos , 0 right, and the accuracy is :
+push                  0.0
+##########################
+TANA_TEACHES_EVERONE_HOW_TO_CLIMB_A_FENCE_climb_f_cm_np1_ba_med_0.npy
+Norm of logits:27.1195
+Top classes and probabilities
+0.994667 13.0601 climb
+0.00195253 6.82683 climb_stairs
+0.00173247 6.70725 jump
+0.000774394 5.90203 dive
+0.000183037 4.45964 fall_floor
+
+
+DM_Sportklettern_2006-_Qualifikation_-_Andreas_Bindhammer_climb_f_cm_np1_ba_med_1.npy
+Norm of logits:30.1411
+Top classes and probabilities
+0.999997 19.8773 climb
+9.85126e-07 6.04684 run
+7.13857e-07 5.72476 throw
+3.68141e-07 5.06254 push
+2.06703e-07 4.48536 turn
+
+
+Janini_an_der_Kletterwand_climb_f_cm_np1_ba_med_1.npy
+Norm of logits:32.7454
+Top classes and probabilities
+0.999997 20.1854 climb
+1.25477e-06 6.59687 push
+5.06355e-07 5.6894 dive
+3.07836e-07 5.19173 stand
+2.59515e-07 5.02098 wave
+
+
+Sarah_und_die_Kletterwand_climb_f_cm_np1_ri_bad_0.npy
+Norm of logits:27.14
+Top classes and probabilities
+0.999861 16.6566 climb
+9.82477e-05 7.42874 dive
+2.25306e-05 5.95613 push
+4.95017e-06 4.44067 turn
+3.03359e-06 3.951 throw
+
+
+India_Monkey_King_scales_new_heights_climb_f_cm_np1_ba_med_0.npy
+Norm of logits:41.1153
+Top classes and probabilities
+0.999884 20.3273 climb
+3.99736e-05 10.2001 jump
+3.79091e-05 10.1471 climb_stairs
+2.8246e-05 9.85282 run
+6.57786e-06 8.39557 dive
+
+
+Pole_Climbing_Challenging_gravity_climb_f_cm_np1_le_med_0.npy
+Norm of logits:28.4942
+Top classes and probabilities
+0.99977 16.2095 climb
+9.79979e-05 6.97913 jump
+5.26058e-05 6.35701 pullup
+2.37817e-05 5.5631 kick
+1.752e-05 5.25753 climb_stairs
+
+
+Axel_beim_Klettern_an_der_Unisportwand_climb_f_cm_np1_ba_med_3.npy
+Norm of logits:41.8219
+Top classes and probabilities
+1.0 31.703 climb
+1.24505e-10 8.8963 wave
+6.38121e-11 8.2279 push
+9.82029e-12 6.3564 dive
+4.74461e-12 5.62896 eat
+
+
+Rock_Climbing_Nationals_08_Emily_Harrington_and_Lauren_Lee_climb_f_cm_np1_ba_med_0.npy
+Norm of logits:39.1122
+Top classes and probabilities
+0.999998 22.7534 climb
+1.30543e-06 9.20442 jump
+3.85164e-07 7.98381 throw
+4.64469e-08 5.86845 somersault
+3.13899e-08 5.47662 wave
+
+
+~~~~~~~~~~~~~~~~~SafeInPort_climb_f_nm_np1_ba_med_0.npy
+Norm of logits:21.3063
+Top classes and probabilities
+0.331218 5.85802 stand
+0.171741 5.20123 fall_floor
+0.0815744 4.45676 sit
+0.0690597 4.29022 walk
+0.0676803 4.27004 run
+
+
+DM_Sportklettern_2006-_Video_Qualifikation_-_Julia_Winter_climb_f_cm_np1_ba_med_2.npy
+Norm of logits:22.5435
+Top classes and probabilities
+0.99831 13.3205 climb
+0.00123499 6.6255 push
+0.000154756 4.54854 run
+7.54735e-05 3.83047 stand
+5.7132e-05 3.55205 hit
+
+
+(HQ)_Rock_Climbing_-_Free_Solo_Speed_Climb_-_Dan_Osman_climb_f_cm_np1_le_med_1.npy
+Norm of logits:23.8061
+Top classes and probabilities
+0.974434 11.1918 climb
+0.0141366 6.95867 run
+0.00349824 5.56216 dive
+0.00246901 5.21372 handstand
+0.00246706 5.21293 cartwheel
+
+
+DM_Sportklettern_2006-_Video_Qualifikation_-_Julia_Winter_climb_f_cm_np1_ba_med_0.npy
+Norm of logits:29.6204
+Top classes and probabilities
+0.999729 16.4466 climb
+0.000130045 7.49926 push
+7.14747e-05 6.90072 pullup
+2.87298e-05 5.98931 handstand
+1.59382e-05 5.4001 situp
+
+
+###########################
+The class climb has 12 videos , 0 right, and the accuracy is :
+climb                 0.0
+##########################
+~~~~~~~~~~~~~~~~~Rush_Hour_4_Turnk_r_handstand_f_cm_np2_le_med_2.npy
+Norm of logits:29.1849
+Top classes and probabilities
+0.473225 9.83884 somersault
+0.256784 9.22751 handstand
+0.150895 8.69586 cartwheel
+0.0820663 8.0868 flic_flac
+0.0245943 6.88179 fall_floor
+
+
+Handstand_Training_handstand_f_cm_np1_le_goo_1.npy
+Norm of logits:26.1846
+Top classes and probabilities
+0.639156 9.82934 handstand
+0.283444 9.01621 cartwheel
+0.0509523 7.30008 somersault
+0.00820277 5.47366 kick_ball
+0.00759757 5.39702 fall_floor
+
+
+Handstand_Competition_3_handstand_f_cm_np1_fr_med_4.npy
+Norm of logits:18.4733
+Top classes and probabilities
+0.910306 8.21102 handstand
+0.0280365 4.73075 dive
+0.0125798 3.92934 catch
+0.00722525 3.37482 walk
+0.00718497 3.36923 wave
+
+
+3-er_handstand_aua_handstand_u_cm_np3_ba_med_0.npy
+Norm of logits:19.4775
+Top classes and probabilities
+0.640313 7.08839 handstand
+0.122209 5.43217 catch
+0.118857 5.40435 shoot_gun
+0.0191326 3.57782 pullup
+0.0150574 3.3383 laugh
+
+
+Yoga_teachers_practice_handstand_and_backbend_variations_handstand_f_nm_np1_fr_med_3.npy
+Norm of logits:38.3729
+Top classes and probabilities
+0.998849 19.9118 handstand
+0.00107111 13.0738 cartwheel
+4.52549e-05 9.9097 flic_flac
+3.12204e-05 9.53846 somersault
+1.04144e-06 6.138 pushup
+
+
+Handstand_Competition_handstand_f_cm_np1_le_med_0.npy
+Norm of logits:22.1568
+Top classes and probabilities
+0.848107 8.43103 handstand
+0.044478 5.48301 cartwheel
+0.0340419 5.21561 catch
+0.0150213 4.39749 throw
+0.0130178 4.25433 somersault
+
+
+Learn_How_to_do_a_Handstand_handstand_f_nm_np1_ri_med_1.npy
+Norm of logits:23.0845
+Top classes and probabilities
+0.985645 10.8063 handstand
+0.00465079 5.45004 catch
+0.00299734 5.01073 somersault
+0.00207792 4.64438 throw
+0.000832547 3.72974 kick_ball
+
+
+gimnasia_handstand_f_cm_np1_le_med_0.npy
+Norm of logits:21.5704
+Top classes and probabilities
+0.917698 10.4287 handstand
+0.0713894 7.87495 cartwheel
+0.00502749 5.22172 somersault
+0.00161597 4.08674 pushup
+0.000940209 3.54515 pick
+
+
+###########################
+The class handstand has 8 videos , 0 right, and the accuracy is :
+handstand             0.0
+##########################
+~~~~~~~~~~~~~~~~~jonhs_netfreemovies_holygrail_talk_h_cm_np1_ri_med_14.npy
+Norm of logits:20.9712
+Top classes and probabilities
+0.144744 4.3181 punch
+0.138073 4.27092 shoot_gun
+0.109595 4.03992 jump
+0.0925508 3.87089 run
+0.0878933 3.81925 fall_floor
+
+
+Pirates_3_talk_h_cm_np1_fr_goo_0.npy
+Norm of logits:24.5488
+Top classes and probabilities
+0.647075 7.745 talk
+0.168577 6.39993 wave
+0.0628595 5.41344 smile
+0.0188815 4.21072 smoke
+0.0152465 3.99688 turn
+
+
+~~~~~~~~~~~~~~~~~The_Fugitive_3_talk_u_nm_np1_fr_med_5.npy
+Norm of logits:19.9649
+Top classes and probabilities
+0.354713 6.22418 walk
+0.197274 5.63746 sit
+0.171971 5.50019 drink
+0.0992768 4.95078 stand
+0.0364602 3.94909 throw
+
+
+Faith_Rewarded_talk_h_nm_np1_fr_goo_65.npy
+Norm of logits:26.5844
+Top classes and probabilities
+0.960153 11.1731 talk
+0.0132902 6.89303 eat
+0.0120822 6.79775 drink
+0.00575314 6.05576 chew
+0.00158768 4.76829 smoke
+
+
+~~~~~~~~~~~~~~~~~Fellowship_5_talk_h_cm_np1_ri_goo_0.npy
+Norm of logits:26.6184
+Top classes and probabilities
+0.229225 7.25937 eat
+0.214117 7.19119 drink
+0.155126 6.8689 kiss
+0.102752 6.45698 smile
+0.0998223 6.42806 stand
+
+
+prelinger_LetsPlay1949_talk_h_nm_np1_fr_goo_18.npy
+Norm of logits:19.5942
+Top classes and probabilities
+0.467819 6.67962 talk
+0.310147 6.26858 smile
+0.0838465 4.96052 turn
+0.0448402 4.33464 walk
+0.0249941 3.75018 wave
+
+
+~~~~~~~~~~~~~~~~~jonhs_netfreemovies_holygrail_talk_h_nm_np1_fr_goo_13.npy
+Norm of logits:20.6614
+Top classes and probabilities
+0.800217 8.90958 smile
+0.14462 7.1988 talk
+0.0190307 5.17075 wave
+0.01236 4.73916 chew
+0.00728875 4.21103 walk
+
+
+Prelinger_FamilyLi1949_talk_h_nm_np1_fr_goo_25.npy
+Norm of logits:17.8548
+Top classes and probabilities
+0.812804 7.98485 talk
+0.132711 6.17253 smile
+0.011572 3.73295 wave
+0.00813076 3.38001 turn
+0.00444099 2.77524 jump
+
+
+~~~~~~~~~~~~~~~~~Fellowship_4_talk_u_nm_np1_fr_med_0.npy
+Norm of logits:21.5192
+Top classes and probabilities
+0.474426 6.7668 turn
+0.173807 5.76264 talk
+0.122826 5.41546 wave
+0.0621253 4.73384 walk
+0.037574 4.231 eat
+
+
+prelinger_TowardEm1954_talk_u_nm_np1_fr_med_1.npy
+Norm of logits:16.9996
+Top classes and probabilities
+0.197051 5.08644 talk
+0.149526 4.81045 drink
+0.145489 4.78308 sit
+0.134962 4.70797 walk
+0.121687 4.60443 stand
+
+
+~~~~~~~~~~~~~~~~~Prelinger_ActYourA1949_talk_u_nm_np1_fr_med_3.npy
+Norm of logits:24.4299
+Top classes and probabilities
+0.179289 6.11011 sit
+0.173609 6.07792 stand
+0.172542 6.07175 wave
+0.131219 5.79797 turn
+0.11235 5.64272 drink
+
+
+###########################
+The class talk has 11 videos , 0 right, and the accuracy is :
+talk                  0.0
+##########################

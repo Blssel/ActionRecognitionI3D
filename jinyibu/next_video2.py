@@ -1,6 +1,5 @@
 #!/usr/bin/python2
 #coding:UTF-8
-#cache保存的是bottleneck
 import pathlib
 import random
 import os
@@ -61,7 +60,7 @@ def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy
     #计算bottleneck缓存的全路径
     bottleneck_path = get_bottleneck_path(video_lists, label_name, index, category)
 
-    #如果未缓存则计算并缓存
+    #如果未缓存则计算（不缓存）
     if not os.path.exists(bottleneck_path):
 	#获取视频路径
 	video_path = get_video_path(video_lists, INPUT_DATA, label_name, index, category)
@@ -81,8 +80,7 @@ def get_or_create_bottleneck(sess, video_lists, label_name, index, category, npy
 
 	#计算bottleneck!!!!!!!!!!！
 	bottleneck_values = run_bottleneck_on_video(sess, npy_data, npy_data_tensor, bottleneck_tensor)
-	#把bottleneck保存下来！npy格式(注意后缀)
-	np.save(pathlib.Path(bottleneck_path),bottleneck_values)
+	#test就不存了
         bottleneck_values=bottleneck_values.reshape(1,8,7,7,1024)
         #print(bottleneck_values.shape)
     #否则直接读取即可(也是需要从npy文件中读取!!!!!!)
