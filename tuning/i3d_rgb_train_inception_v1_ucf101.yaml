@@ -1,11 +1,13 @@
+NUM_CLASSES: 101
+GPUS: '0'  # 末尾无逗号
+
 INPUT:
   MODALITY: 'RGB'  # 可选
-  NEW_LENGTH: 8  # 可变
   DATA_DIR: '/share/dataset/UCF101-frames-TSN' #数据存放目录
-  SPLIT_PATH: 'data/ucf101/trainlist01.txt'
 TRAIN:
+  SPLIT_PATH: 'data/ucf101/ucf101_rgb_train_split_1.txt'
   MAX_ITE: 25000
-  BATCH_SIZE: 3
+  BATCH_SIZE: 2
   LEARNING_RATE_BASE: 0.001
   DECAY_STEP: 10000
   DECAY_RATE: 0.1
@@ -14,8 +16,5 @@ TRAIN:
   PRETRAINED_MODEL_NAME: './models/pretrained/rgb_imagenet/model.ckpt'
   SAVED_MODEL_PATTERN: './models/i3d_rgb_ucf101.ckpt'
 VALID:
-  SPLIT_PATH: 'data/ucf101/testlist01.txt'
+  SPLIT_PATH: 'data/ucf101/ucf101_rgb_val_split_1.txt'
 
-NUM_CLASSES: 101
-GPUS: '0'  # 末尾无逗号
-SUMMARY_DIR: './log'
