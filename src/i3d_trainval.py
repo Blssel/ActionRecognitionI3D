@@ -7,7 +7,7 @@ import time
 import tensorflow as tf
 import numpy as np
 import os.path as osp
-import dataset_factory.data_reader as reader
+import dataset_factory.i3d_data_reader as reader
 sys.path.append(os.getcwd())
 from nets import i3d
 from i3d_config import cfg,cfg_from_file ,get_output_dir
@@ -61,21 +61,14 @@ def main():
     #opt = tf.train.GradientDescentOptimizer(lr)  # 优化函数
     num_gpus = len(cfg.GPUS.split(','))
     # 建立dataset，获取iterator
-    reader.set_param(cfg.INPUT.DATA_DIR,
-                     cfg.INPUT.MODALITY,  # flow模态读取方式与rgb稍有不同
-                     cfg.VALID.SPLIT_PATH,
-                     cfg.VALID.BATCH_SIZE,
-                     num_segments = cfg.INPUT.NUM_SEGMENTS,
-                     new_length = cfg.INPUT.NEW_LENGTH,
-                     train_split_path = cfg.INPUT.SPLIT_PATH,
-                     train_batch_size = cfg.TRAIN.BATCH_SIZE,
-                     isTraining=True)
-    ite_train, ite_valid = reader.get_dataset_iter()
-    tsn_batch, label_batch = ite_train.get_next()
-    tsn_batch_splits = tf.split(tsn_batch,num_or_size_splits=num_gpus, axis=0)
+    ite_train = reader.get_dataset_iter(cfg,isTraining=True)
+    ite_valid = reader.get_dataset_iter(cfg,isTraining=False)
+
+    i3d_batch, label_batch = ite_train.get_next()
+    i3d_batch_splits = tf.split(i3d_batch,num_or_size_splits=num_gpus, axis=0)
     label_batch_splits = tf.split(label_batch,num_or_size_splits=num_gpus, axis=0)
       
-    tsn_valid_batch, label_valid_batch = ite_valid.get_next()
+    i3d_valid_batch, label_valid_batch = ite_valid.get_next()
     
   # 在GPU上运行训练（并行）
   tower_grads = []
@@ -85,7 +78,7 @@ def main():
     for i in range(num_gpus):
       with tf.device('/gpu:%d'%i), tf.name_scope('GPU_%d'%i) as scope: 
         # 获取数据,tsn_batch形式：batch_size/num_gpus* (num_seg*new_length) * h * w * num_channels
-        tsn_batch_split, label_batch_split = tsn_batch_splits[i], label_batch_splits[i]
+        i3d_batch_split, label_batch_split = i3d_batch_splits[i], label_batch_splits[i]
         '''对于i3d来说，输入形式为`batch_size` x `num_frames` x 224 x 224 x `num_channels`，故无需resize
         if cfg.INPUT.MODALITY == 'rgb':
           tsn_batch_split = tf.reshape(tsn_batch_split,[cfg.TRAIN.BATCH_SIZE/num_gpus*cfg.INPUT.NUM_SEGMENTS*cfg.INPUT.NEW_LENGTH, 224, 224, 3])
@@ -94,13 +87,12 @@ def main():
         else:
           raise ValueError("modality must be one of rgb or flow") 
         '''
-
         # 获取网络，并完成前传
         network = i3d.InceptionI3d(cfg.NUM_CLASSES, spatial_squeeze=True, final_endpoint='Logits')
-        logits,_ = network(tsn_batch_split, is_training=True, dropout_keep_prob=cfg.TRAIN.DROPOUT_KEEP_PROB)
+        logits,_ = network(i3d_batch_split, is_training=True, dropout_keep_prob=cfg.TRAIN.DROPOUT_KEEP_PROB)
 
         tf.get_variable_scope().reuse_variables()
-        #logits = tf.reduce_mean(logits,1) # 取采样图片输出的平均值   i3d不需要此步骤
+        #logits = tf.reduce_mean(logits,1) # 取采样图片输出的平均值   i3d不需要此步骤 tsn需要
         # 做一个batch准确度的预测
         prediction = tf.nn.softmax(logits)
         acc_batch = tf.reduce_mean(tf.cast(tf.equal(tf.argmax(prediction,1),tf.argmax(label_batch_split,1)),tf.float32))
@@ -109,7 +101,7 @@ def main():
         for variable in tf.global_variables():
           if variable.name.replace(':0','').split('/')[-1]=='w': # 把参数w加入集合tf.GraphKeys.WEIGHTS，方便做正则化(此句必须放在正则化之前)
             tf.add_to_collection(tf.GraphKeys.WEIGHTS,variable)
-        loss = tsn_loss(cfg, logits, label_batch_split, regularization= True)
+        loss = tsn_loss(cfg, logits, label_batch_split, regularization= False)
         total_loss.append(loss)
         # 计算梯度，并由tower_grads收集
         grads_and_vars = opt.compute_gradients(loss, var_list=tf.trainable_variables()) # (gradient, variable)组成的列表
@@ -134,7 +126,7 @@ def main():
       else:
         raise ValueError("modality must be one of rgb or flow")
       '''
-      logits_valid,_ = network(tsn_batch_split, is_training=False, dropout_keep_prob=1.0)
+      logits_valid,_ = network(i3d_valid_batch, is_training=False, dropout_keep_prob=1.0)
   
       #logits_valid = tf.reshape(logits_valid, [cfg.VALID.BATCH_SIZE, 25, -1]) #tsn的特殊性决定
       #logits_valid = tf.reduce_mean(logits_valid,1) # 取采样图片输出的平均值
@@ -146,15 +138,19 @@ def main():
   merged = tf.summary.merge_all()
  
   # saver
-  model_variables_map={}
+  model_variables_map_load={}
+  model_variables_map_save={}
   for variable in tf.global_variables():
-    if variable.name.split('/')[0] == cfg.INPUT.MODALITY and variable.name.find('Momentum') == -1 and variable.name.find('Logits') == -1:  
-      model_variables_map[variable.name.replace(':0', '')] = variable
+    if variable.name.split('/')[0] == cfg.INPUT.MODALITY:
+      model_variables_map_save[variable.name.replace(':0', '')] = variable
+      if variable.name.find('Momentum') == -1 and variable.name.find('Logits') == -1:  
+        model_variables_map_load[variable.name.replace(':0', '')] = variable
   print '####################################################'
-  for i in model_variables_map.keys():
+  for i in model_variables_map_load.keys():
     print i
   print '#####################################################'
-  saver_model = tf.train.Saver(var_list=model_variables_map,max_to_keep=20) #不加载'InceptionV2/Logits/Conv2d_1c_1x1/'下的参数
+  saver_load = tf.train.Saver(var_list=model_variables_map_load) 
+  saver_save = tf.train.Saver(var_list=model_variables_map_save,max_to_keep=20)
 
 
   #-------------启动Session-------------#
@@ -169,7 +165,7 @@ def main():
 
     #初始化变量(或加载pretrained models)
     tf.global_variables_initializer().run()
-    saver_model.restore(sess,cfg.TRAIN.PRETRAINED_MODEL_NAME)
+    saver_load.restore(sess,cfg.TRAIN.PRETRAINED_MODEL_NAME)
 
     sess.graph.finalize()
     start_time = time.time()
@@ -198,7 +194,7 @@ def main():
         acc_valid = np.mean(np.array(accs))
         print 'accuracy on validation set is %0.4f'%acc_valid
         print 'saving model...'
-        saver_model.save(sess, cfg.TRAIN.SAVED_MODEL_PATTERN, global_step=global_step)
+        saver_save.save(sess, cfg.TRAIN.SAVED_MODEL_PATTERN, global_step=global_step)
         print 'successfully saved !'
         print '#############################################'
         
