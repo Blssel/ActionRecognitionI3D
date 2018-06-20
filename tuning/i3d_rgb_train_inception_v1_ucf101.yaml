@@ -6,15 +6,17 @@ INPUT:
   DATA_DIR: '/share/dataset/UCF101-frames-TSN' #数据存放目录
 TRAIN:
   SPLIT_PATH: 'data/ucf101/ucf101_rgb_train_split_1.txt'
-  MAX_ITE: 25000
-  BATCH_SIZE: 2
+  MAX_ITE: 250000
+  BATCH_SIZE: 10
+  NUM_FRAMES: 16
   LEARNING_RATE_BASE: 0.001
-  DECAY_STEP: 10000
+  DECAY_STEP: 20000
   DECAY_RATE: 0.1
-  REGULARIZATION_SCALE: 0.00005
-  DROPOUT_KEEP_PROB: 0.5
-  PRETRAINED_MODEL_NAME: './models/pretrained/rgb_imagenet/model.ckpt'
+  REGULARIZATION_SCALE: 0.0001
+  DROPOUT_KEEP_PROB: 1.0
+  PRETRAINED_MODEL_NAME: './models/pretrained/checkpoints/rgb_imagenet/model.ckpt'
   SAVED_MODEL_PATTERN: './models/i3d_rgb_ucf101.ckpt'
 VALID:
   SPLIT_PATH: 'data/ucf101/ucf101_rgb_val_split_1.txt'
-
+  BATCH_SIZE: 1
+  NUM_FRAMES: 4
