@@ -30,6 +30,7 @@ __C.TRAIN = edict()
 
 __C.TRAIN.SPLIT_PATH = '/home/myn_17/BK - v1/trainlist.txt' # optional
 __C.TRAIN.BATCH_SIZE = 128
+__C.TRAIN.NUM_FRAMES = 64
 __C.TRAIN.LEARNING_RATE_BASE = 0.001
 __C.TRAIN.DECAY_STEP = 1200
 __C.TRAIN.DECAY_RATE = 0.1
@@ -45,6 +46,7 @@ __C.VALID = edict()
 
 __C.VALID.SPLIT_PATH = '/home/myn_17/BK - v1/testlist.txt'
 __C.VALID.BATCH_SIZE = 1
+__C.VALID.NUM_FRAMES = 64
 
 
 
