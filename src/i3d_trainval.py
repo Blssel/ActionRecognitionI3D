@@ -101,21 +101,24 @@ def main():
         for variable in tf.global_variables():
           if variable.name.replace(':0','').split('/')[-1]=='w': # 把参数w加入集合tf.GraphKeys.WEIGHTS，方便做正则化(此句必须放在正则化之前)
             tf.add_to_collection(tf.GraphKeys.WEIGHTS,variable)
-        loss = tsn_loss(cfg, logits, label_batch_split, regularization= False)
+        loss = tsn_loss(cfg, logits, label_batch_split, regularization= True)
         total_loss.append(loss)
         # 计算梯度，并由tower_grads收集
         grads_and_vars = opt.compute_gradients(loss, var_list=tf.trainable_variables()) # (gradient, variable)组成的列表
         tower_grads.append(grads_and_vars)
   grads_and_vars = average_gradients(tower_grads) # 求取各GPU平均梯度
+  # 更新参数，在此之前，必须更新滑动平均值
+  update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS)
+  with tf.control_dependencies(update_ops):
+    train_step = opt.apply_gradients(grads_and_vars,global_step=global_step)
   # 监控loss和acc on batch
-  train_step = opt.apply_gradients(grads_and_vars,global_step=global_step)
   mean_loss = tf.reduce_mean(tf.convert_to_tensor(total_loss))
   tf.summary.scalar('loss',mean_loss)
   mean_acc_batch = tf.reduce_mean(tf.convert_to_tensor(total_acc))
   tf.summary.scalar('acc_on_batch',mean_acc_batch)
    
   # 在GPU上运行验证（串行）
-  with tf.variable_scope(cfg.INPUT.MODALITY) as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
+  with tf.variable_scope(cfg.INPUT.MODALITY+'gggggggggg') as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
     with tf.device('/gpu:0'), tf.name_scope('VALID') as scope:
       tf.get_variable_scope().reuse_variables()
       '''
@@ -136,23 +139,27 @@ def main():
  
    
   merged = tf.summary.merge_all()
- 
+
   # saver
   model_variables_map_load={}
   model_variables_map_save={}
   for variable in tf.global_variables():
     if variable.name.split('/')[0] == cfg.INPUT.MODALITY:
-      model_variables_map_save[variable.name.replace(':0', '')] = variable
+      if variable.name.find('Momentum') == -1:
+        model_variables_map_save[variable.name.replace(':0', '')] = variable
       if variable.name.find('Momentum') == -1 and variable.name.find('Logits') == -1:  
         model_variables_map_load[variable.name.replace(':0', '')] = variable
   print '####################################################'
-  for i in model_variables_map_load.keys():
-    print i
+  for load_item in model_variables_map_load.keys():
+    print load_item
   print '#####################################################'
-  saver_load = tf.train.Saver(var_list=model_variables_map_load) 
+  for save_item in model_variables_map_save.keys():
+    print save_item
+  print '#####################################################'
+  saver_load = tf.train.Saver(var_list=model_variables_map_load,reshape=True) 
   saver_save = tf.train.Saver(var_list=model_variables_map_save,max_to_keep=20)
 
-
+  
   #-------------启动Session-------------#
   # (预测验证集，求取精度)
   gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
@@ -167,10 +174,11 @@ def main():
     tf.global_variables_initializer().run()
     saver_load.restore(sess,cfg.TRAIN.PRETRAINED_MODEL_NAME)
 
-    sess.graph.finalize()
+    #sess.graph.finalize()
     start_time = time.time()
     for i in range(cfg.TRAIN.MAX_ITE):
       _,learnrate, loss_value, step, summary = sess.run([train_step, lr, mean_loss, global_step,merged],options=run_options, run_metadata=run_metadata)
+
       if i==0:
         start_time = time.time()
       if i % 10 == 0:
@@ -179,16 +187,22 @@ def main():
           avg_time = (end_time-start_time)/float(i+1)
           print("Average time consumed per step is %0.2f secs." % avg_time)
         print("After %d training step(s), learning rate is %g, loss on training batch is %g." % (step, learnrate, loss_value))
-
+      
       # 每个epoch验证一次，保存模型
-      if i % 100 == 0:
+      if (i+1) % 1000 == 0:
         print '#############################################'
         print 'valid and save model'
         accs = []
         num = 0
-        for j in range(849):  
+        for i in range(3783):
           num+=1
-          acc = sess.run(acc_valid_batch)
+          if num%200==0:
+            print num*cfg.VALID.BATCH_SIZE
+          try:
+            acc = sess.run(acc_valid_batch)
+          except:
+            accs.append(acc)
+            continue
           accs.append(acc)
         print num
         acc_valid = np.mean(np.array(accs))
