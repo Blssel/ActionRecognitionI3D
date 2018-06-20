@@ -25,14 +25,15 @@ def _i3d_data_augment(vid_data,label):
   else:
     vid_data.set_shape(tf.TensorShape([None, 256, 340, 2]))
   boxes=[]
-  if is_training:
-    y1=random.uniform(0.0, (256.0-224.0)/256.0)
-    y2=y1+224.0/256.0
-    x1=random.uniform(0.0, (340.0-224.0)/340.0)
-    x2=x1+224.0/340.0
-    boxes.append([y1,x1,y2,x2])
-    boxes=boxes*64
-    box_ind=range(64)
+  #if is_training:
+  y1=random.uniform(0.0, (256.0-224.0)/256.0)
+  y2=y1+224.0/256.0
+  x1=random.uniform(0.0, (340.0-224.0)/340.0)
+  x2=x1+224.0/340.0
+  boxes.append([y1,x1,y2,x2])
+  boxes=boxes*cfg.TRAIN.NUM_FRAMES
+  box_ind=range(cfg.TRAIN.NUM_FRAMES)
+  '''
   else:
     print '###############################################'
     y1=(256.0-224.0)/(2.0*256.0)
@@ -41,6 +42,7 @@ def _i3d_data_augment(vid_data,label):
     x2=x1+224.0/340.0
     boxes.append([y1,x1,y2,x2])
     boxes,box_ind=tf.py_func(_get_num_frames,[vid_data,boxes],[tf.float32,tf.int32])
+  '''
 
   return tf.image.crop_and_resize(vid_data,   # 64 * img_h * img_w * num_channels
                                   boxes,
@@ -59,17 +61,19 @@ def _i3d_sample(vid):
     rgb_frames= glob.glob(osp.join(vid_path,'img_*'))
     num_rgb_frames= len(rgb_frames)
     selections = range(num_rgb_frames)
-    if is_training:
-      # 从头开始，选取连续的64帧
-      while num_rgb_frames<64:
-        selections=selections*2
-      selected = selections[0:64]
+    #if is_training:
+    # 从头开始，选取连续的64帧
+    while len(selections)<cfg.TRAIN.NUM_FRAMES:
+      selections=selections*2
+    selected = selections[0:cfg.TRAIN.NUM_FRAMES]
+    '''
     else:
       # 从头开始，取所有帧
       selected = selections
+    '''
     for i in selected:
       image=cv2.imread(rgb_frames[i])
-      image=cv2.resize(image,(340,256))/255.0  # cv中是340指w，256指h
+      image=(cv2.resize(image,(340,256)) - 127.5) / 127.5  # cv中是340指w，256指h
       images.append(image)
     images=np.array(images).astype(np.float32)
     return images
@@ -82,14 +86,16 @@ def _i3d_sample(vid):
     flow_frames= zip(flow_x_frames, flow_y_frames)
     num_flow_frames= len(flow_frames)
     selections = range(num_flow_frames)
-    if is_training:
-      # 从头开始，选取连续的64帧
-      while num_rgb_frames<64:
-        selections=selections*2
-      selected = selections[0:64]
+    #if is_training:
+    # 从头开始，选取连续的64帧
+    while len(selections)<cfg.TRAIN.NUM_FRAMES:
+      selections=selections*2
+    selected = selections[0:cfg.TRAIN.NUM_FRAMES]
+    '''
     else:
       # 从头开始，取所有帧
       selected = selections
+    '''
     for i in selected:
       flow_x = cv2.imread(flow_sampled[i][0], cv2.IMREAD_GRAYSCALE)
       flow_x = cv2.resize(flow_x,(340,256))/255.0
@@ -140,7 +146,7 @@ def get_dataset_iter(config, isTraining=True):
     dataset = dataset.map(_get_data, num_parallel_calls=1)
     dataset = dataset.map(_i3d_data_augment, num_parallel_calls=1)
     # shuffle, get_batch
-    dataset = dataset.batch(cfg.VALID.BATCH_SIZE).prefetch(buffer_size=1)
+    dataset = dataset.repeat().batch(cfg.VALID.BATCH_SIZE).prefetch(buffer_size=1)
 
   ite = dataset.make_one_shot_iterator()
   return ite
