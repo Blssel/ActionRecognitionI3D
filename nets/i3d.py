@@ -36,7 +36,7 @@ class Unit3D(snt.AbstractModule):
                kernel_shape=(1, 1, 1),
                stride=(1, 1, 1),
                activation_fn=tf.nn.relu,
-               use_batch_norm=False,
+               use_batch_norm=True,
                use_bias=False,
                name='unit_3d'):
     """Initializes Unit3D module."""
