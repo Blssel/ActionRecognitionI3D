@@ -48,7 +48,7 @@ def main():
 
   #-------------任务相关配置-------------#
   os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" 
-  os.environ['CUDA_VISBLE_DEVICES']= "0"
+  os.environ['CUDA_VISBLE_DEVICES']= cfg.GPUS
   tf.logging.set_verbosity(tf.logging.INFO) #设置日志级别
 
   #-------------搭建计算图-------------#
@@ -74,7 +74,7 @@ def main():
   tower_grads = []
   total_loss = []
   total_acc = []
-  with tf.variable_scope(cfg.INPUT.MODALITY) as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
+  with tf.variable_scope(tf.get_variable_scope()) as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
     for i in range(num_gpus):
       with tf.device('/gpu:%d'%i), tf.name_scope('GPU_%d'%i) as scope: 
         # 获取数据,tsn_batch形式：batch_size/num_gpus* (num_seg*new_length) * h * w * num_channels
@@ -88,8 +88,9 @@ def main():
           raise ValueError("modality must be one of rgb or flow") 
         '''
         # 获取网络，并完成前传
-        network = i3d.InceptionI3d(cfg.NUM_CLASSES, spatial_squeeze=True, final_endpoint='Logits')
-        logits,_ = network(i3d_batch_split, is_training=True, dropout_keep_prob=cfg.TRAIN.DROPOUT_KEEP_PROB)
+        with tf.variable_scope(cfg.INPUT.MODALITY):  
+          network = i3d.InceptionI3d(cfg.NUM_CLASSES, spatial_squeeze=True, final_endpoint='Logits')
+          logits,_ = network(i3d_batch_split, is_training=True, dropout_keep_prob=cfg.TRAIN.DROPOUT_KEEP_PROB)
 
         tf.get_variable_scope().reuse_variables()
         #logits = tf.reduce_mean(logits,1) # 取采样图片输出的平均值   i3d不需要此步骤 tsn需要
@@ -118,7 +119,7 @@ def main():
   tf.summary.scalar('acc_on_batch',mean_acc_batch)
    
   # 在GPU上运行验证（串行）
-  with tf.variable_scope(cfg.INPUT.MODALITY+'gggggggggg') as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
+  with tf.variable_scope(tf.get_variable_scope()) as vscope: # 见https://github.com/tensorflow/tensorflow/issues/6220
     with tf.device('/gpu:0'), tf.name_scope('VALID') as scope:
       tf.get_variable_scope().reuse_variables()
       '''
@@ -178,7 +179,8 @@ def main():
     start_time = time.time()
     for i in range(cfg.TRAIN.MAX_ITE):
       _,learnrate, loss_value, step, summary = sess.run([train_step, lr, mean_loss, global_step,merged],options=run_options, run_metadata=run_metadata)
-
+      print 'shit!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+      
       if i==0:
         start_time = time.time()
       if i % 10 == 0:
@@ -211,7 +213,6 @@ def main():
         saver_save.save(sess, cfg.TRAIN.SAVED_MODEL_PATTERN, global_step=global_step)
         print 'successfully saved !'
         print '#############################################'
-        
     
       joint_writer.add_run_metadata(run_metadata, 'step%03d'%i)
       summary_writer.add_summary(summary,i)
